@@ -1,0 +1,1495 @@
+fileFormatVersion: 2
+guid: b6c7e05fea99ed341bbefd57d184914f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8646781713010067440
+    second: Plant_Run_0
+  - first:
+      213: -8620532580878846694
+    second: Plant_Run_1
+  - first:
+      213: 4106224725483685093
+    second: Plant_Run_2
+  - first:
+      213: -6460066198477211201
+    second: Plant_Run_3
+  - first:
+      213: 8334212671431055766
+    second: Plant_Run_4
+  - first:
+      213: -2605596158441000734
+    second: Plant_Run_5
+  - first:
+      213: 452901169728585444
+    second: Plant_Run_6
+  - first:
+      213: 1644643270984368608
+    second: Plant_Run_7
+  - first:
+      213: -1719900547167771082
+    second: Plant_Run_8
+  - first:
+      213: -258157028692459167
+    second: Plant_Run_9
+  - first:
+      213: -1576796688693410159
+    second: Plant_Run_10
+  - first:
+      213: 1198366474735905741
+    second: Plant_Run_11
+  - first:
+      213: -8970390540673758298
+    second: Plant_Run_12
+  - first:
+      213: -709653971725054643
+    second: Plant_Run_13
+  - first:
+      213: 748507691808071564
+    second: Plant_Run_14
+  - first:
+      213: 8449532600922285252
+    second: Plant_Run_15
+  - first:
+      213: 3642409502800871690
+    second: Plant_Run_16
+  - first:
+      213: 4823269343735718506
+    second: Plant_Run_17
+  - first:
+      213: 3775125660739427724
+    second: Plant_Run_18
+  - first:
+      213: 7862859634282133667
+    second: Plant_Run_19
+  - first:
+      213: -1278262626944676990
+    second: Plant_Run_20
+  - first:
+      213: -989538671753081823
+    second: Plant_Run_21
+  - first:
+      213: 7144155090454186264
+    second: Plant_Run_22
+  - first:
+      213: -5485806590872526225
+    second: Plant_Run_23
+  - first:
+      213: -1762114359684473274
+    second: Plant_Run_24
+  - first:
+      213: -2133585193968686592
+    second: Plant_Run_25
+  - first:
+      213: -6374839907240421885
+    second: Plant_Run_26
+  - first:
+      213: -702582359962547202
+    second: Plant_Run_27
+  - first:
+      213: -5344914636545385725
+    second: Plant_Run_28
+  - first:
+      213: -4120765346440259516
+    second: Plant_Run_29
+  - first:
+      213: -3345638420499120877
+    second: Plant_Run_30
+  - first:
+      213: -75023372193652757
+    second: Plant_Run_31
+  - first:
+      213: -9078638698488478600
+    second: Plant_Run_32
+  - first:
+      213: 1337968583961730856
+    second: Plant_Run_33
+  - first:
+      213: 2344409970108592662
+    second: Plant_Run_34
+  - first:
+      213: 9086658139356736912
+    second: Plant_Run_35
+  - first:
+      213: -6857352702398979304
+    second: Plant_Run_36
+  - first:
+      213: 6753728276919581603
+    second: Plant_Run_37
+  - first:
+      213: 3013592532974075337
+    second: Plant_Run_38
+  - first:
+      213: -5327005288806331800
+    second: Plant_Run_39
+  - first:
+      213: 3086710221828956278
+    second: Plant_Run_40
+  - first:
+      213: -7964209874766407524
+    second: Plant_Run_41
+  - first:
+      213: 6232063709547092808
+    second: Plant_Run_42
+  - first:
+      213: 268997714224244458
+    second: Plant_Run_43
+  - first:
+      213: 846973664966054709
+    second: Plant_Run_44
+  - first:
+      213: -6926574529766682306
+    second: Plant_Run_45
+  - first:
+      213: 3420176255539475465
+    second: Plant_Run_46
+  - first:
+      213: 5778481652976001151
+    second: Plant_Run_47
+  - first:
+      213: 7396130603951291415
+    second: Plant_Run_48
+  - first:
+      213: 6195416794541646541
+    second: Plant_Run_49
+  - first:
+      213: 9157500489789341169
+    second: Plant_Run_50
+  - first:
+      213: 7379380377952708217
+    second: Plant_Run_51
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Plant_Run_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 223
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f70f46c72a8ff770800000000000000
+      internalID: 8646781713010067440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 229
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a15f80e8a47bd5880800000000000000
+      internalID: -8620532580878846694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 219
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e48162d1ad3cf830800000000000000
+      internalID: 4106224725483685093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_3
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 221
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb9f146f40c3956a0800000000000000
+      internalID: -6460066198477211201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_4
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 225
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6991533a44219a370800000000000000
+      internalID: 8334212671431055766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_5
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 218
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e07004591017dbd0800000000000000
+      internalID: -2605596158441000734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_6
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 224
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eef70cd637094600800000000000000
+      internalID: 452901169728585444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_7
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 220
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e1824d5752f2d610800000000000000
+      internalID: 1644643270984368608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_8
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 229
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 636a015909fa128e0800000000000000
+      internalID: -1719900547167771082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_9
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 227
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1610488dc87da6cf0800000000000000
+      internalID: -258157028692459167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_10
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 223
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 196ca6f04c71e1ae0800000000000000
+      internalID: -1576796688693410159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_11
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 229
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcbee55a5f371a010800000000000000
+      internalID: 1198366474735905741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_12
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 219
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6abcd969455c28380800000000000000
+      internalID: -8970390540673758298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_13
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 221
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d02edf87dc626f0800000000000000
+      internalID: -709653971725054643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_14
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 225
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8f1ed9a7cb336a00800000000000000
+      internalID: 748507691808071564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_15
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 218
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c42e0c0225c24570800000000000000
+      internalID: 8449532600922285252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_16
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 224
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0104fcf4207c8230800000000000000
+      internalID: 3642409502800871690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_17
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 220
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a622661d9e1bfe240800000000000000
+      internalID: 4823269343735718506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_18
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 229
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8dd5d679c0f36430800000000000000
+      internalID: 3775125660739427724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_19
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 227
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a8f42c9d2d7e1d60800000000000000
+      internalID: 7862859634282133667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_20
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 208
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28b0e4fc9e2b24ee0800000000000000
+      internalID: -1278262626944676990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_21
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 208
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c45a222d37442f0800000000000000
+      internalID: -989538671753081823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_22
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 208
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81902d21433252360800000000000000
+      internalID: 7144155090454186264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_23
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 208
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f62eb8c78ff7ed3b0800000000000000
+      internalID: -5485806590872526225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_24
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 208
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64e54617356bb87e0800000000000000
+      internalID: -1762114359684473274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_25
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 208
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00aa67ff19bf362e0800000000000000
+      internalID: -2133585193968686592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_26
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 208
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30653f431e40887a0800000000000000
+      internalID: -6374839907240421885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_27
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 208
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb0af8e01def36f0800000000000000
+      internalID: -702582359962547202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_28
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 144
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30b1de5e47c03d5b0800000000000000
+      internalID: -5344914636545385725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_29
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 144
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44850ba00c910d6c0800000000000000
+      internalID: -4120765346440259516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_30
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 144
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d304f1597e191d0800000000000000
+      internalID: -3345638420499120877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_31
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 144
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bef9b86f3a675fef0800000000000000
+      internalID: -75023372193652757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_32
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 144
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 874ca745432320280800000000000000
+      internalID: -9078638698488478600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_33
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 144
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82fdba7965b619210800000000000000
+      internalID: 1337968583961730856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_34
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 144
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 612f4345274098020800000000000000
+      internalID: 2344409970108592662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_35
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 144
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09d25cf3f6b4a1e70800000000000000
+      internalID: 9086658139356736912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_36
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 80
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 813a1f98c0ac5d0a0800000000000000
+      internalID: -6857352702398979304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_37
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 80
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ab7d47c5101abd50800000000000000
+      internalID: 6753728276919581603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_38
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 79
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd70b9217e62d920800000000000000
+      internalID: 3013592532974075337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_39
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 79
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a421cd9eca216b0800000000000000
+      internalID: -5327005288806331800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_40
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 80
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 670aea8b79236da20800000000000000
+      internalID: 3086710221828956278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_41
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 80
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c98d3e9a051797190800000000000000
+      internalID: -7964209874766407524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_42
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 79
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84b5829ccecbc7650800000000000000
+      internalID: 6232063709547092808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_43
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 79
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae66ab1fefbabb300800000000000000
+      internalID: 268997714224244458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_44
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 16
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53399629f0e01cb00800000000000000
+      internalID: 846973664966054709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_45
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e311dfae92ddfdf90800000000000000
+      internalID: -6926574529766682306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_46
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 15
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 904f7acfe28e67f20800000000000000
+      internalID: 3420176255539475465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_47
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 15
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f702fba927a413050800000000000000
+      internalID: 5778481652976001151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_48
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 16
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c79e0199554a660800000000000000
+      internalID: 7396130603951291415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_49
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 16
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc2e42affba8af550800000000000000
+      internalID: 6195416794541646541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_50
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 15
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fdfb5c4d2af51f70800000000000000
+      internalID: 9157500489789341169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Run_51
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 15
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 976eb5a2b53d86660800000000000000
+      internalID: 7379380377952708217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Plant_Run_0: 8646781713010067440
+      Plant_Run_1: -8620532580878846694
+      Plant_Run_10: -1576796688693410159
+      Plant_Run_11: 1198366474735905741
+      Plant_Run_12: -8970390540673758298
+      Plant_Run_13: -709653971725054643
+      Plant_Run_14: 748507691808071564
+      Plant_Run_15: 8449532600922285252
+      Plant_Run_16: 3642409502800871690
+      Plant_Run_17: 4823269343735718506
+      Plant_Run_18: 3775125660739427724
+      Plant_Run_19: 7862859634282133667
+      Plant_Run_2: 4106224725483685093
+      Plant_Run_20: -1278262626944676990
+      Plant_Run_21: -989538671753081823
+      Plant_Run_22: 7144155090454186264
+      Plant_Run_23: -5485806590872526225
+      Plant_Run_24: -1762114359684473274
+      Plant_Run_25: -2133585193968686592
+      Plant_Run_26: -6374839907240421885
+      Plant_Run_27: -702582359962547202
+      Plant_Run_28: -5344914636545385725
+      Plant_Run_29: -4120765346440259516
+      Plant_Run_3: -6460066198477211201
+      Plant_Run_30: -3345638420499120877
+      Plant_Run_31: -75023372193652757
+      Plant_Run_32: -9078638698488478600
+      Plant_Run_33: 1337968583961730856
+      Plant_Run_34: 2344409970108592662
+      Plant_Run_35: 9086658139356736912
+      Plant_Run_36: -6857352702398979304
+      Plant_Run_37: 6753728276919581603
+      Plant_Run_38: 3013592532974075337
+      Plant_Run_39: -5327005288806331800
+      Plant_Run_4: 8334212671431055766
+      Plant_Run_40: 3086710221828956278
+      Plant_Run_41: -7964209874766407524
+      Plant_Run_42: 6232063709547092808
+      Plant_Run_43: 268997714224244458
+      Plant_Run_44: 846973664966054709
+      Plant_Run_45: -6926574529766682306
+      Plant_Run_46: 3420176255539475465
+      Plant_Run_47: 5778481652976001151
+      Plant_Run_48: 7396130603951291415
+      Plant_Run_49: 6195416794541646541
+      Plant_Run_5: -2605596158441000734
+      Plant_Run_50: 9157500489789341169
+      Plant_Run_51: 7379380377952708217
+      Plant_Run_6: 452901169728585444
+      Plant_Run_7: 1644643270984368608
+      Plant_Run_8: -1719900547167771082
+      Plant_Run_9: -258157028692459167
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

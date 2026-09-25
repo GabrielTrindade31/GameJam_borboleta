@@ -1,0 +1,342 @@
+fileFormatVersion: 2
+guid: 8525e86836e89a3408f45c80840a5b88
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6885459366169405273
+    second: Slime_Hurt_0
+  - first:
+      213: -3433400806978379142
+    second: Slime_Hurt_1
+  - first:
+      213: -7590717842824201
+    second: Slime_Hurt_2
+  - first:
+      213: -8207576599654034685
+    second: Slime_Hurt_3
+  - first:
+      213: 6536314435790199096
+    second: Slime_Hurt_4
+  - first:
+      213: -842553874164933680
+    second: Slime_Hurt_5
+  - first:
+      213: 6075399848758448602
+    second: Slime_Hurt_6
+  - first:
+      213: -8539715932358790426
+    second: Slime_Hurt_7
+  - first:
+      213: -4845777803518043015
+    second: Slime_Hurt_8
+  - first:
+      213: 1537433345210538319
+    second: Slime_Hurt_9
+  - first:
+      213: -8180519046630790111
+    second: Slime_Hurt_10
+  - first:
+      213: -2135923370878209190
+    second: Slime_Hurt_11
+  - first:
+      213: 1694090757446166057
+    second: Slime_Hurt_12
+  - first:
+      213: -8616700323169489643
+    second: Slime_Hurt_13
+  - first:
+      213: -6373950668571900046
+    second: Slime_Hurt_14
+  - first:
+      213: 4129806384653660169
+    second: Slime_Hurt_15
+  - first:
+      213: -2936799059324882786
+    second: Slime_Hurt_16
+  - first:
+      213: -8044056609934282195
+    second: Slime_Hurt_17
+  - first:
+      213: 991873823173918500
+    second: Slime_Hurt_18
+  - first:
+      213: 8492268269363044236
+    second: Slime_Hurt_19
+  - first:
+      213: 4535002829729590975
+    second: Slime_Hurt_20
+  - first:
+      213: 2697819834026613407
+    second: Slime_Hurt_21
+  - first:
+      213: -8018080464448098006
+    second: Slime_Hurt_22
+  - first:
+      213: 2091217139102189090
+    second: Slime_Hurt_23
+  - first:
+      213: -8878145297569817645
+    second: Slime_Hurt_24
+  - first:
+      213: 1673933763500968958
+    second: Slime_Hurt_25
+  - first:
+      213: -2046655243792469513
+    second: Slime_Hurt_26
+  - first:
+      213: -14120369342033992
+    second: Slime_Hurt_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Slime_Hurt_r2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5078125, y: 0.375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2abd38e1cbb0cfd45bb8c269115924bc
+      internalID: -1969210935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Hurt_r2_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5078125, y: 0.375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2257a7be1434242b0d67ad60be6dcc
+      internalID: -1428758670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Hurt_r2_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5078125, y: 0.375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c04916a4c42e34e9e9d4f38d96adcd
+      internalID: 888156308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Hurt_r2_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5078125, y: 0.375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6defb3d236c9c6a45997c78fe788d83d
+      internalID: -1702573237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Hurt_r2_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5078125, y: 0.375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb113d7b8b178c743a577ab63941a571
+      internalID: -1733960149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 959d932cf4e61b74eb61eb08b5a260f3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Slime_Hurt_r2_0: -1969210935
+      Slime_Hurt_r2_1: -1428758670
+      Slime_Hurt_r2_2: 888156308
+      Slime_Hurt_r2_3: -1702573237
+      Slime_Hurt_r2_4: -1733960149
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

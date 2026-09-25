@@ -1,0 +1,436 @@
+fileFormatVersion: 2
+guid: aec24db9942afb148b20fde93be7fd7b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6326571984483023533
+    second: Plant_Attack_0
+  - first:
+      213: 5247873792744925605
+    second: Plant_Attack_1
+  - first:
+      213: 2987560747845495782
+    second: Plant_Attack_2
+  - first:
+      213: 125754282675992228
+    second: Plant_Attack_3
+  - first:
+      213: -2203827529543265607
+    second: Plant_Attack_4
+  - first:
+      213: -3993403575353390002
+    second: Plant_Attack_5
+  - first:
+      213: -1560330362647629847
+    second: Plant_Attack_6
+  - first:
+      213: -1103349918244032794
+    second: Plant_Attack_7
+  - first:
+      213: 7738313628102097428
+    second: Plant_Attack_8
+  - first:
+      213: -1318546634835423608
+    second: Plant_Attack_9
+  - first:
+      213: -4447283866264369931
+    second: Plant_Attack_10
+  - first:
+      213: -6214673148125890685
+    second: Plant_Attack_11
+  - first:
+      213: 7033666475403450723
+    second: Plant_Attack_12
+  - first:
+      213: -4462247570067344937
+    second: Plant_Attack_13
+  - first:
+      213: -4595748406983209908
+    second: Plant_Attack_14
+  - first:
+      213: 1049089895599265672
+    second: Plant_Attack_15
+  - first:
+      213: -5870857882185741095
+    second: Plant_Attack_16
+  - first:
+      213: 3809933352310333084
+    second: Plant_Attack_17
+  - first:
+      213: 2250931057107685841
+    second: Plant_Attack_18
+  - first:
+      213: 7410033781722380124
+    second: Plant_Attack_19
+  - first:
+      213: -5203799698178498435
+    second: Plant_Attack_20
+  - first:
+      213: -8817448851464808824
+    second: Plant_Attack_21
+  - first:
+      213: 1382660032370861383
+    second: Plant_Attack_22
+  - first:
+      213: -6117642470750002763
+    second: Plant_Attack_23
+  - first:
+      213: 7395199568762369160
+    second: Plant_Attack_24
+  - first:
+      213: 5631452815490808392
+    second: Plant_Attack_25
+  - first:
+      213: 5692603088533910549
+    second: Plant_Attack_26
+  - first:
+      213: -1043139577304714162
+    second: Plant_Attack_27
+  - first:
+      213: -6214136922461133387
+    second: Plant_Attack_28
+  - first:
+      213: 2597958963369062771
+    second: Plant_Attack_29
+  - first:
+      213: 4575878623207646384
+    second: Plant_Attack_30
+  - first:
+      213: 2320003766888808440
+    second: Plant_Attack_31
+  - first:
+      213: -3375406178998932373
+    second: Plant_Attack_32
+  - first:
+      213: 1599382384013843385
+    second: Plant_Attack_33
+  - first:
+      213: 5696001279808284720
+    second: Plant_Attack_34
+  - first:
+      213: 7496517564642295753
+    second: Plant_Attack_35
+  - first:
+      213: 7782691899454273838
+    second: Plant_Attack_36
+  - first:
+      213: -4542575341947194241
+    second: Plant_Attack_37
+  - first:
+      213: 7025392868433119042
+    second: Plant_Attack_38
+  - first:
+      213: 2540239185568855929
+    second: Plant_Attack_39
+  - first:
+      213: 8248705034495250135
+    second: Plant_Attack_40
+  - first:
+      213: -3523781063782453549
+    second: Plant_Attack_41
+  - first:
+      213: -3340807401035211758
+    second: Plant_Attack_42
+  - first:
+      213: 4392120131091867405
+    second: Plant_Attack_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 28
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Plant_Attack_r2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5625, y: 0.265625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f698b1cf6b4d1f43a0960ef894ccbe0
+      internalID: -172262467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Attack_r2_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5625, y: 0.265625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d996659e17c42f479fb54502f5c8d62
+      internalID: -351309739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Attack_r2_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5625, y: 0.265625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423ba3940b491e249bf5ffa37fb3f8c0
+      internalID: -490639596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Attack_r2_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5625, y: 0.265625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e06b6e033fc374f8f29a29f94bf3ad
+      internalID: -161138322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Attack_r2_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5625, y: 0.265625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d86a71d4fbb1844a85bec97a560d83
+      internalID: -1420842678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Attack_r2_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5625, y: 0.265625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79ac10af42f18945b543c4c35deb46a
+      internalID: 1869328781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Attack_r2_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5625, y: 0.265625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49ae6d30b6e05944b02279f52a09e67
+      internalID: 1220788393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2eb33c2011124e14aba1babe009cc3d3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Plant_Attack_r2_0: -172262467
+      Plant_Attack_r2_1: -351309739
+      Plant_Attack_r2_2: -490639596
+      Plant_Attack_r2_3: -161138322
+      Plant_Attack_r2_4: -1420842678
+      Plant_Attack_r2_5: 1869328781
+      Plant_Attack_r2_6: 1220788393
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

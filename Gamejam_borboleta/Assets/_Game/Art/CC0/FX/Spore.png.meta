@@ -1,0 +1,5509 @@
+fileFormatVersion: 2
+guid: b97283f227239ed4e8d198fde283ba22
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2949530000158387833
+    second: Spore_0
+  - first:
+      213: -7285209646259022853
+    second: Spore_1
+  - first:
+      213: -9203009164349241655
+    second: Spore_2
+  - first:
+      213: -5101054874421221806
+    second: Spore_3
+  - first:
+      213: -6917029409208971739
+    second: Spore_4
+  - first:
+      213: -8802270759298867188
+    second: Spore_5
+  - first:
+      213: 1395929902161014501
+    second: Spore_6
+  - first:
+      213: -5107923060774428438
+    second: Spore_7
+  - first:
+      213: -2819523806278709971
+    second: Spore_8
+  - first:
+      213: 3769411310094308952
+    second: Spore_9
+  - first:
+      213: 1898895477354918514
+    second: Spore_10
+  - first:
+      213: 1554283779318712385
+    second: Spore_11
+  - first:
+      213: 2617956030941766357
+    second: Spore_12
+  - first:
+      213: -1225965371258798737
+    second: Spore_13
+  - first:
+      213: 6511406763878421087
+    second: Spore_14
+  - first:
+      213: -648409324670264283
+    second: Spore_15
+  - first:
+      213: 5767602767855436798
+    second: Spore_16
+  - first:
+      213: 1686717040416758410
+    second: Spore_17
+  - first:
+      213: 2406529109884230422
+    second: Spore_18
+  - first:
+      213: 3206725150741255994
+    second: Spore_19
+  - first:
+      213: -7402955094260607332
+    second: Spore_20
+  - first:
+      213: 8291549098731598684
+    second: Spore_21
+  - first:
+      213: 2804083734567255916
+    second: Spore_22
+  - first:
+      213: -957441810073654641
+    second: Spore_23
+  - first:
+      213: -8068167030710510847
+    second: Spore_24
+  - first:
+      213: -982883175035545269
+    second: Spore_25
+  - first:
+      213: -7093308452094998125
+    second: Spore_26
+  - first:
+      213: -8411131664977983190
+    second: Spore_27
+  - first:
+      213: 5758398098445018189
+    second: Spore_28
+  - first:
+      213: 5107359820623266273
+    second: Spore_29
+  - first:
+      213: -4807730408282188452
+    second: Spore_30
+  - first:
+      213: -627100633004651985
+    second: Spore_31
+  - first:
+      213: 1358929550715910756
+    second: Spore_32
+  - first:
+      213: -7687333298076201468
+    second: Spore_33
+  - first:
+      213: -789735111457935296
+    second: Spore_34
+  - first:
+      213: 9074410510193653561
+    second: Spore_35
+  - first:
+      213: -27024479079492562
+    second: Spore_36
+  - first:
+      213: -1322236780128432671
+    second: Spore_37
+  - first:
+      213: -1471802826165988345
+    second: Spore_38
+  - first:
+      213: -532953505954499156
+    second: Spore_39
+  - first:
+      213: 5409082165052015018
+    second: Spore_40
+  - first:
+      213: -6671601516964841801
+    second: Spore_41
+  - first:
+      213: 38410289100079391
+    second: Spore_42
+  - first:
+      213: 5612187932019091056
+    second: Spore_43
+  - first:
+      213: -5529298858890640750
+    second: Spore_44
+  - first:
+      213: -5127456430486578336
+    second: Spore_45
+  - first:
+      213: -4312403535683514234
+    second: Spore_46
+  - first:
+      213: -4107032801243834539
+    second: Spore_47
+  - first:
+      213: -1527401216775164916
+    second: Spore_48
+  - first:
+      213: 8279909997297892604
+    second: Spore_49
+  - first:
+      213: 2112784084246202573
+    second: Spore_50
+  - first:
+      213: 8240310155027544211
+    second: Spore_51
+  - first:
+      213: 2584425272990739716
+    second: Spore_52
+  - first:
+      213: -3991804089967601630
+    second: Spore_53
+  - first:
+      213: 5891133572617993656
+    second: Spore_54
+  - first:
+      213: 7317869954444666767
+    second: Spore_55
+  - first:
+      213: 1290441682533710297
+    second: Spore_56
+  - first:
+      213: -1674183694051020806
+    second: Spore_57
+  - first:
+      213: -5334799890616092271
+    second: Spore_58
+  - first:
+      213: 1570132552188963435
+    second: Spore_59
+  - first:
+      213: 6447740509426223365
+    second: Spore_60
+  - first:
+      213: 4171914585121634371
+    second: Spore_61
+  - first:
+      213: 9024130164227864749
+    second: Spore_62
+  - first:
+      213: -7737269095741126194
+    second: Spore_63
+  - first:
+      213: 790021896579484543
+    second: Spore_64
+  - first:
+      213: -3097796491531808234
+    second: Spore_65
+  - first:
+      213: -8912138263484763959
+    second: Spore_66
+  - first:
+      213: 4858946661718149564
+    second: Spore_67
+  - first:
+      213: -8372086460308872147
+    second: Spore_68
+  - first:
+      213: 8068411526118968374
+    second: Spore_69
+  - first:
+      213: -5793923779384841890
+    second: Spore_70
+  - first:
+      213: -50196738219309176
+    second: Spore_71
+  - first:
+      213: 5967855596488555052
+    second: Spore_72
+  - first:
+      213: 7488320177382395340
+    second: Spore_73
+  - first:
+      213: -6057398165651627126
+    second: Spore_74
+  - first:
+      213: -3833810603063042906
+    second: Spore_75
+  - first:
+      213: 2024549011374198642
+    second: Spore_76
+  - first:
+      213: -4340102711522911857
+    second: Spore_77
+  - first:
+      213: 2172236616842909345
+    second: Spore_78
+  - first:
+      213: 3768441807782331080
+    second: Spore_79
+  - first:
+      213: -589720297914282973
+    second: Spore_80
+  - first:
+      213: -4643899161273560857
+    second: Spore_81
+  - first:
+      213: -426145553596480555
+    second: Spore_82
+  - first:
+      213: 1545047047732109771
+    second: Spore_83
+  - first:
+      213: -7290481293561579816
+    second: Spore_84
+  - first:
+      213: -8552836969346836463
+    second: Spore_85
+  - first:
+      213: 1649065807973952636
+    second: Spore_86
+  - first:
+      213: -1001169893608773308
+    second: Spore_87
+  - first:
+      213: 7085590283318361701
+    second: Spore_88
+  - first:
+      213: -5281457988938453125
+    second: Spore_89
+  - first:
+      213: 3952766080864235701
+    second: Spore_90
+  - first:
+      213: -8301584549478434458
+    second: Spore_91
+  - first:
+      213: 911622535292121166
+    second: Spore_92
+  - first:
+      213: 4862247140673718328
+    second: Spore_93
+  - first:
+      213: 1990010360135276811
+    second: Spore_94
+  - first:
+      213: -2261275123709170579
+    second: Spore_95
+  - first:
+      213: -3307653456074565171
+    second: Spore_96
+  - first:
+      213: 1802626659984258599
+    second: Spore_97
+  - first:
+      213: 1139538052824015746
+    second: Spore_98
+  - first:
+      213: -5778965163743563181
+    second: Spore_99
+  - first:
+      213: -7017019970952089725
+    second: Spore_100
+  - first:
+      213: 6118533563049167546
+    second: Spore_101
+  - first:
+      213: -2007758019421272171
+    second: Spore_102
+  - first:
+      213: 4714644853538045685
+    second: Spore_103
+  - first:
+      213: 3219243548538487891
+    second: Spore_104
+  - first:
+      213: 2068564061897174348
+    second: Spore_105
+  - first:
+      213: 3982855558901522293
+    second: Spore_106
+  - first:
+      213: -965542294280958402
+    second: Spore_107
+  - first:
+      213: -3854435989536377495
+    second: Spore_108
+  - first:
+      213: 5656582742575106514
+    second: Spore_109
+  - first:
+      213: 7807518886577654640
+    second: Spore_110
+  - first:
+      213: -1380184798889664767
+    second: Spore_111
+  - first:
+      213: 297934615110952531
+    second: Spore_112
+  - first:
+      213: -1951338377954972298
+    second: Spore_113
+  - first:
+      213: -1572910307099258543
+    second: Spore_114
+  - first:
+      213: 3045717202776007739
+    second: Spore_115
+  - first:
+      213: -7776465964488293672
+    second: Spore_116
+  - first:
+      213: 3947217806685330436
+    second: Spore_117
+  - first:
+      213: 1184287318673052908
+    second: Spore_118
+  - first:
+      213: -286622437157956055
+    second: Spore_119
+  - first:
+      213: 8781830551051989890
+    second: Spore_120
+  - first:
+      213: 8921179470417017506
+    second: Spore_121
+  - first:
+      213: -3728252860184757483
+    second: Spore_122
+  - first:
+      213: -8551037321812232975
+    second: Spore_123
+  - first:
+      213: 565468529298684811
+    second: Spore_124
+  - first:
+      213: 1960264789128924433
+    second: Spore_125
+  - first:
+      213: 9123226368555113026
+    second: Spore_126
+  - first:
+      213: -2070441145578699684
+    second: Spore_127
+  - first:
+      213: -6669775690430210731
+    second: Spore_128
+  - first:
+      213: -4728466440231469800
+    second: Spore_129
+  - first:
+      213: 307779644867021318
+    second: Spore_130
+  - first:
+      213: -8630950727419909255
+    second: Spore_131
+  - first:
+      213: 5916381480591177529
+    second: Spore_132
+  - first:
+      213: -8431312701514547696
+    second: Spore_133
+  - first:
+      213: -8007879597960753686
+    second: Spore_134
+  - first:
+      213: 2366383372714258568
+    second: Spore_135
+  - first:
+      213: -6358783030030580813
+    second: Spore_136
+  - first:
+      213: 6889703573750532785
+    second: Spore_137
+  - first:
+      213: 5153481799656695518
+    second: Spore_138
+  - first:
+      213: -6341105940576676685
+    second: Spore_139
+  - first:
+      213: 3229758433081516141
+    second: Spore_140
+  - first:
+      213: -7922597722573958420
+    second: Spore_141
+  - first:
+      213: 6138497580288408651
+    second: Spore_142
+  - first:
+      213: -2983213083450469736
+    second: Spore_143
+  - first:
+      213: 8129487141013884818
+    second: Spore_144
+  - first:
+      213: 3144624824239631918
+    second: Spore_145
+  - first:
+      213: 4134961046493252221
+    second: Spore_146
+  - first:
+      213: 8964118695091404760
+    second: Spore_147
+  - first:
+      213: -2737257201416847341
+    second: Spore_148
+  - first:
+      213: 4681369028215985865
+    second: Spore_149
+  - first:
+      213: 5376316425951973333
+    second: Spore_150
+  - first:
+      213: -4084326812813438479
+    second: Spore_151
+  - first:
+      213: -6515866178163379922
+    second: Spore_152
+  - first:
+      213: -1112460167118418888
+    second: Spore_153
+  - first:
+      213: 1004850857229862758
+    second: Spore_154
+  - first:
+      213: -7038302898780296775
+    second: Spore_155
+  - first:
+      213: 7973686329699720959
+    second: Spore_156
+  - first:
+      213: -5480757922820688535
+    second: Spore_157
+  - first:
+      213: 2678962070573804664
+    second: Spore_158
+  - first:
+      213: -7558934491955441714
+    second: Spore_159
+  - first:
+      213: -4949643224989585186
+    second: Spore_160
+  - first:
+      213: 652445691996629830
+    second: Spore_161
+  - first:
+      213: 7003569843100262746
+    second: Spore_162
+  - first:
+      213: -7307135005223161940
+    second: Spore_163
+  - first:
+      213: -4427194598955146713
+    second: Spore_164
+  - first:
+      213: -3545426265305243589
+    second: Spore_165
+  - first:
+      213: 6011800013185079018
+    second: Spore_166
+  - first:
+      213: -4648969410889035043
+    second: Spore_167
+  - first:
+      213: 5073084096516356199
+    second: Spore_168
+  - first:
+      213: -1012121578655799559
+    second: Spore_169
+  - first:
+      213: -8341727808270277411
+    second: Spore_170
+  - first:
+      213: 773632378582237339
+    second: Spore_171
+  - first:
+      213: -6797153496906186151
+    second: Spore_172
+  - first:
+      213: -4268164468407303582
+    second: Spore_173
+  - first:
+      213: 2749888672964088421
+    second: Spore_174
+  - first:
+      213: -1278721467129948460
+    second: Spore_175
+  - first:
+      213: -9044516979515174486
+    second: Spore_176
+  - first:
+      213: -8026471559868759104
+    second: Spore_177
+  - first:
+      213: 3447849061168058823
+    second: Spore_178
+  - first:
+      213: -8872098479787815546
+    second: Spore_179
+  - first:
+      213: 392381960478186354
+    second: Spore_180
+  - first:
+      213: 723382835945947938
+    second: Spore_181
+  - first:
+      213: -61498175201402287
+    second: Spore_182
+  - first:
+      213: -8513301857075988337
+    second: Spore_183
+  - first:
+      213: 3055574202451867414
+    second: Spore_184
+  - first:
+      213: -2059953955402672680
+    second: Spore_185
+  - first:
+      213: 1783063857387429803
+    second: Spore_186
+  - first:
+      213: 8934360868437042685
+    second: Spore_187
+  - first:
+      213: -7120776942589264395
+    second: Spore_188
+  - first:
+      213: 6827274555765808293
+    second: Spore_189
+  - first:
+      213: -3340291939352207278
+    second: Spore_190
+  - first:
+      213: 9054412424979441525
+    second: Spore_191
+  - first:
+      213: 5344139674156300393
+    second: Spore_192
+  - first:
+      213: 794188943396570262
+    second: Spore_193
+  - first:
+      213: -2407310619377645387
+    second: Spore_194
+  - first:
+      213: -6193039040824064144
+    second: Spore_195
+  - first:
+      213: -8424303305782089132
+    second: Spore_196
+  - first:
+      213: 7164976653542890821
+    second: Spore_197
+  - first:
+      213: -2510199350178574555
+    second: Spore_198
+  - first:
+      213: 641012934726126296
+    second: Spore_199
+  - first:
+      213: 3543473365756211139
+    second: Spore_200
+  - first:
+      213: 9104177172735321784
+    second: Spore_201
+  - first:
+      213: -7390159589304354256
+    second: Spore_202
+  - first:
+      213: -1372877165621285701
+    second: Spore_203
+  - first:
+      213: 7980366043045104059
+    second: Spore_204
+  - first:
+      213: -4297912518500316923
+    second: Spore_205
+  - first:
+      213: -2609008688300958907
+    second: Spore_206
+  - first:
+      213: -6877575417693296277
+    second: Spore_207
+  - first:
+      213: 7833837436703210319
+    second: Spore_208
+  - first:
+      213: 2820424331320250208
+    second: Spore_209
+  - first:
+      213: -7507787596775114237
+    second: Spore_210
+  - first:
+      213: -7094488854005039366
+    second: Spore_211
+  - first:
+      213: -8212155853401236326
+    second: Spore_212
+  - first:
+      213: -6413242884748296396
+    second: Spore_213
+  - first:
+      213: 260894155972383564
+    second: Spore_214
+  - first:
+      213: 2891494962884131736
+    second: Spore_215
+  - first:
+      213: 2111658129564999396
+    second: Spore_216
+  - first:
+      213: 2149942702693551578
+    second: Spore_217
+  - first:
+      213: 922070170957154520
+    second: Spore_218
+  - first:
+      213: -6091692713985930329
+    second: Spore_219
+  - first:
+      213: -2215726929688163489
+    second: Spore_220
+  - first:
+      213: 3792760528027250386
+    second: Spore_221
+  - first:
+      213: 3108221608985277630
+    second: Spore_222
+  - first:
+      213: 3870620540881742142
+    second: Spore_223
+  - first:
+      213: 3442255969961178950
+    second: Spore_224
+  - first:
+      213: -3595985718750481998
+    second: Spore_225
+  - first:
+      213: -80509768281837836
+    second: Spore_226
+  - first:
+      213: -5225765009111614487
+    second: Spore_227
+  - first:
+      213: -8831242150961974812
+    second: Spore_228
+  - first:
+      213: -8846934525206842071
+    second: Spore_229
+  - first:
+      213: 9086914830479689641
+    second: Spore_230
+  - first:
+      213: 8317964672058930521
+    second: Spore_231
+  - first:
+      213: 6536691100230671213
+    second: Spore_232
+  - first:
+      213: 2766231021492809688
+    second: Spore_233
+  - first:
+      213: -403232301270309793
+    second: Spore_234
+  - first:
+      213: -5467041800017332705
+    second: Spore_235
+  - first:
+      213: 1976204068720624969
+    second: Spore_236
+  - first:
+      213: -5432037922696946879
+    second: Spore_237
+  - first:
+      213: 431752364201593528
+    second: Spore_238
+  - first:
+      213: -958521963667380025
+    second: Spore_239
+  - first:
+      213: 3064699597253784976
+    second: Spore_240
+  - first:
+      213: -4188522970893409043
+    second: Spore_241
+  - first:
+      213: -8499038762872885927
+    second: Spore_242
+  - first:
+      213: -2799717757438669925
+    second: Spore_243
+  - first:
+      213: -1805682313721769736
+    second: Spore_244
+  - first:
+      213: -8901272416673114809
+    second: Spore_245
+  - first:
+      213: -2236127007262421940
+    second: Spore_246
+  - first:
+      213: 7172730919969774258
+    second: Spore_247
+  - first:
+      213: 3035662195504156648
+    second: Spore_248
+  - first:
+      213: -6704824143273120427
+    second: Spore_249
+  - first:
+      213: -4720491484808076805
+    second: Spore_250
+  - first:
+      213: 4284032875953677134
+    second: Spore_251
+  - first:
+      213: 3091641536613096705
+    second: Spore_252
+  - first:
+      213: -4529965241783089783
+    second: Spore_253
+  - first:
+      213: -6447278247885280423
+    second: Spore_254
+  - first:
+      213: -1689110546641660667
+    second: Spore_255
+  - first:
+      213: -1411511308085276318
+    second: Spore_256
+  - first:
+      213: 2419936471358365976
+    second: Spore_257
+  - first:
+      213: 2294814839382024593
+    second: Spore_258
+  - first:
+      213: -7452213505260992429
+    second: Spore_259
+  - first:
+      213: 128026452229376310
+    second: Spore_260
+  - first:
+      213: 8901703225296832739
+    second: Spore_261
+  - first:
+      213: 7204718491552504496
+    second: Spore_262
+  - first:
+      213: -6682964771828727022
+    second: Spore_263
+  - first:
+      213: 5487325027239862965
+    second: Spore_264
+  - first:
+      213: 3780722719338096600
+    second: Spore_265
+  - first:
+      213: -1011887085617489727
+    second: Spore_266
+  - first:
+      213: -3513388824939950
+    second: Spore_267
+  - first:
+      213: -1100268699302084717
+    second: Spore_268
+  - first:
+      213: 4993043856925189013
+    second: Spore_269
+  - first:
+      213: -2893162730484980646
+    second: Spore_270
+  - first:
+      213: -1506770324990248035
+    second: Spore_271
+  - first:
+      213: 1256743658959884733
+    second: Spore_272
+  - first:
+      213: -7591975263232469790
+    second: Spore_273
+  - first:
+      213: 2841357248687581179
+    second: Spore_274
+  - first:
+      213: -9127895717850498291
+    second: Spore_275
+  - first:
+      213: -7422418038514190669
+    second: Spore_276
+  - first:
+      213: 7353754808270042029
+    second: Spore_277
+  - first:
+      213: 6914314060060170976
+    second: Spore_278
+  - first:
+      213: 4705030480949612708
+    second: Spore_279
+  - first:
+      213: -4620950583974339324
+    second: Spore_280
+  - first:
+      213: 7528410609062972591
+    second: Spore_281
+  - first:
+      213: -417580407848387230
+    second: Spore_282
+  - first:
+      213: -2627303090415364911
+    second: Spore_283
+  - first:
+      213: 3813757075561117402
+    second: Spore_284
+  - first:
+      213: -7344065475811481396
+    second: Spore_285
+  - first:
+      213: -7773773046082356716
+    second: Spore_286
+  - first:
+      213: -8861100900649899316
+    second: Spore_287
+  - first:
+      213: -6175061107524562482
+    second: Spore_288
+  - first:
+      213: 5393854826421079298
+    second: Spore_289
+  - first:
+      213: -6174840587179796583
+    second: Spore_290
+  - first:
+      213: 2285677960403006345
+    second: Spore_291
+  - first:
+      213: -5992197368380774443
+    second: Spore_292
+  - first:
+      213: 1883805363139742541
+    second: Spore_293
+  - first:
+      213: 4141414679088120347
+    second: Spore_294
+  - first:
+      213: 1785605799500754872
+    second: Spore_295
+  - first:
+      213: 3772403740780054694
+    second: Spore_296
+  - first:
+      213: 2820247047230717646
+    second: Spore_297
+  - first:
+      213: 5019259880557009208
+    second: Spore_298
+  - first:
+      213: 8723654589637791319
+    second: Spore_299
+  - first:
+      213: -3287284566062472149
+    second: Spore_300
+  - first:
+      213: 4700788459566346597
+    second: Spore_301
+  - first:
+      213: 1851277116393297776
+    second: Spore_302
+  - first:
+      213: -4061720895591225267
+    second: Spore_303
+  - first:
+      213: 1481366595892283456
+    second: Spore_304
+  - first:
+      213: -4748210754012333359
+    second: Spore_305
+  - first:
+      213: 2166925268827834749
+    second: Spore_306
+  - first:
+      213: -7936273013982129862
+    second: Spore_307
+  - first:
+      213: 5912437197495017804
+    second: Spore_308
+  - first:
+      213: 3788207287182236913
+    second: Spore_309
+  - first:
+      213: -6705281172467029033
+    second: Spore_310
+  - first:
+      213: -7375968078821817824
+    second: Spore_311
+  - first:
+      213: 4022769714660773755
+    second: Spore_312
+  - first:
+      213: 7084448271522812326
+    second: Spore_313
+  - first:
+      213: -6280251557286829390
+    second: Spore_314
+  - first:
+      213: 5618078458701280049
+    second: Spore_315
+  - first:
+      213: -5168705989704045214
+    second: Spore_316
+  - first:
+      213: 2421004475234897421
+    second: Spore_317
+  - first:
+      213: 7261711495817649210
+    second: Spore_318
+  - first:
+      213: -5581710761208449699
+    second: Spore_319
+  - first:
+      213: -2564034344446024635
+    second: Spore_320
+  - first:
+      213: -8450156803808930745
+    second: Spore_321
+  - first:
+      213: 1353498944210888251
+    second: Spore_322
+  - first:
+      213: 4011782610457778393
+    second: Spore_323
+  - first:
+      213: -495239422052634715
+    second: Spore_324
+  - first:
+      213: 6099983855321849016
+    second: Spore_325
+  - first:
+      213: 4296761317179139730
+    second: Spore_326
+  - first:
+      213: -4026221474067517957
+    second: Spore_327
+  - first:
+      213: 5704616974824857556
+    second: Spore_328
+  - first:
+      213: 7740373389789328686
+    second: Spore_329
+  - first:
+      213: 1054130154232644775
+    second: Spore_330
+  - first:
+      213: 9199122772036302171
+    second: Spore_331
+  - first:
+      213: -4786310200769051526
+    second: Spore_332
+  - first:
+      213: -210859717408645070
+    second: Spore_333
+  - first:
+      213: -4541467108504859959
+    second: Spore_334
+  - first:
+      213: 7473681806224974397
+    second: Spore_335
+  - first:
+      213: -8554004605696954442
+    second: Spore_336
+  - first:
+      213: 3164124496987276333
+    second: Spore_337
+  - first:
+      213: 7005975357211595269
+    second: Spore_338
+  - first:
+      213: 7020206271292839031
+    second: Spore_339
+  - first:
+      213: 3328331696591120257
+    second: Spore_340
+  - first:
+      213: -564312788759342425
+    second: Spore_341
+  - first:
+      213: -4845388741132996294
+    second: Spore_342
+  - first:
+      213: -7647378126868539173
+    second: Spore_343
+  - first:
+      213: -5707508207311045534
+    second: Spore_344
+  - first:
+      213: -5265484329725482565
+    second: Spore_345
+  - first:
+      213: 1456911255081908817
+    second: Spore_346
+  - first:
+      213: -7664582791980341030
+    second: Spore_347
+  - first:
+      213: -6004947301387008094
+    second: Spore_348
+  - first:
+      213: 2149107405702069712
+    second: Spore_349
+  - first:
+      213: 6824073272199812005
+    second: Spore_350
+  - first:
+      213: -1572405353872653163
+    second: Spore_351
+  - first:
+      213: -2317178625956727581
+    second: Spore_352
+  - first:
+      213: 1243672260189109372
+    second: Spore_353
+  - first:
+      213: 4549909005629557112
+    second: Spore_354
+  - first:
+      213: 6064227719978057011
+    second: Spore_355
+  - first:
+      213: -3014925419557470202
+    second: Spore_356
+  - first:
+      213: 4234205794420366021
+    second: Spore_357
+  - first:
+      213: 6597327733761497927
+    second: Spore_358
+  - first:
+      213: -2037280143924191325
+    second: Spore_359
+  - first:
+      213: -8131806595287324238
+    second: Spore_360
+  - first:
+      213: 7748086306069250866
+    second: Spore_361
+  - first:
+      213: 5326223856089047647
+    second: Spore_362
+  - first:
+      213: 448352046708289125
+    second: Spore_363
+  - first:
+      213: 3545749561763658268
+    second: Spore_364
+  - first:
+      213: 3129961043257068333
+    second: Spore_365
+  - first:
+      213: -8874794974821743460
+    second: Spore_366
+  - first:
+      213: -5469610541117497107
+    second: Spore_367
+  - first:
+      213: 4943988020678789590
+    second: Spore_368
+  - first:
+      213: 2536311136105256115
+    second: Spore_369
+  - first:
+      213: -1226167229048073701
+    second: Spore_370
+  - first:
+      213: -8511584782321278034
+    second: Spore_371
+  - first:
+      213: 4471598481761722974
+    second: Spore_372
+  - first:
+      213: -1596363248540091924
+    second: Spore_373
+  - first:
+      213: -3763762930571464486
+    second: Spore_374
+  - first:
+      213: 5090653071073576145
+    second: Spore_375
+  - first:
+      213: 5241431920362209160
+    second: Spore_376
+  - first:
+      213: -3374611857475416102
+    second: Spore_377
+  - first:
+      213: 8595072461750193408
+    second: Spore_378
+  - first:
+      213: -943674685251608872
+    second: Spore_379
+  - first:
+      213: -7508033907658046938
+    second: Spore_380
+  - first:
+      213: 4801740481797810221
+    second: Spore_381
+  - first:
+      213: -6595239464930032036
+    second: Spore_382
+  - first:
+      213: -987413719040195982
+    second: Spore_383
+  - first:
+      213: 8040871347875434447
+    second: Spore_384
+  - first:
+      213: -5304349810832788034
+    second: Spore_385
+  - first:
+      213: -1865898442217595756
+    second: Spore_386
+  - first:
+      213: -1294848614910536763
+    second: Spore_387
+  - first:
+      213: 7556433827289686380
+    second: Spore_388
+  - first:
+      213: -554211053321323890
+    second: Spore_389
+  - first:
+      213: -5885252770794751791
+    second: Spore_390
+  - first:
+      213: -3989985410490635030
+    second: Spore_391
+  - first:
+      213: 4779106829960785008
+    second: Spore_392
+  - first:
+      213: 5118640919488572137
+    second: Spore_393
+  - first:
+      213: 7001420418601464484
+    second: Spore_394
+  - first:
+      213: -4681845002719666071
+    second: Spore_395
+  - first:
+      213: 4048310106924091059
+    second: Spore_396
+  - first:
+      213: -5070120667139718247
+    second: Spore_397
+  - first:
+      213: 6286268821928739512
+    second: Spore_398
+  - first:
+      213: -6039302823127073109
+    second: Spore_399
+  - first:
+      213: -4884447732655065743
+    second: Spore_400
+  - first:
+      213: -4764610908782227831
+    second: Spore_401
+  - first:
+      213: -4166169038638462321
+    second: Spore_402
+  - first:
+      213: -2319535237495622460
+    second: Spore_403
+  - first:
+      213: -4255520815814173018
+    second: Spore_404
+  - first:
+      213: 6011266111178779892
+    second: Spore_405
+  - first:
+      213: 737395795402948049
+    second: Spore_406
+  - first:
+      213: 4106521886989424249
+    second: Spore_407
+  - first:
+      213: 3885922138378579492
+    second: Spore_408
+  - first:
+      213: 6499847474694808243
+    second: Spore_409
+  - first:
+      213: -3463614201781900567
+    second: Spore_410
+  - first:
+      213: 7070167628311545772
+    second: Spore_411
+  - first:
+      213: 6198548440240473202
+    second: Spore_412
+  - first:
+      213: 1012496943949899316
+    second: Spore_413
+  - first:
+      213: 777404257262045656
+    second: Spore_414
+  - first:
+      213: -3531660889242289790
+    second: Spore_415
+  - first:
+      213: -3223089805049864484
+    second: Spore_416
+  - first:
+      213: -9046719041449545679
+    second: Spore_417
+  - first:
+      213: -5651444148493019698
+    second: Spore_418
+  - first:
+      213: -4708335309124850218
+    second: Spore_419
+  - first:
+      213: 7008333833949571771
+    second: Spore_420
+  - first:
+      213: 644576853509402759
+    second: Spore_421
+  - first:
+      213: 317912261083928856
+    second: Spore_422
+  - first:
+      213: 4458615744042521326
+    second: Spore_423
+  - first:
+      213: -9049990353607793331
+    second: Spore_424
+  - first:
+      213: 6103968117581556117
+    second: Spore_425
+  - first:
+      213: 4881512264979585670
+    second: Spore_426
+  - first:
+      213: -7501354345064255655
+    second: Spore_427
+  - first:
+      213: -8765001312776896866
+    second: Spore_428
+  - first:
+      213: 4302021241215131174
+    second: Spore_429
+  - first:
+      213: -2679118772122815101
+    second: Spore_430
+  - first:
+      213: -7684001461091564618
+    second: Spore_431
+  - first:
+      213: -5077927626469254311
+    second: Spore_432
+  - first:
+      213: -5386720496068111388
+    second: Spore_433
+  - first:
+      213: -6979706670550766578
+    second: Spore_434
+  - first:
+      213: -664175833533012724
+    second: Spore_435
+  - first:
+      213: 1078638200124808482
+    second: Spore_436
+  - first:
+      213: 26341424799554446
+    second: Spore_437
+  - first:
+      213: -7989622189457327148
+    second: Spore_438
+  - first:
+      213: 8759637898843944477
+    second: Spore_439
+  - first:
+      213: -1716927564959229098
+    second: Spore_440
+  - first:
+      213: 2046404126930673282
+    second: Spore_441
+  - first:
+      213: 2672017274999391215
+    second: Spore_442
+  - first:
+      213: -3330536580454567247
+    second: Spore_443
+  - first:
+      213: -3194821821465785620
+    second: Spore_444
+  - first:
+      213: 2770733000780062846
+    second: Spore_445
+  - first:
+      213: 2422273874026112478
+    second: Spore_446
+  - first:
+      213: 6362197188847633460
+    second: Spore_447
+  - first:
+      213: 2296180243213132111
+    second: Spore_448
+  - first:
+      213: -5800020747780615349
+    second: Spore_449
+  - first:
+      213: 3045923577132568510
+    second: Spore_450
+  - first:
+      213: -4482361764070610294
+    second: Spore_451
+  - first:
+      213: -3535049556886947606
+    second: Spore_452
+  - first:
+      213: -7526508865749967087
+    second: Spore_453
+  - first:
+      213: -4864366317331208876
+    second: Spore_454
+  - first:
+      213: 3992725903840284823
+    second: Spore_455
+  - first:
+      213: 1543572546458593937
+    second: Spore_456
+  - first:
+      213: 4055734280164338763
+    second: Spore_457
+  - first:
+      213: 5677781363302222956
+    second: Spore_458
+  - first:
+      213: 1985609770808451185
+    second: Spore_459
+  - first:
+      213: -6151867045048787372
+    second: Spore_460
+  - first:
+      213: -5937774012159555799
+    second: Spore_461
+  - first:
+      213: -3085108460538747090
+    second: Spore_462
+  - first:
+      213: -950646619393314635
+    second: Spore_463
+  - first:
+      213: -9171900862950861641
+    second: Spore_464
+  - first:
+      213: 8400149800679863841
+    second: Spore_465
+  - first:
+      213: 827044563895353824
+    second: Spore_466
+  - first:
+      213: -4524694232420737473
+    second: Spore_467
+  - first:
+      213: -7446303099567745578
+    second: Spore_468
+  - first:
+      213: 2355917371292064966
+    second: Spore_469
+  - first:
+      213: -6288307298639657184
+    second: Spore_470
+  - first:
+      213: 6026091362738315995
+    second: Spore_471
+  - first:
+      213: -3144291670785970631
+    second: Spore_472
+  - first:
+      213: -3270299635622643054
+    second: Spore_473
+  - first:
+      213: -2117597163074002905
+    second: Spore_474
+  - first:
+      213: 2776047636558840195
+    second: Spore_475
+  - first:
+      213: 4372876910028007523
+    second: Spore_476
+  - first:
+      213: 5976533507454643408
+    second: Spore_477
+  - first:
+      213: -4188978253726394684
+    second: Spore_478
+  - first:
+      213: 712034815164016256
+    second: Spore_479
+  - first:
+      213: 4380223115439383698
+    second: Spore_480
+  - first:
+      213: 2247921403303387878
+    second: Spore_481
+  - first:
+      213: 2807856890361887260
+    second: Spore_482
+  - first:
+      213: 8277178517576334952
+    second: Spore_483
+  - first:
+      213: -8849681794860866122
+    second: Spore_484
+  - first:
+      213: 5319044503899186183
+    second: Spore_485
+  - first:
+      213: 5343603064528737767
+    second: Spore_486
+  - first:
+      213: 6748772820252569835
+    second: Spore_487
+  - first:
+      213: -1921529195030945948
+    second: Spore_488
+  - first:
+      213: -5230601081207895026
+    second: Spore_489
+  - first:
+      213: -7563369924268684996
+    second: Spore_490
+  - first:
+      213: -6232086074906147282
+    second: Spore_491
+  - first:
+      213: -197438819095708725
+    second: Spore_492
+  - first:
+      213: 26777937579671639
+    second: Spore_493
+  - first:
+      213: -5405036404446640466
+    second: Spore_494
+  - first:
+      213: 7898386114141249030
+    second: Spore_495
+  - first:
+      213: 548188901860008303
+    second: Spore_496
+  - first:
+      213: 2985381578117460124
+    second: Spore_497
+  - first:
+      213: 760052900531772396
+    second: Spore_498
+  - first:
+      213: -1754082950221243525
+    second: Spore_499
+  - first:
+      213: 7174092185588553443
+    second: Spore_500
+  - first:
+      213: 1379737229696418969
+    second: Spore_501
+  - first:
+      213: -206939858868682761
+    second: Spore_502
+  - first:
+      213: 3806522465609343581
+    second: Spore_503
+  - first:
+      213: 5699664195631435130
+    second: Spore_504
+  - first:
+      213: 7705141740028330032
+    second: Spore_505
+  - first:
+      213: 2196564131303353662
+    second: Spore_506
+  - first:
+      213: -4378410158378711994
+    second: Spore_507
+  - first:
+      213: -6344718876368482553
+    second: Spore_508
+  - first:
+      213: 123125273619355704
+    second: Spore_509
+  - first:
+      213: 1180314140799071005
+    second: Spore_510
+  - first:
+      213: -6830689763613351479
+    second: Spore_511
+  - first:
+      213: -5729361212815902056
+    second: Spore_512
+  - first:
+      213: -4944795601459346234
+    second: Spore_513
+  - first:
+      213: 3152996623821902509
+    second: Spore_514
+  - first:
+      213: -4180297592882502322
+    second: Spore_515
+  - first:
+      213: 921997108514754583
+    second: Spore_516
+  - first:
+      213: -2547107574650140792
+    second: Spore_517
+  - first:
+      213: -2886001489632075572
+    second: Spore_518
+  - first:
+      213: 4759190908044552233
+    second: Spore_519
+  - first:
+      213: 8232949722444485562
+    second: Spore_520
+  - first:
+      213: -961082428155931159
+    second: Spore_521
+  - first:
+      213: 7400387500437531428
+    second: Spore_522
+  - first:
+      213: -8519808074045243201
+    second: Spore_523
+  - first:
+      213: -6341435416981337094
+    second: Spore_524
+  - first:
+      213: -2039236773935545831
+    second: Spore_525
+  - first:
+      213: -6875036872102427885
+    second: Spore_526
+  - first:
+      213: -2801495395350048840
+    second: Spore_527
+  - first:
+      213: -6145968051461731388
+    second: Spore_528
+  - first:
+      213: 4305476488083568975
+    second: Spore_529
+  - first:
+      213: -4615973471927532457
+    second: Spore_530
+  - first:
+      213: -8181258213166467408
+    second: Spore_531
+  - first:
+      213: 6074859748415211292
+    second: Spore_532
+  - first:
+      213: 8129718439573047830
+    second: Spore_533
+  - first:
+      213: -2629522057988916522
+    second: Spore_534
+  - first:
+      213: -5355958920221538878
+    second: Spore_535
+  - first:
+      213: -6449041955190732406
+    second: Spore_536
+  - first:
+      213: -7027278311191230280
+    second: Spore_537
+  - first:
+      213: 6450424953137933599
+    second: Spore_538
+  - first:
+      213: -7288475039636151291
+    second: Spore_539
+  - first:
+      213: 1656340525783660800
+    second: Spore_540
+  - first:
+      213: -6760991977852365612
+    second: Spore_541
+  - first:
+      213: -1866416819822196124
+    second: Spore_542
+  - first:
+      213: -1188863448253710892
+    second: Spore_543
+  - first:
+      213: 6769516645519878849
+    second: Spore_544
+  - first:
+      213: -5542331002438434470
+    second: Spore_545
+  - first:
+      213: 1170105702873313531
+    second: Spore_546
+  - first:
+      213: -8370187804098754047
+    second: Spore_547
+  - first:
+      213: -71841614364850789
+    second: Spore_548
+  - first:
+      213: -8231260744271780544
+    second: Spore_549
+  - first:
+      213: 4749217928670791021
+    second: Spore_550
+  - first:
+      213: -3276523770433333633
+    second: Spore_551
+  - first:
+      213: 176387608026985443
+    second: Spore_552
+  - first:
+      213: 1183896595699361919
+    second: Spore_553
+  - first:
+      213: 6687638615289131991
+    second: Spore_554
+  - first:
+      213: -7761460406477556214
+    second: Spore_555
+  - first:
+      213: -1935124725937138522
+    second: Spore_556
+  - first:
+      213: 5773873329489932206
+    second: Spore_557
+  - first:
+      213: -8548337572992240827
+    second: Spore_558
+  - first:
+      213: -5214680440625430465
+    second: Spore_559
+  - first:
+      213: 2844222908917962693
+    second: Spore_560
+  - first:
+      213: -3970067204653433905
+    second: Spore_561
+  - first:
+      213: -7905851601195295823
+    second: Spore_562
+  - first:
+      213: -1678383994557446307
+    second: Spore_563
+  - first:
+      213: -1011436023678171372
+    second: Spore_564
+  - first:
+      213: 833295518239446240
+    second: Spore_565
+  - first:
+      213: -8750616369829508322
+    second: Spore_566
+  - first:
+      213: -1619717598570285848
+    second: Spore_567
+  - first:
+      213: 311430816362463946
+    second: Spore_568
+  - first:
+      213: -4892012190187689187
+    second: Spore_569
+  - first:
+      213: 5636176032510805036
+    second: Spore_570
+  - first:
+      213: 6733261384912170445
+    second: Spore_571
+  - first:
+      213: 8654402200489390641
+    second: Spore_572
+  - first:
+      213: 3573324847638451969
+    second: Spore_573
+  - first:
+      213: 3098388699281823018
+    second: Spore_574
+  - first:
+      213: -5340274494075582799
+    second: Spore_575
+  - first:
+      213: -5160865556644367592
+    second: Spore_576
+  - first:
+      213: 5041720632944195140
+    second: Spore_577
+  - first:
+      213: -5264064822313729702
+    second: Spore_578
+  - first:
+      213: 746061985000244357
+    second: Spore_579
+  - first:
+      213: -8330230588690846647
+    second: Spore_580
+  - first:
+      213: -1861581239067515227
+    second: Spore_581
+  - first:
+      213: 5114514096586822316
+    second: Spore_582
+  - first:
+      213: -400516505342924013
+    second: Spore_583
+  - first:
+      213: 134634938633498623
+    second: Spore_584
+  - first:
+      213: 100412120696283241
+    second: Spore_585
+  - first:
+      213: 5687285745729559776
+    second: Spore_586
+  - first:
+      213: 5874039871500375634
+    second: Spore_587
+  - first:
+      213: 3283595062997531173
+    second: Spore_588
+  - first:
+      213: -3014111863267828899
+    second: Spore_589
+  - first:
+      213: -7517167791422574695
+    second: Spore_590
+  - first:
+      213: -7808490282439683675
+    second: Spore_591
+  - first:
+      213: -2028542346630951717
+    second: Spore_592
+  - first:
+      213: 1032802556343592849
+    second: Spore_593
+  - first:
+      213: -437896915098267260
+    second: Spore_594
+  - first:
+      213: 6807210580243756254
+    second: Spore_595
+  - first:
+      213: -7919976257598442692
+    second: Spore_596
+  - first:
+      213: -49035503757980186
+    second: Spore_597
+  - first:
+      213: 3811110417491534462
+    second: Spore_598
+  - first:
+      213: 6945816692307863740
+    second: Spore_599
+  - first:
+      213: 2918111184738160842
+    second: Spore_600
+  - first:
+      213: 7808696649043242154
+    second: Spore_601
+  - first:
+      213: -5067636414358859846
+    second: Spore_602
+  - first:
+      213: 6388295362966836740
+    second: Spore_603
+  - first:
+      213: -4274168648982238207
+    second: Spore_604
+  - first:
+      213: 4815972303664655915
+    second: Spore_605
+  - first:
+      213: -7474689634115383060
+    second: Spore_606
+  - first:
+      213: -1841915731155331318
+    second: Spore_607
+  - first:
+      213: -5210859640230654955
+    second: Spore_608
+  - first:
+      213: -6149200879555335905
+    second: Spore_609
+  - first:
+      213: -9077954492961716898
+    second: Spore_610
+  - first:
+      213: 3939599643587683180
+    second: Spore_611
+  - first:
+      213: -892908601418425900
+    second: Spore_612
+  - first:
+      213: 4337176889513707232
+    second: Spore_613
+  - first:
+      213: 3393256504665006387
+    second: Spore_614
+  - first:
+      213: 2158768963729917169
+    second: Spore_615
+  - first:
+      213: -7481908898183179408
+    second: Spore_616
+  - first:
+      213: -7301332241453696038
+    second: Spore_617
+  - first:
+      213: 7074334354322226597
+    second: Spore_618
+  - first:
+      213: -5030901056052599965
+    second: Spore_619
+  - first:
+      213: -1483750604428427004
+    second: Spore_620
+  - first:
+      213: 1166684603214973000
+    second: Spore_621
+  - first:
+      213: 6200589339105587713
+    second: Spore_622
+  - first:
+      213: 7976600103882541242
+    second: Spore_623
+  - first:
+      213: 2818358104416285462
+    second: Spore_624
+  - first:
+      213: 2270792472600837670
+    second: Spore_625
+  - first:
+      213: 8074979435325042104
+    second: Spore_626
+  - first:
+      213: 1153001934908500393
+    second: Spore_627
+  - first:
+      213: 9190218511264274532
+    second: Spore_628
+  - first:
+      213: -2005820287125127069
+    second: Spore_629
+  - first:
+      213: 2712151389586760945
+    second: Spore_630
+  - first:
+      213: 4408179722039744060
+    second: Spore_631
+  - first:
+      213: 7775017788336891562
+    second: Spore_632
+  - first:
+      213: -5522504430145914446
+    second: Spore_633
+  - first:
+      213: -6834204598331588575
+    second: Spore_634
+  - first:
+      213: -3088494142826880270
+    second: Spore_635
+  - first:
+      213: 8769151919865581333
+    second: Spore_636
+  - first:
+      213: -4789940674600788462
+    second: Spore_637
+  - first:
+      213: 5160749781440429287
+    second: Spore_638
+  - first:
+      213: 6715753225167810624
+    second: Spore_639
+  - first:
+      213: -8465880667732927838
+    second: Spore_640
+  - first:
+      213: -7569957065146231979
+    second: Spore_641
+  - first:
+      213: -739057079592942933
+    second: Spore_642
+  - first:
+      213: 2130881357040462203
+    second: Spore_643
+  - first:
+      213: 3270166138567041359
+    second: Spore_644
+  - first:
+      213: 2665826080241139543
+    second: Spore_645
+  - first:
+      213: 3521162766586467493
+    second: Spore_646
+  - first:
+      213: 6102718609207652190
+    second: Spore_647
+  - first:
+      213: -6344221593187844329
+    second: Spore_648
+  - first:
+      213: -4238093595246706299
+    second: Spore_649
+  - first:
+      213: 8319890709063677919
+    second: Spore_650
+  - first:
+      213: -5002143532361750693
+    second: Spore_651
+  - first:
+      213: -3900910527970313442
+    second: Spore_652
+  - first:
+      213: 6188788520716263766
+    second: Spore_653
+  - first:
+      213: 4311216251919652933
+    second: Spore_654
+  - first:
+      213: 6799483661722028090
+    second: Spore_655
+  - first:
+      213: 7365712669520583235
+    second: Spore_656
+  - first:
+      213: -1716447787628803759
+    second: Spore_657
+  - first:
+      213: 4770348295074951954
+    second: Spore_658
+  - first:
+      213: 8361364160290559509
+    second: Spore_659
+  - first:
+      213: -8734152974217307927
+    second: Spore_660
+  - first:
+      213: -2340815918276192424
+    second: Spore_661
+  - first:
+      213: -7298237953394583663
+    second: Spore_662
+  - first:
+      213: -8003998403748917325
+    second: Spore_663
+  - first:
+      213: -2817223489101008151
+    second: Spore_664
+  - first:
+      213: -7886043120692514225
+    second: Spore_665
+  - first:
+      213: -7417272230374859570
+    second: Spore_666
+  - first:
+      213: 3883398386634544658
+    second: Spore_667
+  - first:
+      213: -6623508422370020574
+    second: Spore_668
+  - first:
+      213: 4665403611397433238
+    second: Spore_669
+  - first:
+      213: -2439649050079743892
+    second: Spore_670
+  - first:
+      213: 4079651516474152146
+    second: Spore_671
+  - first:
+      213: -4948598883506624271
+    second: Spore_672
+  - first:
+      213: 5740856649011117900
+    second: Spore_673
+  - first:
+      213: 4646566037096650532
+    second: Spore_674
+  - first:
+      213: -2797236137950025005
+    second: Spore_675
+  - first:
+      213: 8580111220480210151
+    second: Spore_676
+  - first:
+      213: -2118301701549362976
+    second: Spore_677
+  - first:
+      213: -1928411303395936979
+    second: Spore_678
+  - first:
+      213: 180760829799329650
+    second: Spore_679
+  - first:
+      213: 3571461581204723273
+    second: Spore_680
+  - first:
+      213: 9165327979284435834
+    second: Spore_681
+  - first:
+      213: 3225173317170088979
+    second: Spore_682
+  - first:
+      213: -3401331462679313335
+    second: Spore_683
+  - first:
+      213: 815112240624559123
+    second: Spore_684
+  - first:
+      213: -8573644911130961872
+    second: Spore_685
+  - first:
+      213: -1661271011092593050
+    second: Spore_686
+  - first:
+      213: -1592940874335190946
+    second: Spore_687
+  - first:
+      213: 1089404556244259064
+    second: Spore_688
+  - first:
+      213: 2477351869743704995
+    second: Spore_689
+  - first:
+      213: -3543177457925145670
+    second: Spore_690
+  - first:
+      213: 1091823571356151151
+    second: Spore_691
+  - first:
+      213: -7347890289713304969
+    second: Spore_692
+  - first:
+      213: 8291856312141092737
+    second: Spore_693
+  - first:
+      213: 6519668175926145652
+    second: Spore_694
+  - first:
+      213: 8534114538198980669
+    second: Spore_695
+  - first:
+      213: -1948271696708510050
+    second: Spore_696
+  - first:
+      213: 575961727118387210
+    second: Spore_697
+  - first:
+      213: -9003547312285195074
+    second: Spore_698
+  - first:
+      213: -3713655927120247749
+    second: Spore_699
+  - first:
+      213: 4629723827330144038
+    second: Spore_700
+  - first:
+      213: 130702492594142844
+    second: Spore_701
+  - first:
+      213: -8667687191307948153
+    second: Spore_702
+  - first:
+      213: -7804828668055497084
+    second: Spore_703
+  - first:
+      213: 4613379531884249560
+    second: Spore_704
+  - first:
+      213: 8795227809850257048
+    second: Spore_705
+  - first:
+      213: -2875996803704954276
+    second: Spore_706
+  - first:
+      213: 3472079422145131087
+    second: Spore_707
+  - first:
+      213: -5119905871555740756
+    second: Spore_708
+  - first:
+      213: 2595625282656904137
+    second: Spore_709
+  - first:
+      213: -5871533165701108809
+    second: Spore_710
+  - first:
+      213: 4497219723483932922
+    second: Spore_711
+  - first:
+      213: -5841675518543049508
+    second: Spore_712
+  - first:
+      213: -7546872998737457014
+    second: Spore_713
+  - first:
+      213: -8150783663854146539
+    second: Spore_714
+  - first:
+      213: 96494709404761256
+    second: Spore_715
+  - first:
+      213: 4391038238384483316
+    second: Spore_716
+  - first:
+      213: 8234170541719508087
+    second: Spore_717
+  - first:
+      213: -4844320541848878309
+    second: Spore_718
+  - first:
+      213: 2968993979913333682
+    second: Spore_719
+  - first:
+      213: 2607612976387169807
+    second: Spore_720
+  - first:
+      213: 4140570025765235613
+    second: Spore_721
+  - first:
+      213: 8208139231343399698
+    second: Spore_722
+  - first:
+      213: 1525057770459316316
+    second: Spore_723
+  - first:
+      213: 723726013833551920
+    second: Spore_724
+  - first:
+      213: 3050047973336401657
+    second: Spore_725
+  - first:
+      213: -1937194911247140014
+    second: Spore_726
+  - first:
+      213: 6814020567585970908
+    second: Spore_727
+  - first:
+      213: 8098940798682666115
+    second: Spore_728
+  - first:
+      213: 7183560030271432019
+    second: Spore_729
+  - first:
+      213: -4918907599797570728
+    second: Spore_730
+  - first:
+      213: 4923592040819922784
+    second: Spore_731
+  - first:
+      213: 7973087099196487258
+    second: Spore_732
+  - first:
+      213: -2620885334291809485
+    second: Spore_733
+  - first:
+      213: -5096852536992393875
+    second: Spore_734
+  - first:
+      213: 8401444186789941727
+    second: Spore_735
+  - first:
+      213: 1655890292265728804
+    second: Spore_736
+  - first:
+      213: -675798335314509929
+    second: Spore_737
+  - first:
+      213: 6461388499085519584
+    second: Spore_738
+  - first:
+      213: 2605799657518196015
+    second: Spore_739
+  - first:
+      213: 6064721968196268606
+    second: Spore_740
+  - first:
+      213: 3158289094211541508
+    second: Spore_741
+  - first:
+      213: 8709914348890197644
+    second: Spore_742
+  - first:
+      213: -6192015196063423613
+    second: Spore_743
+  - first:
+      213: 355820892206052910
+    second: Spore_744
+  - first:
+      213: 628097755629890130
+    second: Spore_745
+  - first:
+      213: -4589268602349279069
+    second: Spore_746
+  - first:
+      213: -3180025292247205678
+    second: Spore_747
+  - first:
+      213: 7094317633817351108
+    second: Spore_748
+  - first:
+      213: 4931070285254966374
+    second: Spore_749
+  - first:
+      213: -5288808646284529338
+    second: Spore_750
+  - first:
+      213: -3147387957334651780
+    second: Spore_751
+  - first:
+      213: -5790372962942410252
+    second: Spore_752
+  - first:
+      213: 3500504668871069359
+    second: Spore_753
+  - first:
+      213: -8307075968485485905
+    second: Spore_754
+  - first:
+      213: -8009325490847563369
+    second: Spore_755
+  - first:
+      213: 7824146126593389882
+    second: Spore_756
+  - first:
+      213: 176536907983882718
+    second: Spore_757
+  - first:
+      213: -3401345729553653091
+    second: Spore_758
+  - first:
+      213: 3446550870596971900
+    second: Spore_759
+  - first:
+      213: 2639643035670841396
+    second: Spore_760
+  - first:
+      213: -3859658991777370658
+    second: Spore_761
+  - first:
+      213: -7801156014523439569
+    second: Spore_762
+  - first:
+      213: -4597817418182466680
+    second: Spore_763
+  - first:
+      213: 2307245049464610104
+    second: Spore_764
+  - first:
+      213: 2066755289133922292
+    second: Spore_765
+  - first:
+      213: 7690068506791175442
+    second: Spore_766
+  - first:
+      213: -7092354059104150770
+    second: Spore_767
+  - first:
+      213: 2367536507077223595
+    second: Spore_768
+  - first:
+      213: 1151076508247748014
+    second: Spore_769
+  - first:
+      213: 5438991049393913679
+    second: Spore_770
+  - first:
+      213: 2126641668177605892
+    second: Spore_771
+  - first:
+      213: -3402976261860093478
+    second: Spore_772
+  - first:
+      213: 7258030897491471790
+    second: Spore_773
+  - first:
+      213: -6240014855863192369
+    second: Spore_774
+  - first:
+      213: 6375576526542399874
+    second: Spore_775
+  - first:
+      213: -2350829497681961470
+    second: Spore_776
+  - first:
+      213: -1499036803043748785
+    second: Spore_777
+  - first:
+      213: 9165627228055143385
+    second: Spore_778
+  - first:
+      213: -2711219356531465416
+    second: Spore_779
+  - first:
+      213: 3224336991953570099
+    second: Spore_780
+  - first:
+      213: -1542069637313040327
+    second: Spore_781
+  - first:
+      213: -6416155532955168013
+    second: Spore_782
+  - first:
+      213: -8208233188008523825
+    second: Spore_783
+  - first:
+      213: 8078704028631889363
+    second: Spore_784
+  - first:
+      213: -7657756114718787127
+    second: Spore_785
+  - first:
+      213: -5432739918708530047
+    second: Spore_786
+  - first:
+      213: -2284649740868942206
+    second: Spore_787
+  - first:
+      213: 4380007237426696078
+    second: Spore_788
+  - first:
+      213: 2782352674291594154
+    second: Spore_789
+  - first:
+      213: 207496778360431422
+    second: Spore_790
+  - first:
+      213: -8403657288060468219
+    second: Spore_791
+  - first:
+      213: 8628006975871815031
+    second: Spore_792
+  - first:
+      213: 6431863976051717423
+    second: Spore_793
+  - first:
+      213: 2634071450761734152
+    second: Spore_794
+  - first:
+      213: -7443374368543165944
+    second: Spore_795
+  - first:
+      213: -7030928726015358672
+    second: Spore_796
+  - first:
+      213: 7003921846953379873
+    second: Spore_797
+  - first:
+      213: 8485722540077782206
+    second: Spore_798
+  - first:
+      213: 4033389098732891458
+    second: Spore_799
+  - first:
+      213: -7815691936044259586
+    second: Spore_800
+  - first:
+      213: 3988615498279653023
+    second: Spore_801
+  - first:
+      213: -11111249513588004
+    second: Spore_802
+  - first:
+      213: -6475822102570284176
+    second: Spore_803
+  - first:
+      213: 5699999249474356186
+    second: Spore_804
+  - first:
+      213: -3287797384517315766
+    second: Spore_805
+  - first:
+      213: -154132328059918929
+    second: Spore_806
+  - first:
+      213: -1698657821174855828
+    second: Spore_807
+  - first:
+      213: -1280161464844621202
+    second: Spore_808
+  - first:
+      213: 520652559492850360
+    second: Spore_809
+  - first:
+      213: 3047027967160461051
+    second: Spore_810
+  - first:
+      213: -3390184656837127904
+    second: Spore_811
+  - first:
+      213: 2550260076640226550
+    second: Spore_812
+  - first:
+      213: -6789511478710240265
+    second: Spore_813
+  - first:
+      213: 2073084848369270155
+    second: Spore_814
+  - first:
+      213: 205812644154050569
+    second: Spore_815
+  - first:
+      213: -1792140466002650040
+    second: Spore_816
+  - first:
+      213: -1453634747927700389
+    second: Spore_817
+  - first:
+      213: -1788131314060620807
+    second: Spore_818
+  - first:
+      213: -5102914813085976325
+    second: Spore_819
+  - first:
+      213: -4316029026967652017
+    second: Spore_820
+  - first:
+      213: 6094706701725266390
+    second: Spore_821
+  - first:
+      213: 7672304270722259686
+    second: Spore_822
+  - first:
+      213: -1022593509005777703
+    second: Spore_823
+  - first:
+      213: 7113035827940582680
+    second: Spore_824
+  - first:
+      213: 8443148027245177347
+    second: Spore_825
+  - first:
+      213: -7995687651607511296
+    second: Spore_826
+  - first:
+      213: -7027688395040960771
+    second: Spore_827
+  - first:
+      213: -4958555485278681910
+    second: Spore_828
+  - first:
+      213: 3297091476069549358
+    second: Spore_829
+  - first:
+      213: -2443645372428387271
+    second: Spore_830
+  - first:
+      213: -1649083381802312621
+    second: Spore_831
+  - first:
+      213: 9200073940272817795
+    second: Spore_832
+  - first:
+      213: -2516008414460166539
+    second: Spore_833
+  - first:
+      213: -5926778234488564507
+    second: Spore_834
+  - first:
+      213: 8172230320634837968
+    second: Spore_835
+  - first:
+      213: -810234592339621576
+    second: Spore_836
+  - first:
+      213: 9085471873975793415
+    second: Spore_837
+  - first:
+      213: 8733518315786271993
+    second: Spore_838
+  - first:
+      213: 7358405608928222020
+    second: Spore_839
+  - first:
+      213: -3466902763684827827
+    second: Spore_840
+  - first:
+      213: -3164962604410179522
+    second: Spore_841
+  - first:
+      213: -7550679425934447425
+    second: Spore_842
+  - first:
+      213: 2615089082090183619
+    second: Spore_843
+  - first:
+      213: 5491060607687591052
+    second: Spore_844
+  - first:
+      213: -1935253263877358245
+    second: Spore_845
+  - first:
+      213: -2870966224503131157
+    second: Spore_846
+  - first:
+      213: 7882256205825411644
+    second: Spore_847
+  - first:
+      213: 2481430032296823159
+    second: Spore_848
+  - first:
+      213: -2814951075005554947
+    second: Spore_849
+  - first:
+      213: -2453721151747278420
+    second: Spore_850
+  - first:
+      213: -1031505569523895726
+    second: Spore_851
+  - first:
+      213: -1669002326822671744
+    second: Spore_852
+  - first:
+      213: 6239158151454527530
+    second: Spore_853
+  - first:
+      213: -1334503619148234285
+    second: Spore_854
+  - first:
+      213: 3645822190764912896
+    second: Spore_855
+  - first:
+      213: 8997880788256183965
+    second: Spore_856
+  - first:
+      213: -5112480016792372060
+    second: Spore_857
+  - first:
+      213: -1563843351989149558
+    second: Spore_858
+  - first:
+      213: 7073947454415120826
+    second: Spore_859
+  - first:
+      213: 4914917596421435096
+    second: Spore_860
+  - first:
+      213: 122084373626492390
+    second: Spore_861
+  - first:
+      213: -6536209703231848768
+    second: Spore_862
+  - first:
+      213: -894942307368203596
+    second: Spore_863
+  - first:
+      213: -8102957055323758077
+    second: Spore_864
+  - first:
+      213: -2980966795968826378
+    second: Spore_865
+  - first:
+      213: -1716533658943269181
+    second: Spore_866
+  - first:
+      213: 911372243264827570
+    second: Spore_867
+  - first:
+      213: -7752994189804598150
+    second: Spore_868
+  - first:
+      213: -4180281191970006463
+    second: Spore_869
+  - first:
+      213: 6786911825001637650
+    second: Spore_870
+  - first:
+      213: 6427612809060147814
+    second: Spore_871
+  - first:
+      213: 4145197469597629730
+    second: Spore_872
+  - first:
+      213: 2143015159464549288
+    second: Spore_873
+  - first:
+      213: 9126194715984090959
+    second: Spore_874
+  - first:
+      213: 5576414355918820667
+    second: Spore_875
+  - first:
+      213: -4167783612210572348
+    second: Spore_876
+  - first:
+      213: -8512130999339056900
+    second: Spore_877
+  - first:
+      213: -4635241073298499993
+    second: Spore_878
+  - first:
+      213: 1586266311713337352
+    second: Spore_879
+  - first:
+      213: -1705889629741474020
+    second: Spore_880
+  - first:
+      213: 8713106076337608251
+    second: Spore_881
+  - first:
+      213: 1592164696439754186
+    second: Spore_882
+  - first:
+      213: -4872420294287860079
+    second: Spore_883
+  - first:
+      213: 3552828009549174715
+    second: Spore_884
+  - first:
+      213: -2900366266251621329
+    second: Spore_885
+  - first:
+      213: 2875450132246415496
+    second: Spore_886
+  - first:
+      213: -8253542522217911665
+    second: Spore_887
+  - first:
+      213: -1670419676177701262
+    second: Spore_888
+  - first:
+      213: 3160109209486796941
+    second: Spore_889
+  - first:
+      213: 8705001674479935939
+    second: Spore_890
+  - first:
+      213: -3580250455726256372
+    second: Spore_891
+  - first:
+      213: -5107493620979985521
+    second: Spore_892
+  - first:
+      213: -4576328572748139133
+    second: Spore_893
+  - first:
+      213: 8850326542562439763
+    second: Spore_894
+  - first:
+      213: 1980082223426945005
+    second: Spore_895
+  - first:
+      213: 1616125919301521054
+    second: Spore_896
+  - first:
+      213: 4873647422061269570
+    second: Spore_897
+  - first:
+      213: 1803985726334925735
+    second: Spore_898
+  - first:
+      213: -2815488550417656635
+    second: Spore_899
+  - first:
+      213: -2700991950625043743
+    second: Spore_900
+  - first:
+      213: 4015145237013236933
+    second: Spore_901
+  - first:
+      213: 8963818072632174739
+    second: Spore_902
+  - first:
+      213: -8195560722093893606
+    second: Spore_903
+  - first:
+      213: -710383371746027621
+    second: Spore_904
+  - first:
+      213: 1708871461679866895
+    second: Spore_905
+  - first:
+      213: 4687036009520831614
+    second: Spore_906
+  - first:
+      213: -422669431232370528
+    second: Spore_907
+  - first:
+      213: 4461604076408618901
+    second: Spore_908
+  - first:
+      213: -6942822592553961492
+    second: Spore_909
+  - first:
+      213: 8737643597641671359
+    second: Spore_910
+  - first:
+      213: -3977302499067849090
+    second: Spore_911
+  - first:
+      213: -1907991008832171030
+    second: Spore_912
+  - first:
+      213: 27470623731435265
+    second: Spore_913
+  - first:
+      213: 700928118751607504
+    second: Spore_914
+  - first:
+      213: -2583571042487900739
+    second: Spore_915
+  - first:
+      213: -3421909039686138194
+    second: Spore_916
+  - first:
+      213: -3429726405666673724
+    second: Spore_917
+  - first:
+      213: -9159991047187481631
+    second: Spore_918
+  - first:
+      213: -956515436696393353
+    second: Spore_919
+  - first:
+      213: 5095998677472405786
+    second: Spore_920
+  - first:
+      213: -3851807817069273549
+    second: Spore_921
+  - first:
+      213: -3013179405367234661
+    second: Spore_922
+  - first:
+      213: 2174718242888449676
+    second: Spore_923
+  - first:
+      213: 7212577942820390109
+    second: Spore_924
+  - first:
+      213: -7695316966355470141
+    second: Spore_925
+  - first:
+      213: -5224911417146191320
+    second: Spore_926
+  - first:
+      213: 2385143452901655438
+    second: Spore_927
+  - first:
+      213: -5657314598560580407
+    second: Spore_928
+  - first:
+      213: -3628370038975172671
+    second: Spore_929
+  - first:
+      213: 2861570804979856669
+    second: Spore_930
+  - first:
+      213: -3398274504200610184
+    second: Spore_931
+  - first:
+      213: -672921152555654894
+    second: Spore_932
+  - first:
+      213: 8830063446802425379
+    second: Spore_933
+  - first:
+      213: -6439607759343839989
+    second: Spore_934
+  - first:
+      213: 7468564025844993734
+    second: Spore_935
+  - first:
+      213: -8909111424590564956
+    second: Spore_936
+  - first:
+      213: -145454012543971659
+    second: Spore_937
+  - first:
+      213: -5728258330965445745
+    second: Spore_938
+  - first:
+      213: 4785922744852917778
+    second: Spore_939
+  - first:
+      213: 6211578028925721562
+    second: Spore_940
+  - first:
+      213: 363974968232934145
+    second: Spore_941
+  - first:
+      213: 195001614655271608
+    second: Spore_942
+  - first:
+      213: 3540106751487302183
+    second: Spore_943
+  - first:
+      213: -3377769506853075501
+    second: Spore_944
+  - first:
+      213: 4319277920860775480
+    second: Spore_945
+  - first:
+      213: -7258970390366389787
+    second: Spore_946
+  - first:
+      213: 5114000404692164873
+    second: Spore_947
+  - first:
+      213: 8253087651708166420
+    second: Spore_948
+  - first:
+      213: -6988127959638091793
+    second: Spore_949
+  - first:
+      213: 1947955102278500587
+    second: Spore_950
+  - first:
+      213: -1481505668878318662
+    second: Spore_951
+  - first:
+      213: 3476583179439188442
+    second: Spore_952
+  - first:
+      213: 3249562111866371103
+    second: Spore_953
+  - first:
+      213: 5936990265886665605
+    second: Spore_954
+  - first:
+      213: 1040430184985761515
+    second: Spore_955
+  - first:
+      213: -6287856915612149992
+    second: Spore_956
+  - first:
+      213: 892825399348484326
+    second: Spore_957
+  - first:
+      213: 2359930649945537004
+    second: Spore_958
+  - first:
+      213: -4565280491584876832
+    second: Spore_959
+  - first:
+      213: -7352172468021602782
+    second: Spore_960
+  - first:
+      213: 7751875670585326815
+    second: Spore_961
+  - first:
+      213: -1332682635235083015
+    second: Spore_962
+  - first:
+      213: 4262419666132270599
+    second: Spore_963
+  - first:
+      213: -1710480101562028959
+    second: Spore_964
+  - first:
+      213: 3048670142886425092
+    second: Spore_965
+  - first:
+      213: 1159906044847827160
+    second: Spore_966
+  - first:
+      213: -459710066446752027
+    second: Spore_967
+  - first:
+      213: -3504832095499562969
+    second: Spore_968
+  - first:
+      213: -923144419647488453
+    second: Spore_969
+  - first:
+      213: 3586538266520556038
+    second: Spore_970
+  - first:
+      213: 8627084946131684136
+    second: Spore_971
+  - first:
+      213: 179207262773447780
+    second: Spore_972
+  - first:
+      213: 6099761307319922558
+    second: Spore_973
+  - first:
+      213: -6677861367766370349
+    second: Spore_974
+  - first:
+      213: -4554040426569701351
+    second: Spore_975
+  - first:
+      213: -9134213268929141578
+    second: Spore_976
+  - first:
+      213: -5577248450948083898
+    second: Spore_977
+  - first:
+      213: 729538406318732048
+    second: Spore_978
+  - first:
+      213: -4874862806544671599
+    second: Spore_979
+  - first:
+      213: -3353909556770442398
+    second: Spore_980
+  - first:
+      213: -5378292283515590002
+    second: Spore_981
+  - first:
+      213: 2662838207467948210
+    second: Spore_982
+  - first:
+      213: -4012100538205791807
+    second: Spore_983
+  - first:
+      213: -4037565886183795608
+    second: Spore_984
+  - first:
+      213: -255765517454900856
+    second: Spore_985
+  - first:
+      213: -7127378005901110836
+    second: Spore_986
+  - first:
+      213: -4677267984115691216
+    second: Spore_987
+  - first:
+      213: -9068566445980266020
+    second: Spore_988
+  - first:
+      213: -3231514559174204725
+    second: Spore_989
+  - first:
+      213: 6175777323164220366
+    second: Spore_990
+  - first:
+      213: -4260551483172385582
+    second: Spore_991
+  - first:
+      213: 2480995669921313440
+    second: Spore_992
+  - first:
+      213: -2990609275452462389
+    second: Spore_993
+  - first:
+      213: -3941037448361859219
+    second: Spore_994
+  - first:
+      213: -6332151483004848254
+    second: Spore_995
+  - first:
+      213: -9008755254818743051
+    second: Spore_996
+  - first:
+      213: 8492533977304544527
+    second: Spore_997
+  - first:
+      213: 1618155260167017407
+    second: Spore_998
+  - first:
+      213: 2412086797794194914
+    second: Spore_999
+  - first:
+      213: 5299052199348243599
+    second: Spore_1000
+  - first:
+      213: -7037090370882019030
+    second: Spore_1001
+  - first:
+      213: -4291082551641975410
+    second: Spore_1002
+  - first:
+      213: -690327754890459424
+    second: Spore_1003
+  - first:
+      213: -102951600516699792
+    second: Spore_1004
+  - first:
+      213: -3262389080090140442
+    second: Spore_1005
+  - first:
+      213: -5107301603218286042
+    second: Spore_1006
+  - first:
+      213: 5267513300356512365
+    second: Spore_1007
+  - first:
+      213: -5445710999262948748
+    second: Spore_1008
+  - first:
+      213: -756833802912307714
+    second: Spore_1009
+  - first:
+      213: 6980022122367973788
+    second: Spore_1010
+  - first:
+      213: -5436189873243705284
+    second: Spore_1011
+  - first:
+      213: -1677418877262465065
+    second: Spore_1012
+  - first:
+      213: 1682953090587076725
+    second: Spore_1013
+  - first:
+      213: 797772669497673011
+    second: Spore_1014
+  - first:
+      213: 6569653232819759122
+    second: Spore_1015
+  - first:
+      213: 53226026641283287
+    second: Spore_1016
+  - first:
+      213: 7977404207287121709
+    second: Spore_1017
+  - first:
+      213: -8252650384393374390
+    second: Spore_1018
+  - first:
+      213: 373880129321214046
+    second: Spore_1019
+  - first:
+      213: -2106476697655469247
+    second: Spore_1020
+  - first:
+      213: -2282772731474853561
+    second: Spore_1021
+  - first:
+      213: 4561664216630366646
+    second: Spore_1022
+  - first:
+      213: -4775104199871909340
+    second: Spore_1023
+  - first:
+      213: -249102214960334491
+    second: Spore_1024
+  - first:
+      213: 6775454255611458206
+    second: Spore_1025
+  - first:
+      213: 4619238987610076117
+    second: Spore_1026
+  - first:
+      213: -5468294292157420882
+    second: Spore_1027
+  - first:
+      213: 7636288996889606032
+    second: Spore_1028
+  - first:
+      213: 2370340307146861286
+    second: Spore_1029
+  - first:
+      213: -6958994081195200918
+    second: Spore_1030
+  - first:
+      213: -5433228059682592056
+    second: Spore_1031
+  - first:
+      213: 5085017712520017083
+    second: Spore_1032
+  - first:
+      213: 3183098979263245475
+    second: Spore_1033
+  - first:
+      213: -4503470319706762653
+    second: Spore_1034
+  - first:
+      213: 6515627643881053838
+    second: Spore_1035
+  - first:
+      213: -4116012768655420157
+    second: Spore_1036
+  - first:
+      213: -5030990905363868966
+    second: Spore_1037
+  - first:
+      213: 8842372735030458052
+    second: Spore_1038
+  - first:
+      213: -1465953557687323339
+    second: Spore_1039
+  - first:
+      213: 7678400884191303684
+    second: Spore_1040
+  - first:
+      213: -1572459258668951587
+    second: Spore_1041
+  - first:
+      213: 2840670795038144326
+    second: Spore_1042
+  - first:
+      213: -6337503707264845121
+    second: Spore_1043
+  - first:
+      213: -7883136261951072203
+    second: Spore_1044
+  - first:
+      213: 4574638329266256028
+    second: Spore_1045
+  - first:
+      213: -3519724204512578993
+    second: Spore_1046
+  - first:
+      213: -6478353480323405067
+    second: Spore_1047
+  - first:
+      213: 5306573929012997098
+    second: Spore_1048
+  - first:
+      213: -3841942838067338129
+    second: Spore_1049
+  - first:
+      213: 8869776644718949936
+    second: Spore_1050
+  - first:
+      213: 472445827517059856
+    second: Spore_1051
+  - first:
+      213: -7154020988827828502
+    second: Spore_1052
+  - first:
+      213: 4124289641855554456
+    second: Spore_1053
+  - first:
+      213: -1430307786238724397
+    second: Spore_1054
+  - first:
+      213: -3294518541364202286
+    second: Spore_1055
+  - first:
+      213: 2369675206129413707
+    second: Spore_1056
+  - first:
+      213: 6682526784676438850
+    second: Spore_1057
+  - first:
+      213: -4491096045657684021
+    second: Spore_1058
+  - first:
+      213: 8981669564492909946
+    second: Spore_1059
+  - first:
+      213: 7175583265938492808
+    second: Spore_1060
+  - first:
+      213: -8122111218484098114
+    second: Spore_1061
+  - first:
+      213: -206330404106077986
+    second: Spore_1062
+  - first:
+      213: -3402824289134165057
+    second: Spore_1063
+  - first:
+      213: -307861609332843280
+    second: Spore_1064
+  - first:
+      213: -3973726833055820739
+    second: Spore_1065
+  - first:
+      213: 3357819476496337083
+    second: Spore_1066
+  - first:
+      213: 3887631530549132799
+    second: Spore_1067
+  - first:
+      213: 5382691453731364588
+    second: Spore_1068
+  - first:
+      213: 129315117091387560
+    second: Spore_1069
+  - first:
+      213: 3401129526522758783
+    second: Spore_1070
+  - first:
+      213: -4647092553041497281
+    second: Spore_1071
+  - first:
+      213: -5691707971082204735
+    second: Spore_1072
+  - first:
+      213: -2309561499541903610
+    second: Spore_1073
+  - first:
+      213: 3984080892569615723
+    second: Spore_1074
+  - first:
+      213: 6113838797535000692
+    second: Spore_1075
+  - first:
+      213: 300153493260804490
+    second: Spore_1076
+  - first:
+      213: -5595475096239247810
+    second: Spore_1077
+  - first:
+      213: -4226782563583924248
+    second: Spore_1078
+  - first:
+      213: 3075548628868065721
+    second: Spore_1079
+  - first:
+      213: -5597161765523137594
+    second: Spore_1080
+  - first:
+      213: 4793295263705110606
+    second: Spore_1081
+  - first:
+      213: 3987060161349180928
+    second: Spore_1082
+  - first:
+      213: -7332982313536832863
+    second: Spore_1083
+  - first:
+      213: 2778235073121692731
+    second: Spore_1084
+  - first:
+      213: -1112002415345455353
+    second: Spore_1085
+  - first:
+      213: 8856003609173401951
+    second: Spore_1086
+  - first:
+      213: -2146852715767642174
+    second: Spore_1087
+  - first:
+      213: -5744602951056488198
+    second: Spore_1088
+  - first:
+      213: -3224283866963484613
+    second: Spore_1089
+  - first:
+      213: 7063094209030233934
+    second: Spore_1090
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spore_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1329ec18800e0f409f25d94068e56dc
+      internalID: 2949530000158387833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90716797f35c7264bb737a6b3a6d5d22
+      internalID: -7285209646259022853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: facd844bdb16e3543a52377b225b75a6
+      internalID: -9203009164349241655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91c9e35bf956b84cb818a61e7bf4697
+      internalID: -5101054874421221806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ebb5c3208b0675499f44ccd305e4988
+      internalID: -6917029409208971739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9424737fc3cba88459e5fc06031743b1
+      internalID: -8802270759298867188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_6
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372705038d896da429739fd086d7c582
+      internalID: 1395929902161014501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_7
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b39810c1bdc4ce4db8b8d3a84766d31
+      internalID: -5107923060774428438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_8
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ac4585207be394ebef83e1993319ea
+      internalID: -2819523806278709971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_9
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d64a1538ebbb14d9e820b3f6b88b8d
+      internalID: 3769411310094308952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a8b81eeb37f314d9c8391b4a37c915
+      internalID: 1898895477354918514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_11
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bdc9aa5b27c09f4eb2a1365341a23b8
+      internalID: 1554283779318712385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_12
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430bbd7375996184695c5b709e8ec5f2
+      internalID: 2617956030941766357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_13
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9a35e21373bf645871da85fe2ebc14
+      internalID: -1225965371258798737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_14
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd0ff70297e2324395e9153874212c1
+      internalID: 6511406763878421087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_15
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64c08568c94e154e8a61abadb3e7807
+      internalID: -648409324670264283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_16
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a0ea0031ff02e4b99cef7fcc2d5717
+      internalID: 5767602767855436798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_17
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6905b2d9d53010f4c9acfc468fc0bf5a
+      internalID: 1686717040416758410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_18
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1154bcf06d7211845832b5a287c877dd
+      internalID: 2406529109884230422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_19
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1239e892855c52d48ab4e355deeb5bd9
+      internalID: 3206725150741255994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffcd761cacdadd648842344cd79db6a4
+      internalID: -7402955094260607332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_21
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9768f466cfc9f184493380b3c8a10220
+      internalID: 8291549098731598684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_22
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2601f57c3b6253444b126d87a9976f96
+      internalID: 2804083734567255916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_23
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8153e75c435ab0245add14e0dfb249f5
+      internalID: -957441810073654641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_24
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9837cbb987d5d4f81c3f660aa5c290
+      internalID: -8068167030710510847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_25
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e347757f273fb48896a6e4b2094da7
+      internalID: -982883175035545269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_26
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93fd823a54fbc424682ddfb48fdc9866
+      internalID: -7093308452094998125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_27
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65d558c3afd1094283ee0bd15c094a5
+      internalID: -8411131664977983190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_28
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f08ed296e4d71449643d63bd356aab
+      internalID: 5758398098445018189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_29
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093b9103a82cbae4ab4c0fa1a35fa190
+      internalID: 5107359820623266273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc049c3c76333554aa94ce2d862c0e63
+      internalID: -4807730408282188452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_31
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88bb57e2e75af74409d7f7a039f7fe9b
+      internalID: -627100633004651985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_32
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd3c764e524bc84ab0a261e48e8b6ec
+      internalID: 1358929550715910756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_33
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7a108bd62ad38459594fc3d916b3f5
+      internalID: -7687333298076201468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_34
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb483ddc249a1f044b60abe96a7cfdc2
+      internalID: -789735111457935296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_35
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f750204898bb94a47be52c41c6c1440f
+      internalID: 9074410510193653561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_36
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2c94dadcfbcf444a65f4fadc89cd65
+      internalID: -27024479079492562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_37
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202b55a0ea3fd8f4e815da701b99d245
+      internalID: -1322236780128432671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_38
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71809347dfc442141b70b9bd8abcbd85
+      internalID: -1471802826165988345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_39
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4629f4d8253cc7946b41f718673d58a2
+      internalID: -532953505954499156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f8f94befbed4b478355162847fd20d
+      internalID: 5409082165052015018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_41
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e767b64d7e222409a41d13eb66e0c5
+      internalID: -6671601516964841801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_42
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c9a901e09c74942bc1bc26b6e6fe88
+      internalID: 38410289100079391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_43
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6335cd802f96e0943b258d92d1d694cc
+      internalID: 5612187932019091056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_44
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d05efaa74cb12a448b7c36fe9eec473
+      internalID: -5529298858890640750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_45
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3dee2c6381708c4a8107986674b6cd2
+      internalID: -5127456430486578336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_46
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ea743321f4d6946bec290ff6ce5f5e
+      internalID: -4312403535683514234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_47
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5138320c7de147e418506b5fb19e5481
+      internalID: -4107032801243834539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_48
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9ec8a25a3689c428b3d2cd3f917320
+      internalID: -1527401216775164916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_49
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5f806d604841844b54117798ba1a22
+      internalID: 8279909997297892604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0041115fc4f8f48af9f121b5f7d66e
+      internalID: 2112784084246202573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_51
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b6ea1866e8fafd488d1a7715139f18b
+      internalID: 8240310155027544211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_52
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe4381cea36d5a459a0c8a0ce8d76de
+      internalID: 2584425272990739716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_53
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6681a180fd5676b4e8029c51cce13550
+      internalID: -3991804089967601630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_54
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b0b56348578f04389143b4bab69b33
+      internalID: 5891133572617993656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_55
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f783cb291da3154f8eee27062b48715
+      internalID: 7317869954444666767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_56
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a767a45e8de892649a3d9230edaa6f2b
+      internalID: 1290441682533710297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_57
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d003f79075e1a345967b6c92bb11977
+      internalID: -1674183694051020806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_58
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf08ee203757ba4d809e5b05e8ec3ae
+      internalID: -5334799890616092271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_59
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1c278fd2eef2740b68f74c6013c34d
+      internalID: 1570132552188963435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432f654df9b441f4ea569f3061414fc6
+      internalID: 6447740509426223365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_61
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285b2b2933c5dd34abca6e260cc19b68
+      internalID: 4171914585121634371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_62
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa09c0d1c7d8545418dcc37d895c1459
+      internalID: 9024130164227864749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_63
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32b49d19cd656a48b522868842be368
+      internalID: -7737269095741126194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_64
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd0bcc31d9bb56844b4908166f49ddc6
+      internalID: 790021896579484543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_65
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab18f3c4970e4445a0f3648560f03bc
+      internalID: -3097796491531808234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_66
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b367ddad484c3564199f0fb176239f45
+      internalID: -8912138263484763959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_67
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4032ba5545f824eb71d024f3ea132c
+      internalID: 4858946661718149564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_68
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283efb5e1f63f974496528389094d4ab
+      internalID: -8372086460308872147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_69
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbcca8138708c224b994d3202cb8294b
+      internalID: 8068411526118968374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eca6fc2a7d1ec9448e0b802946fb51f
+      internalID: -5793923779384841890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_71
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64fdff3d27741334c8d3fd1556c92b55
+      internalID: -50196738219309176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_72
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3cad2642f7fea44a1195eff52179af
+      internalID: 5967855596488555052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_73
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5514fb937d51e30479326641104ddce6
+      internalID: 7488320177382395340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_74
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a66ce2869b638d45a8f5baa5819fb4d
+      internalID: -6057398165651627126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_75
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf08650302706e4da41cc91e6f4fefd
+      internalID: -3833810603063042906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_76
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5973a0dd5a3124ebe66ec94e5322ad
+      internalID: 2024549011374198642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_77
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4824eb498f1636240b0a7eec2aefc656
+      internalID: -4340102711522911857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_78
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0825c016a7018bc4f8cad62c509886d1
+      internalID: 2172236616842909345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_79
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89512ab7ce396d84aa99e6f869c8b7cc
+      internalID: 3768441807782331080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c73b2bf36622d434ea37339411dbf4a0
+      internalID: -589720297914282973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_81
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec55370594cf3f4cbe9b710fef17036
+      internalID: -4643899161273560857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_82
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099656204af568e4fa734f5c0212db20
+      internalID: -426145553596480555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_83
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6e9d43d1161864ab1f1a7462d6c802
+      internalID: 1545047047732109771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_84
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560673537fff25e4e99f19151eccda99
+      internalID: -7290481293561579816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_85
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896addc41ab13aa4c9135900df1c9e44
+      internalID: -8552836969346836463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_86
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad7c0af888753d24cbc815bc35e201f3
+      internalID: 1649065807973952636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_87
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6f49d962bcd6843b0a6b2490484ebb
+      internalID: -1001169893608773308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_88
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0de467f40f3671449abeb9b221d8e30
+      internalID: 7085590283318361701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_89
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71292cbbc0b4821469f359180d42b0a6
+      internalID: -5281457988938453125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spore_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de7391a51d7c7f46be4ef03c471b685
+      internalID: 3952766080864235701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a6a7ef174ddae1f48840640373009ee6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Spore_0: 2949530000158387833
+      Spore_1: -7285209646259022853
+      Spore_10: 1898895477354918514
+      Spore_11: 1554283779318712385
+      Spore_12: 2617956030941766357
+      Spore_13: -1225965371258798737
+      Spore_14: 6511406763878421087
+      Spore_15: -648409324670264283
+      Spore_16: 5767602767855436798
+      Spore_17: 1686717040416758410
+      Spore_18: 2406529109884230422
+      Spore_19: 3206725150741255994
+      Spore_2: -9203009164349241655
+      Spore_20: -7402955094260607332
+      Spore_21: 8291549098731598684
+      Spore_22: 2804083734567255916
+      Spore_23: -957441810073654641
+      Spore_24: -8068167030710510847
+      Spore_25: -982883175035545269
+      Spore_26: -7093308452094998125
+      Spore_27: -8411131664977983190
+      Spore_28: 5758398098445018189
+      Spore_29: 5107359820623266273
+      Spore_3: -5101054874421221806
+      Spore_30: -4807730408282188452
+      Spore_31: -627100633004651985
+      Spore_32: 1358929550715910756
+      Spore_33: -7687333298076201468
+      Spore_34: -789735111457935296
+      Spore_35: 9074410510193653561
+      Spore_36: -27024479079492562
+      Spore_37: -1322236780128432671
+      Spore_38: -1471802826165988345
+      Spore_39: -532953505954499156
+      Spore_4: -6917029409208971739
+      Spore_40: 5409082165052015018
+      Spore_41: -6671601516964841801
+      Spore_42: 38410289100079391
+      Spore_43: 5612187932019091056
+      Spore_44: -5529298858890640750
+      Spore_45: -5127456430486578336
+      Spore_46: -4312403535683514234
+      Spore_47: -4107032801243834539
+      Spore_48: -1527401216775164916
+      Spore_49: 8279909997297892604
+      Spore_5: -8802270759298867188
+      Spore_50: 2112784084246202573
+      Spore_51: 8240310155027544211
+      Spore_52: 2584425272990739716
+      Spore_53: -3991804089967601630
+      Spore_54: 5891133572617993656
+      Spore_55: 7317869954444666767
+      Spore_56: 1290441682533710297
+      Spore_57: -1674183694051020806
+      Spore_58: -5334799890616092271
+      Spore_59: 1570132552188963435
+      Spore_6: 1395929902161014501
+      Spore_60: 6447740509426223365
+      Spore_61: 4171914585121634371
+      Spore_62: 9024130164227864749
+      Spore_63: -7737269095741126194
+      Spore_64: 790021896579484543
+      Spore_65: -3097796491531808234
+      Spore_66: -8912138263484763959
+      Spore_67: 4858946661718149564
+      Spore_68: -8372086460308872147
+      Spore_69: 8068411526118968374
+      Spore_7: -5107923060774428438
+      Spore_70: -5793923779384841890
+      Spore_71: -50196738219309176
+      Spore_72: 5967855596488555052
+      Spore_73: 7488320177382395340
+      Spore_74: -6057398165651627126
+      Spore_75: -3833810603063042906
+      Spore_76: 2024549011374198642
+      Spore_77: -4340102711522911857
+      Spore_78: 2172236616842909345
+      Spore_79: 3768441807782331080
+      Spore_8: -2819523806278709971
+      Spore_80: -589720297914282973
+      Spore_81: -4643899161273560857
+      Spore_82: -426145553596480555
+      Spore_83: 1545047047732109771
+      Spore_84: -7290481293561579816
+      Spore_85: -8552836969346836463
+      Spore_86: 1649065807973952636
+      Spore_87: -1001169893608773308
+      Spore_88: 7085590283318361701
+      Spore_89: -5281457988938453125
+      Spore_9: 3769411310094308952
+      Spore_90: 3952766080864235701
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

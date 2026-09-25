@@ -1,0 +1,2020 @@
+fileFormatVersion: 2
+guid: 9e304aba2da0c9747823c32ee9ffab2b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7260111474371800604
+    second: Soul_0
+  - first:
+      213: 3714793262853902631
+    second: Soul_1
+  - first:
+      213: 5261866064750109813
+    second: Soul_2
+  - first:
+      213: 2839188522358434670
+    second: Soul_3
+  - first:
+      213: 5949046499566718118
+    second: Soul_4
+  - first:
+      213: 8405376442034624970
+    second: Soul_5
+  - first:
+      213: 6662264921088808745
+    second: Soul_6
+  - first:
+      213: -5853284491164530161
+    second: Soul_7
+  - first:
+      213: 797447436697986132
+    second: Soul_8
+  - first:
+      213: -7594366717351764141
+    second: Soul_9
+  - first:
+      213: -490080862490344397
+    second: Soul_10
+  - first:
+      213: -1673428065257853125
+    second: Soul_11
+  - first:
+      213: -2577986601303795370
+    second: Soul_12
+  - first:
+      213: 4187821928101169922
+    second: Soul_13
+  - first:
+      213: -1052429949293981073
+    second: Soul_14
+  - first:
+      213: -8031777980782208857
+    second: Soul_15
+  - first:
+      213: -1070995479376118701
+    second: Soul_16
+  - first:
+      213: -5513056014880055294
+    second: Soul_17
+  - first:
+      213: -8933785605634629691
+    second: Soul_18
+  - first:
+      213: -8264741033787796990
+    second: Soul_19
+  - first:
+      213: -5374901430939597022
+    second: Soul_20
+  - first:
+      213: 4185461345913078634
+    second: Soul_21
+  - first:
+      213: 8266520891214380207
+    second: Soul_22
+  - first:
+      213: 39952597491990456
+    second: Soul_23
+  - first:
+      213: -3746238315600772760
+    second: Soul_24
+  - first:
+      213: 7674793726131432389
+    second: Soul_25
+  - first:
+      213: -1574427192927825314
+    second: Soul_26
+  - first:
+      213: -8546893835204417652
+    second: Soul_27
+  - first:
+      213: 8773298318308927855
+    second: Soul_28
+  - first:
+      213: -8194029392363348578
+    second: Soul_29
+  - first:
+      213: 1614724924763948641
+    second: Soul_30
+  - first:
+      213: -5361619191341962954
+    second: Soul_31
+  - first:
+      213: -7987669806542604082
+    second: Soul_32
+  - first:
+      213: -5956903811227053702
+    second: Soul_33
+  - first:
+      213: -426430349475639713
+    second: Soul_34
+  - first:
+      213: -6401898004877617997
+    second: Soul_35
+  - first:
+      213: 6890793761011037398
+    second: Soul_36
+  - first:
+      213: -3457212870507626436
+    second: Soul_37
+  - first:
+      213: 7556720687444334804
+    second: Soul_38
+  - first:
+      213: -4042956589169015389
+    second: Soul_39
+  - first:
+      213: -3674333774555484335
+    second: Soul_40
+  - first:
+      213: 4318120672995755967
+    second: Soul_41
+  - first:
+      213: 5687470379296639417
+    second: Soul_42
+  - first:
+      213: 3921148160977621953
+    second: Soul_43
+  - first:
+      213: -6150967319980024176
+    second: Soul_44
+  - first:
+      213: -6283879016734439328
+    second: Soul_45
+  - first:
+      213: 5605867557280039067
+    second: Soul_46
+  - first:
+      213: -3549306377854487307
+    second: Soul_47
+  - first:
+      213: -2564307025569453887
+    second: Soul_48
+  - first:
+      213: 6586732713381646094
+    second: Soul_49
+  - first:
+      213: -510322844304914474
+    second: Soul_50
+  - first:
+      213: -9159946941500441557
+    second: Soul_51
+  - first:
+      213: 6862649122534345754
+    second: Soul_52
+  - first:
+      213: 8869866800163978406
+    second: Soul_53
+  - first:
+      213: -124655646583033837
+    second: Soul_54
+  - first:
+      213: -9039826909784006397
+    second: Soul_55
+  - first:
+      213: -6594930670000499620
+    second: Soul_56
+  - first:
+      213: 5673955442495516978
+    second: Soul_57
+  - first:
+      213: 2349642489574761322
+    second: Soul_58
+  - first:
+      213: -2635237144824842495
+    second: Soul_59
+  - first:
+      213: 5130934823911214946
+    second: Soul_60
+  - first:
+      213: -3676982475259218623
+    second: Soul_61
+  - first:
+      213: -6301914720075480970
+    second: Soul_62
+  - first:
+      213: -7778103268482088253
+    second: Soul_63
+  - first:
+      213: 4779700065652358429
+    second: Soul_64
+  - first:
+      213: -663107139543750549
+    second: Soul_65
+  - first:
+      213: 8709702884507550216
+    second: Soul_66
+  - first:
+      213: 3796380919475508048
+    second: Soul_67
+  - first:
+      213: 2521797774612707973
+    second: Soul_68
+  - first:
+      213: 4629270549413361799
+    second: Soul_69
+  - first:
+      213: -8111851353672665581
+    second: Soul_70
+  - first:
+      213: 3192184198628275174
+    second: Soul_71
+  - first:
+      213: -7286149653386526897
+    second: Soul_72
+  - first:
+      213: 3835475688882448067
+    second: Soul_73
+  - first:
+      213: 7868607229632941327
+    second: Soul_74
+  - first:
+      213: 6509324269159874036
+    second: Soul_75
+  - first:
+      213: 3839008013532545271
+    second: Soul_76
+  - first:
+      213: -3523772445631831693
+    second: Soul_77
+  - first:
+      213: -8923462067922955662
+    second: Soul_78
+  - first:
+      213: -3914161485906611013
+    second: Soul_79
+  - first:
+      213: 7389189527645090000
+    second: Soul_80
+  - first:
+      213: -1152968825607619428
+    second: Soul_81
+  - first:
+      213: 8008470267870819139
+    second: Soul_82
+  - first:
+      213: -346661442848999448
+    second: Soul_83
+  - first:
+      213: 5519641597932782665
+    second: Soul_84
+  - first:
+      213: -987493049034993034
+    second: Soul_85
+  - first:
+      213: 2785043996228869424
+    second: Soul_86
+  - first:
+      213: 4641943445260371540
+    second: Soul_87
+  - first:
+      213: -8115312727683612365
+    second: Soul_88
+  - first:
+      213: -7805499544005692796
+    second: Soul_89
+  - first:
+      213: 4214767609352477291
+    second: Soul_90
+  - first:
+      213: -6755182774568392738
+    second: Soul_91
+  - first:
+      213: -6181886661092806588
+    second: Soul_92
+  - first:
+      213: 6737933477267116711
+    second: Soul_93
+  - first:
+      213: 7627833866726688000
+    second: Soul_94
+  - first:
+      213: -9002466414727400224
+    second: Soul_95
+  - first:
+      213: -1713216985661661860
+    second: Soul_96
+  - first:
+      213: 8922361740069505453
+    second: Soul_97
+  - first:
+      213: 7817069119617247544
+    second: Soul_98
+  - first:
+      213: 981897701764153742
+    second: Soul_99
+  - first:
+      213: -5603717742181596221
+    second: Soul_100
+  - first:
+      213: -3538115982980777498
+    second: Soul_101
+  - first:
+      213: -4900851353278851669
+    second: Soul_102
+  - first:
+      213: -7242985206672550121
+    second: Soul_103
+  - first:
+      213: -3115448579438638094
+    second: Soul_104
+  - first:
+      213: -9098607659641007182
+    second: Soul_105
+  - first:
+      213: 6311040937395569556
+    second: Soul_106
+  - first:
+      213: 7794208681601221306
+    second: Soul_107
+  - first:
+      213: -2833814362107548576
+    second: Soul_108
+  - first:
+      213: -5197603374491026372
+    second: Soul_109
+  - first:
+      213: 7843802953517055428
+    second: Soul_110
+  - first:
+      213: -4353574595842444264
+    second: Soul_111
+  - first:
+      213: -3267325260696119733
+    second: Soul_112
+  - first:
+      213: -4267146307608749513
+    second: Soul_113
+  - first:
+      213: -5871899548778787370
+    second: Soul_114
+  - first:
+      213: -4563190520853467627
+    second: Soul_115
+  - first:
+      213: 455176475144151141
+    second: Soul_116
+  - first:
+      213: -2897526531885644258
+    second: Soul_117
+  - first:
+      213: -8763891106205875591
+    second: Soul_118
+  - first:
+      213: -2630948583355300041
+    second: Soul_119
+  - first:
+      213: 1909929228442264952
+    second: Soul_120
+  - first:
+      213: 7640986633866309668
+    second: Soul_121
+  - first:
+      213: -1812171000878790041
+    second: Soul_122
+  - first:
+      213: 297733651172622284
+    second: Soul_123
+  - first:
+      213: 4416566768665996567
+    second: Soul_124
+  - first:
+      213: -5813706129488586113
+    second: Soul_125
+  - first:
+      213: 1421175008613124024
+    second: Soul_126
+  - first:
+      213: -5748120757780755892
+    second: Soul_127
+  - first:
+      213: 846326125110586616
+    second: Soul_128
+  - first:
+      213: -2454043415569375789
+    second: Soul_129
+  - first:
+      213: 6091752748441908615
+    second: Soul_130
+  - first:
+      213: -5517928724829669688
+    second: Soul_131
+  - first:
+      213: 4187304023451135697
+    second: Soul_132
+  - first:
+      213: 237817810150879771
+    second: Soul_133
+  - first:
+      213: -8943808740386857904
+    second: Soul_134
+  - first:
+      213: 9176386388454953217
+    second: Soul_135
+  - first:
+      213: -5289745863421881071
+    second: Soul_136
+  - first:
+      213: -5794155369332580480
+    second: Soul_137
+  - first:
+      213: -8149693162009744873
+    second: Soul_138
+  - first:
+      213: 1233758923699720130
+    second: Soul_139
+  - first:
+      213: 1101983511537059295
+    second: Soul_140
+  - first:
+      213: 4891603222448888518
+    second: Soul_141
+  - first:
+      213: 917878969009714836
+    second: Soul_142
+  - first:
+      213: 8765714714734474890
+    second: Soul_143
+  - first:
+      213: 2189268631341387862
+    second: Soul_144
+  - first:
+      213: 5394682946698927977
+    second: Soul_145
+  - first:
+      213: -3074790631209292088
+    second: Soul_146
+  - first:
+      213: -1075320686181887680
+    second: Soul_147
+  - first:
+      213: -2514326581572676291
+    second: Soul_148
+  - first:
+      213: 3414089071644434429
+    second: Soul_149
+  - first:
+      213: 5162035863637360621
+    second: Soul_150
+  - first:
+      213: 6463913684573587238
+    second: Soul_151
+  - first:
+      213: 2142654042800404224
+    second: Soul_152
+  - first:
+      213: 8212080206335277866
+    second: Soul_153
+  - first:
+      213: 8782256534023278304
+    second: Soul_154
+  - first:
+      213: -2823449238635847499
+    second: Soul_155
+  - first:
+      213: 2838112742665893030
+    second: Soul_156
+  - first:
+      213: -3488431305626822322
+    second: Soul_157
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Soul_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b16d1276ed2b840b4cb0deb80dea5f
+      internalID: -7260111474371800604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ab140d496ebae41a54d66cef1ffc0a
+      internalID: 3714793262853902631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376fdb881135e1b4cbe09406d1b7c301
+      internalID: 5261866064750109813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6196574185bb04494e51e92aa15947
+      internalID: 2839188522358434670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e5c2f8dd0c50149824a7b0636e4c2b
+      internalID: 5949046499566718118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b8325392d92c74c9d874993cd5eb41
+      internalID: 8405376442034624970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_6
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8c913ef2910564e85ec750d4888e13
+      internalID: 6662264921088808745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_7
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cdf59406971dc745afb5df1470b397a
+      internalID: -5853284491164530161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e703594c6580c04c805f5a8032274fe
+      internalID: 797447436697986132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_9
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c32c84cc4aadf44aad4a903aac9a56
+      internalID: -7594366717351764141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_10
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d8d9b3ac5f1704d842b742a073a0d4
+      internalID: -490080862490344397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_11
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4abee25ea3be049b2fcccb6889fe57
+      internalID: -1673428065257853125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_12
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4b68513d53907409082080f0cea254
+      internalID: -2577986601303795370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_13
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf8b89be3efb0047bec60aa58fa2c67
+      internalID: 4187821928101169922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_14
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd31c595e7000224a8f5b30ce8962caf
+      internalID: -1052429949293981073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_15
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05982b4bb53a77f40bde8d095ace7304
+      internalID: -8031777980782208857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298be65871a047c489c8c3ba0997abe7
+      internalID: -1070995479376118701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_17
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b15ccd82430fa4aafe7f78f0bfe99e
+      internalID: -5513056014880055294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_18
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b0c2019b047024f8bddd9e20cf8e59
+      internalID: -8933785605634629691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_19
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897159adfe8a27145bd92498bb3b55c3
+      internalID: -8264741033787796990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_20
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a742d219d7f428f4baa256b073300b63
+      internalID: -5374901430939597022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_21
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be9eb948baf7a54a9aea94abcab662c
+      internalID: 4185461345913078634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_22
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2520f4d5bc9fb47885a57aa86d9dbd
+      internalID: 8266520891214380207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_23
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b882259930ff74ab92e540093f68fd
+      internalID: 39952597491990456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd09de2bf1e2321458ff9447161fb264
+      internalID: -3746238315600772760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_25
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132c10d97c7c2bf48ab09f13cedfb482
+      internalID: 7674793726131432389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_26
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5a8df4ae2bef8489d59acd40b1d9da
+      internalID: -1574427192927825314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_27
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d12610fe7550e48b2688a3747fc3c5
+      internalID: -8546893835204417652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_28
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad94d11332d58204a894ce4bcae44c59
+      internalID: 8773298318308927855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_29
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295e756ee9140474cbd76cc5c6456113
+      internalID: -8194029392363348578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_30
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05efabbb9d396974099269e007779959
+      internalID: 1614724924763948641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_31
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5abbc394747edd34a8d84f496d74c2ee
+      internalID: -5361619191341962954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47024910800f1f34f83fb72e16c51c10
+      internalID: -7987669806542604082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_33
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5688f4fbb13b44f9c8cef2315db928
+      internalID: -5956903811227053702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_34
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d1926ed1b17b446951612b67d087c7
+      internalID: -426430349475639713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_35
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a338df08913a0449a9ac42c7ca0db77
+      internalID: -6401898004877617997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_36
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e15f9494cc8cb41a518ce78f33c9f5
+      internalID: 6890793761011037398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_37
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c317739a54f903b48b3bdbd8129014ab
+      internalID: -3457212870507626436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_38
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378c3f632711ec744b91fbaee34410f6
+      internalID: 7556720687444334804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_39
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bdcb233220e6184b90f8b81a3ff0d56
+      internalID: -4042956589169015389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b471e893b96c8e429ca961ece5cbdf1
+      internalID: -3674333774555484335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_41
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afdf545dbce945449bfafc0da1d5813c
+      internalID: 4318120672995755967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_42
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aae67cb8f633df48a40eee5db72b67c
+      internalID: 5687470379296639417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_43
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d498ff7d8a47b4b91e19c22b8d2457
+      internalID: 3921148160977621953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_44
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de1c527bb567194aba8cb205b7935a8
+      internalID: -6150967319980024176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_45
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4556dbe47d33fc142b03e1ff1ee65d05
+      internalID: -6283879016734439328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_46
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c53aa4d6dd423b499427f1d43c780eb
+      internalID: 5605867557280039067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_47
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58147e359464dab45a248e40c5a8d8ee
+      internalID: -3549306377854487307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e3070c290543e43bf5d8562568ca22
+      internalID: -2564307025569453887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_49
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4c341df3ac1c346abdb3efd7de34f7
+      internalID: 6586732713381646094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_50
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc92177489a37f54893020c05d1a9add
+      internalID: -510322844304914474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_51
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9e757a297e0bb48a5d90b420d23915
+      internalID: -9159946941500441557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_52
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0312064beb247f941914b7a55201211c
+      internalID: 6862649122534345754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_53
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701d21a1f57839c42bcd07f15cbf63b7
+      internalID: 8869866800163978406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_54
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 874f2d0c84a1d3d40aa96b65b8bcab15
+      internalID: -124655646583033837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_55
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f3426d27ad90d428837d6a262f257b
+      internalID: -9039826909784006397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d957858ec8b2c1a40aeee6bf586d1f0c
+      internalID: -6594930670000499620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_57
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e303cbddd675654aad53a59a3ccda10
+      internalID: 5673955442495516978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_58
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7bb8a9235a08f04b87775b5216fdcb5
+      internalID: 2349642489574761322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_59
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d0147cd0758634b9a9cd97a90a3d4d
+      internalID: -2635237144824842495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul_60
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81fdb62d4b88dc8499c2e56f38e21f51
+      internalID: 5130934823911214946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: cec63884a44034048b7aad62c594994a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Soul_0: -7260111474371800604
+      Soul_1: 3714793262853902631
+      Soul_10: -490080862490344397
+      Soul_11: -1673428065257853125
+      Soul_12: -2577986601303795370
+      Soul_13: 4187821928101169922
+      Soul_14: -1052429949293981073
+      Soul_15: -8031777980782208857
+      Soul_16: -1070995479376118701
+      Soul_17: -5513056014880055294
+      Soul_18: -8933785605634629691
+      Soul_19: -8264741033787796990
+      Soul_2: 5261866064750109813
+      Soul_20: -5374901430939597022
+      Soul_21: 4185461345913078634
+      Soul_22: 8266520891214380207
+      Soul_23: 39952597491990456
+      Soul_24: -3746238315600772760
+      Soul_25: 7674793726131432389
+      Soul_26: -1574427192927825314
+      Soul_27: -8546893835204417652
+      Soul_28: 8773298318308927855
+      Soul_29: -8194029392363348578
+      Soul_3: 2839188522358434670
+      Soul_30: 1614724924763948641
+      Soul_31: -5361619191341962954
+      Soul_32: -7987669806542604082
+      Soul_33: -5956903811227053702
+      Soul_34: -426430349475639713
+      Soul_35: -6401898004877617997
+      Soul_36: 6890793761011037398
+      Soul_37: -3457212870507626436
+      Soul_38: 7556720687444334804
+      Soul_39: -4042956589169015389
+      Soul_4: 5949046499566718118
+      Soul_40: -3674333774555484335
+      Soul_41: 4318120672995755967
+      Soul_42: 5687470379296639417
+      Soul_43: 3921148160977621953
+      Soul_44: -6150967319980024176
+      Soul_45: -6283879016734439328
+      Soul_46: 5605867557280039067
+      Soul_47: -3549306377854487307
+      Soul_48: -2564307025569453887
+      Soul_49: 6586732713381646094
+      Soul_5: 8405376442034624970
+      Soul_50: -510322844304914474
+      Soul_51: -9159946941500441557
+      Soul_52: 6862649122534345754
+      Soul_53: 8869866800163978406
+      Soul_54: -124655646583033837
+      Soul_55: -9039826909784006397
+      Soul_56: -6594930670000499620
+      Soul_57: 5673955442495516978
+      Soul_58: 2349642489574761322
+      Soul_59: -2635237144824842495
+      Soul_6: 6662264921088808745
+      Soul_60: 5130934823911214946
+      Soul_7: -5853284491164530161
+      Soul_8: 797447436697986132
+      Soul_9: -7594366717351764141
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
