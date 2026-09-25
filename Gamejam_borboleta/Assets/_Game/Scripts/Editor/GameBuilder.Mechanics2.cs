@@ -115,24 +115,21 @@ namespace ButterflyStep.EditorTools
 
         private static void ThornVines(Transform parent, float xMin, float w, float height)
         {
-            if (tiles == null || tiles.vineStem == null) return;
-            int stems = Mathf.Max(2, Mathf.RoundToInt(w / 0.35f));
+            if (tiles == null || brambleSprite == null) return;
+            int stems = Mathf.Max(3, Mathf.RoundToInt(w / 0.3f));
             for (int i = 0; i < stems; i++)
             {
                 float x = xMin + 0.15f + i * (w - 0.3f) / (stems - 1);
                 var stem = Go("Espinhos", parent, new Vector2(x, height * 0.5f));
-                var sr = AddSprite(stem, tiles.vineStem, new Color(0.85f, 0.6f, 1f), 3);
+                var sr = AddSprite(stem, brambleSprite, Color.white, 3 + i % 2);
                 sr.drawMode = SpriteDrawMode.Tiled;
-                sr.size = new Vector2(tiles.vineStem.bounds.size.x, height - (i % 2) * 0.4f);
+                sr.size = new Vector2(brambleSprite.bounds.size.x, height - (i % 2) * 0.4f);
+                stem.transform.localScale = new Vector3(i % 2 == 0 ? 1f : -1f, 1f, 1f);
                 stem.transform.position = new Vector3(x, (height - (i % 2) * 0.4f) * 0.5f, 0f);
             }
-            int k = 0;
-            for (float y = 0.4f; y < height - 0.2f; y += 0.6f, k++)
-            {
-                var leaf = Go("Folha", parent, new Vector2(xMin + 0.2f + (k * 0.53f) % Mathf.Max(0.4f, w - 0.4f), y));
-                AddSprite(leaf, k % 2 == 0 ? tiles.leafGreen : tiles.leafGreen2, new Color(0.9f, 0.65f, 1f), 4);
-                leaf.transform.localScale = new Vector3(k % 2 == 0 ? 1f : -1f, 1f, 1f);
-            }
+            if (tiles.lavender == null) return;
+            for (float x = xMin + 0.2f; x < xMin + w - 0.1f; x += 0.45f)
+                Decor(parent, tiles.lavender, new Vector2(x, 0f), 1.2f, 5);
         }
 
         private static void FallenTree(Transform parent, float baseX, float groundY, float length)
@@ -160,24 +157,37 @@ namespace ButterflyStep.EditorTools
                 bush.transform.localScale = new Vector3(i % 3 == 0 ? -sc : sc, sc, 1f);
                 var seasonal = bush.AddComponent<SeasonalSprite>();
                 seasonal.Setup(bsr, null, null, null, null);
+                Set(seasonal, "spring", tiles.bush);
+                Set(seasonal, "autumn", bushDry);
+                Set(seasonal, "winter", bushSnow);
                 Set(seasonal, "springTint", Color.white);
                 Set(seasonal, "summerTint", new Color(1f, 1f, 1f, 0f));
-                Set(seasonal, "autumnTint", new Color(1f, 0.6f, 0.25f));
-                Set(seasonal, "winterTint", new Color(0.88f, 0.94f, 1f));
+                Set(seasonal, "autumnTint", Color.white);
+                Set(seasonal, "winterTint", Color.white);
             }
+            if (tiles.leafDry == null) return;
+            var fallenLeaves = Go("Folhas Secas", parent, new Vector2(baseX - length * 0.5f, groundY));
+            for (int i = 0; i < 9; i++)
+            {
+                var leaf = Go("Folha Seca", fallenLeaves.transform, new Vector2(baseX + 0.4f - i * (length + 0.8f) / 8f, groundY + 0.12f + (i % 3) * 0.05f));
+                AddSprite(leaf, tiles.leafDry, Color.white, 7);
+                leaf.transform.rotation = Quaternion.Euler(0f, 0f, i * 53f);
+                leaf.transform.localScale = new Vector3(0.8f, 0.8f, 1f);
+            }
+            fallenLeaves.AddComponent<SeasonalActive>().Setup(Season.Outono);
         }
 
         private static void BuildVine(Transform parent, float x, float groundY, float height, bool dry)
         {
-            if (tiles == null || tiles.vineStem == null)
+            if (tiles == null || vineSprite == null)
             {
                 Part(parent, "Caule", x - 0.07f, groundY, 0.14f, height, dry ? new Color(0.5f, 0.38f, 0.25f) : new Color(0.35f, 0.62f, 0.3f), 4, false, squareSprite);
                 return;
             }
             var stem = Go("Caule", parent, new Vector2(x, groundY + height * 0.5f));
-            var sr = AddSprite(stem, tiles.vineStem, dry ? new Color(0.8f, 0.65f, 0.5f) : new Color(0.75f, 1f, 0.65f), 4);
+            var sr = AddSprite(stem, vineSprite, dry ? new Color(0.75f, 0.55f, 0.35f) : Color.white, 4);
             sr.drawMode = SpriteDrawMode.Tiled;
-            sr.size = new Vector2(tiles.vineStem.bounds.size.x, height);
+            sr.size = new Vector2(vineSprite.bounds.size.x, height);
             int i = 0;
             for (float y = groundY + 0.35f; y < groundY + height - 0.15f; y += 0.55f, i++)
             {

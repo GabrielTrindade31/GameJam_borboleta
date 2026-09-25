@@ -34,6 +34,7 @@ namespace ButterflyStep.EditorTools
             LoadArt();
             LoadTiles();
             LoadFx();
+            LoadPlants();
             sceneryProps = 0;
             uiFont = null;
             CreateMaterials();

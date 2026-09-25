@@ -30,6 +30,7 @@ No Legacy Fantasy, espaços viraram `_` e a pasta `Jumlp-All` virou `Jump-All`.
 | `Assets/_Game/Art/CC0/FX/HitRing, Sparkle, Bubbles, Burst, Soul, Spore, TimeWave` | Free Pixel Effects Pack (impacto, brilho, coleta, morte, esporo do espinheiro e onda do chefe) | CodeManu / Davit Masia | https://opengameart.org/content/free-pixel-effects-pack | CC0 |
 | `Assets/_Game/Art/CC0/FX/TimeClock, TimeSwirl` | Cosmic Time - Magic Effect (relógio que apaga a criatura da linha do tempo) | OpenGameArt | https://opengameart.org/content/cosmic-time-magic-effect | CC0 |
 | `Assets/_Game/Art/CC0/FX/Butterflies.png` | Butterflies (9 borboletas em pixel art: pólen e almas das criaturas) | Ivan Voirol | https://opengameart.org/content/butterflies | CC0 (também CC-BY 3.0 / GPL) |
+| `Assets/_Game/Art/ThirdParty/Derived/` | Arbustos seco e nevado, gerados pelo Construir Projeto a partir do arbusto do Legacy Fantasy (mesma licença do pacote, também fora do Git) | — | — | Legacy Fantasy |
 | `Assets/_Game/Art/Fonts/` | Pixelify Sans (fonte da UI) | The Pixelify Sans Project Authors | https://fonts.google.com/specimen/Pixelify+Sans | SIL Open Font License 1.1 (`OFL.txt`) |
 
 ## O que vem de cada imagem do Legacy Fantasy

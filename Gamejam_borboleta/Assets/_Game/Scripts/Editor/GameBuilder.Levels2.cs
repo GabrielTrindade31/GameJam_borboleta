@@ -189,8 +189,7 @@ namespace ButterflyStep.EditorTools
             Rect("Trepadeiras (bloqueio)", alive.transform, 12f, 0f, 1.5f, 4.5f, tiles != null ? Color.clear : new Color(0.45f, 0.3f, 0.55f), 3, true, tiles != null ? squareSprite : null);
             if (tiles != null)
             {
-                ThornVines(alive.transform, 11.9f, 1.7f, 4.5f);
-                for (int i = 0; i < 3; i++) Decor(alive.transform, tiles.lavender, new Vector2(12.2f + i * 0.55f, 0f), 1.4f, 5);
+                ThornVines(alive.transform, 11.3f, 2.9f, 4.5f);
             }
             var dead = Holder(vines.transform, "Seca", new Vector2(12.75f, 0f));
             if (tiles != null)

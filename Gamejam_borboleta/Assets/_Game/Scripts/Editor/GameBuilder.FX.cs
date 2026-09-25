@@ -298,6 +298,16 @@ namespace ButterflyStep.EditorTools
             var go = Rect(name, parent, xMin, yBottom, w, h, tiles != null && tiles.waterfall != null ? new Color(1f, 1f, 1f, 0.95f) : WaterColor, 5, false, tiles != null && tiles.waterfall != null ? tiles.waterfall : squareSprite);
             var fall = Go("Fios", go.transform, new Vector2(xMin + w * 0.5f, yBottom + h));
             fall.AddComponent<WaterFall>().Setup(w, h, squareSprite, 6);
+            float edge = Mathf.Min(0.14f, w * 0.25f);
+            Part(go.transform, "Sombra", xMin, yBottom, edge, h, new Color(0.08f, 0.25f, 0.5f, 0.55f), 6, false, squareSprite);
+            Part(go.transform, "Brilho", xMin + w - edge, yBottom, edge, h, new Color(1f, 1f, 1f, 0.35f), 6, false, squareSprite);
+            var lip = Shape("Borda", go.transform, new Vector2(xMin + w * 0.45f, yBottom + h - 0.05f), new Vector2(w + 0.35f, 0.3f), circleSprite, new Color(0.55f, 0.82f, 1f, 0.95f), 6);
+            lip.GetComponent<SpriteRenderer>().sharedMaterial = unlitSprite;
+            if (glowSprite != null)
+            {
+                var mist = Shape("Névoa", go.transform, new Vector2(xMin + w * 0.5f, yBottom + 0.25f), new Vector2(w + 1.6f, 0.9f), glowSprite, new Color(1f, 1f, 1f, 0.55f), 7);
+                mist.GetComponent<SpriteRenderer>().sharedMaterial = unlitSprite;
+            }
             var foam = MakeParticles("Espuma", go.transform, new Color(1f, 1f, 1f, 0.8f), 0, 2.2f, 0.7f, 0.35f, true, 0.2f, 0.6f);
             foam.transform.position = new Vector3(xMin + w * 0.5f, yBottom + 0.1f, 0f);
             var main = foam.main;

@@ -37,7 +37,11 @@ namespace ButterflyStep
         {
             width = w;
             depth = d;
-            if (d < 0.5f) foamThickness = Mathf.Max(0.02f, d * 0.22f);
+            if (d < 0.5f)
+            {
+                foamThickness = Mathf.Max(0.02f, d * 0.18f);
+                foamColor.a = 0.55f;
+            }
             flowSpeed = flow;
             sortingOrder = order;
         }
@@ -55,6 +59,7 @@ namespace ButterflyStep
         {
             topColor = top;
             bottomColor = bottom;
+            if (depth < 0.5f) topColor = Color.Lerp(top, bottom, 0.45f);
         }
 
         private void OnEnable()

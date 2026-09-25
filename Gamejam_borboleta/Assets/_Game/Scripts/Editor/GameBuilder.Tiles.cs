@@ -396,7 +396,7 @@ namespace ButterflyStep.EditorTools
         private static void SceneryProp(Transform parent, int i, float x, float groundY)
         {
             i = sceneryProps++;
-            switch (i % 7)
+            switch (i % 6)
             {
                 case 0:
                     if (tiles.mossRocks != null) Decor(parent, tiles.mossRocks[(i / 5) % tiles.mossRocks.Length], new Vector2(x + 1.9f, groundY), 0.8f, -12);
@@ -422,9 +422,6 @@ namespace ButterflyStep.EditorTools
                     break;
                 case 5:
                     Decor(parent, tiles.hollowLog, new Vector2(x + 2f, groundY), 0.75f, -12);
-                    break;
-                case 6:
-                    HollowStump(parent, new Vector2(x - 2.2f, groundY), 0.9f);
                     break;
                 default:
                     Decor(parent, tiles.boulders, new Vector2(x + 2.2f, groundY), 0.8f, -13);

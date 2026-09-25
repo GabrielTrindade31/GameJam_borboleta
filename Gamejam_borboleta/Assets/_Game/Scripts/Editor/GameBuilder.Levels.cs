@@ -295,7 +295,7 @@ namespace ButterflyStep.EditorTools
             WaterMesh(riacho.transform, "Leito", 16.4f, 0.22f, 3.6f, 0.22f, 2.5f, 6, RiverTop, RiverBottom);
             var cachoeira = Holder(dam.transform, "Cachoeira", new Vector2(14f, 4f));
             WaterMesh(cachoeira.transform, "Topo", 12f, 7.3f, 4f, 0.3f, 4f, 6, RiverTop, RiverBottom);
-            Waterfall(cachoeira.transform, "Queda", 16f, 0f, 1.1f, 7.45f);
+            Waterfall(cachoeira.transform, "Queda", 16f, 0f, 1.1f, 7.3f);
             WaterMesh(cachoeira.transform, "Leito", 17.1f, 0.35f, 2.9f, 0.35f, 4f, 6, RiverTop, RiverBottom);
 
             With(dam.AddState("Represa intacta"), pedrinha);
@@ -378,7 +378,7 @@ namespace ButterflyStep.EditorTools
             bridge.AddState("Ponte de madeira");
             Consequence(With(Hidden(bridge.AddState("Ponte quebrada pelo peso", TemporalCondition.Flag(broken))), quebrada));
 
-            Enemy(chronoferaPrefab, "Cronofera da Ponte", 28f, 0f, 3f, 3f);
+            Enemy(chronoferaPrefab, "Cronofera da Ponte", 30.2f, 0f, 0.8f, 0.6f);
 
             Sign(-9f, 0f, "As criaturas também atravessam o tempo.\nJovens: rápidas. Velhas: lentas e pesadas. Um dia, morrem.");
             Sign(-1f, 0f, "Este andaime é novo no verão.\nMadeira não dura para sempre.");

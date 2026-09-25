@@ -104,7 +104,10 @@ Clique na janela Game: fora de foco o Unity pausa o Play Mode.
   - Fases 1 e 2: os galhos das árvores (fase 1) usam a altura real do sprite de galho, em vez de uma tira achatada, sem mudar a colisão. A engrenagem da porta da fase 2 foi presa na parede, em vez de flutuar ao lado.
   - Fases 3 e 5 (segunda revisão): o fundo do lago da fase 3 não tem mais grama por baixo da água; a plataforma do ninho do pássaro na fase 5 ganhou postes e travessa.
   - Neve: o monte da fase 6 e a nevasca da fase 8 viraram montes arredondados em pixel art (a colisão da fase 6 segue o formato do monte em degraus invisíveis; a da fase 8 é um bloqueio). No inverno o chão de todas as fases fica coberto de neve; nas outras estações (e no editor) aparece a grama.
-  - Árvore caída da fase 6: um tronco deitado grosso com arbustos presos a ele, que mudam de cor com a estação (verdes na primavera, amarelados no outono, pálidos no inverno) e somem no verão.
+  - Árvore caída da fase 6: um tronco deitado grosso com arbustos presos a ele: verdes na primavera, secos (laranja-marrom) no outono com folhas secas no chão, brancos de neve no inverno, e somem no verão.
+  - Trepadeiras e espinhos usam sprites em pixel art próprios com fundo transparente (as peças do pacote tinham fundo escuro). A parede de espinhos da fase 9 cobre toda a passagem.
+  - Cachoeira da fase 3: borda curvando, sombra e brilho nas laterais e névoa na base; a água rasa ficou mais azul.
+  - Fase 4: a cronofera anciã agora patrulha no meio da ponte e cai no fosso quando a ponte quebra (antes ela ficava apoiada no batente do portão). O toco oco saiu do cenário.
 - **Estilo único**: a trepadeira usa o caule e as folhas do pacote. Neve, gelo e flocos usam texturas em pixel art geradas no mesmo tamanho de pixel (32 px por unidade, filtro ponto). As folhas ao vento são as folhas do pacote.
 - **Limpeza visual**:
   - o céu acompanha a câmera, sem faixa lisa no alto;
