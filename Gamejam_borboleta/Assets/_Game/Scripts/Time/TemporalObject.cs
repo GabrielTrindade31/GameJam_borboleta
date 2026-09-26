@@ -93,6 +93,9 @@ namespace ButterflyStep
             flashRoutine = StartCoroutine(Flash(flash));
             var fx = FeedbackFX.Instance;
             if (fx != null) fx.Burst(GetFocusPoint(), flash, state.isConsequence ? 24 : 10);
+            var player = Context.Player;
+            if (fx != null && player != null && Vector2.Distance(player.transform.position, GetFocusPoint()) < 18f)
+                fx.FloatingLabel(GetFocusPoint() + Vector3.up * 0.6f, state.name, state.isConsequence ? new Color(1f, 0.85f, 0.4f) : new Color(0.8f, 0.9f, 1f));
             StateChanged?.Invoke(this, state.name);
         }
 

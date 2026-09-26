@@ -12,11 +12,17 @@ namespace ButterflyStep
         [SerializeField] private string fall = "Fall";
         [SerializeField] private string attack = "Attack";
         [SerializeField] private string dead = "Dead";
+        [SerializeField] private string walk = "Walk";
+        [SerializeField] private string blink = "Blink";
+        [SerializeField] private string vanish = "Vanish";
+        [SerializeField] private float walkThreshold = 3.5f;
         [SerializeField] private float runThreshold = 0.6f;
 
         private PlayerController controller;
         private PlayerHealth health;
         private PlayerCombat combat;
+        private TimeManager time;
+        private float blinkTimer = 3f;
 
         private void Awake()
         {
@@ -28,6 +34,23 @@ namespace ButterflyStep
         private void OnEnable()
         {
             if (combat != null) combat.Attacked += OnAttack;
+        }
+
+        private void Start()
+        {
+            var ctx = LevelContext.Current;
+            time = ctx != null ? ctx.Time : null;
+            if (time != null) time.TimeChanged += OnTimeChanged;
+        }
+
+        private void OnDestroy()
+        {
+            if (time != null) time.TimeChanged -= OnTimeChanged;
+        }
+
+        private void OnTimeChanged(TimeState state)
+        {
+            if (animator != null && animator.Has(vanish) && (health == null || !health.IsDead)) animator.PlayOnce(vanish, idle);
         }
 
         private void OnDisable()
@@ -52,7 +75,17 @@ namespace ButterflyStep
 
             Vector2 v = controller.Velocity;
             if (!controller.IsGrounded) animator.Play(v.y > 0.1f ? jump : fall);
-            else animator.Play(Mathf.Abs(v.x) > runThreshold ? run : idle);
+            else if (Mathf.Abs(v.x) > runThreshold) animator.Play(Mathf.Abs(v.x) < walkThreshold && animator.Has(walk) ? walk : run);
+            else
+            {
+                blinkTimer -= Time.deltaTime;
+                if (blinkTimer <= 0f && animator.Has(blink))
+                {
+                    blinkTimer = Random.Range(2.5f, 5f);
+                    animator.PlayOnce(blink, idle);
+                }
+                else animator.Play(idle);
+            }
         }
     }
 }

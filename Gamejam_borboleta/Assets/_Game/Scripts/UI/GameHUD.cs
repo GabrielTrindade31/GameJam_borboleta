@@ -56,6 +56,9 @@ namespace ButterflyStep
         [Header("Poderes do tempo")]
         [SerializeField] private Image stasisFill;
         [SerializeField] private CanvasGroup stasisGroup;
+        [SerializeField] private Image boltFill;
+        [SerializeField] private CanvasGroup boltGroup;
+        private PlayerShooter shooter;
         [SerializeField] private CanvasGroup peekGroup;
         [SerializeField] private Text peekText;
 
@@ -387,6 +390,16 @@ namespace ButterflyStep
         {
             var ctx = LevelContext.Current;
             if (ctx == null) return;
+            if (boltFill != null && ctx.Player != null)
+            {
+                if (shooter == null) shooter = ctx.Player.GetComponent<PlayerShooter>();
+                if (shooter != null)
+                {
+                    boltFill.fillAmount = shooter.Charge;
+                    boltFill.color = shooter.Charge >= 1f ? new Color(0.75f, 0.6f, 1f) : new Color(0.4f, 0.35f, 0.55f);
+                    if (boltGroup != null) boltGroup.alpha = shooter.Unlocked ? 1f : 0f;
+                }
+            }
             if (stasisFill != null && ctx.Stasis != null)
             {
                 stasisFill.fillAmount = TimeStasis.Active ? ctx.Stasis.Remaining / 3f : ctx.Stasis.Energy;

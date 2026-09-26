@@ -106,8 +106,25 @@ Clique na janela Game: fora de foco o Unity pausa o Play Mode.
   - Neve: o monte da fase 6 e a nevasca da fase 8 viraram montes arredondados em pixel art (a colisão da fase 6 segue o formato do monte em degraus invisíveis; a da fase 8 é um bloqueio). No inverno o chão de todas as fases fica coberto de neve; nas outras estações (e no editor) aparece a grama.
   - Árvore caída da fase 6: um tronco deitado grosso com arbustos presos a ele: verdes na primavera, secos (laranja-marrom) no outono com folhas secas no chão, brancos de neve no inverno, e somem no verão.
   - Trepadeiras e espinhos usam sprites em pixel art próprios com fundo transparente (as peças do pacote tinham fundo escuro). A parede de espinhos da fase 9 cobre toda a passagem.
-  - Cachoeira da fase 3: borda curvando, sombra e brilho nas laterais e névoa na base; a água rasa ficou mais azul.
+  - Cachoeira da fase 3: sombra e brilho nas laterais e névoa na base (sem a elipse que ficava na borda); a água rasa ficou mais azul.
+  - Represa da fase 3: saiu o patamar elevado à direita (o topo da colina é contínuo), a fissura virou uma trinca em zigue-zague com ramificações e as gotas congeladas viraram pingentes de gelo pendurados no topo da represa. O espinheiro que ficava nesse patamar foi removido.
   - Fase 4: a cronofera anciã agora patrulha no meio da ponte e cai no fosso quando a ponte quebra (antes ela ficava apoiada no batente do portão). O toco oco saiu do cenário.
+- **Portão do Relógio** (fases 1, 5 e 8): um portão obrigatório com fechadura de engrenagem. A engrenagem só aparece no futuro e a fechadura enferruja depois de certo dia, então é preciso buscar a peça no futuro, **voltar no tempo** e encaixá-la antes da ferrugem. Uma vez aberto, o portão fica aberto dali em diante.
+  - Fase 1: engrenagem no platô a partir do dia 41; fechadura gira até o dia 30.
+  - Fase 5: engrenagem na nascente a partir do dia 51; fechadura gira até o dia 30. Como a semente da árvore-ponte fica depois do portão, tudo tem de ser feito no começo.
+  - Fase 8: engrenagem no início a partir do dia 91 (inverno); fechadura só gira no dia 1 (primavera).
+- **Semente do futuro** (fases 2, 4, 6 e 9): a saída fica no alto de um paredão. As sementes de trepadeira só aparecem no fim do ano, mas a trepadeira só pega se plantada no Dia 1 (primavera) e leva 30 dias para crescer. É preciso pegar a semente no futuro, ir até o pé do paredão, voltar ao Dia 1 parado ali, plantar e avançar para o verão para escalar.
+  - Fase 2: sementes no inverno (dia 51), plantar até o dia 11, cresce em 40 dias: a trepadeira sobe o barranco da saída na primavera (dia 61). Chegue ao pé do barranco depois de abrir o portão e volte ao outono parado ali.
+  - Fase 4: sementes no fosso no inverno (dia 61), plantar só no Dia 1, cresce em 20 dias: sobe ao degrau do fragmento no dia 21. Entre no fosso, passe o portão e volte ao Dia 1 parado ao pé do degrau.
+- **Deslizamento de pedras** (fase 8): no outono, pedras de verdade despencam de uma encosta rochosa e rolam pelo chão; cada uma tira 1 de vida (não mata na hora). A pausa do tempo (C) congela as pedras no ar.
+- **Disparo do Tempo** (novo poder): o baú da colmeia na fase 5 libera um raio que fere à distância (K, botão direito do mouse ou B no controle), com recarga de 2,5 s e barra no HUD. Fica salvo; quem começar pela fase 6 ou depois já o tem.
+- **Vespa do Tempo** (novo inimigo, fase 5): larva que persegue e morde de perto; a partir do dia 21 vira vespa que voa e atira de longe; no dia 51 fica lenta; no dia 71 morre.
+- **Consequências visíveis**: ao trocar de dia, cada objeto ou criatura perto de Eco que mudou mostra um rótulo flutuante com o novo estado (ex.: "Árvore adulta", "Lodo: Filhote").
+- **Cachoeiras**: agora são a textura de água do pacote descendo de verdade (a água corre), em vez de um retângulo parado.
+- **Eco com visual novo**: o personagem agora é o Hooded Protagonist da Penzilla Design, um ser encapuzado de olhos brilhantes. Ao trocar de dia ele some e reaparece (animação de desaparecer), pisca quando está parado e anda/corre conforme a velocidade. Crédito obrigatório "Graphics created by Penzilla Design" nos créditos do menu; o PNG fica fora do Git (licença não permite redistribuir).
+- **Fase 5**: a ponte de tronco e a copa caída usam sprites de tronco e pinheiro; a muda usa o broto do pacote.
+- **Fase 8**: o monte de neve agora dá para subir.
+- **Tela de fim de fase**: mostra o número do capítulo, fragmentos do relógio reunidos e as borboletas daquele capítulo (as salvas mais as pegas nesta tentativa).
 - **Estilo único**: a trepadeira usa o caule e as folhas do pacote. Neve, gelo e flocos usam texturas em pixel art geradas no mesmo tamanho de pixel (32 px por unidade, filtro ponto). As folhas ao vento são as folhas do pacote.
 - **Limpeza visual**:
   - o céu acompanha a câmera, sem faixa lisa no alto;

@@ -144,6 +144,8 @@ namespace ButterflyStep.EditorTools
             Sign(14f, 0f, "E avança 10 dias. Q volta 10 dias.\nVeja no topo o dia e a estação. Nunca dá para voltar antes do Dia 1.");
             Sign(21.5f, 7f, "No verão, o pinheiro adulto dá pinhas lá no alto.\nPinhas só brotam se forem plantadas na primavera...");
             Sign(30f, 7f, "O penhasco é alto demais. Uma árvore aqui ajudaria.\nSe ao menos alguém tivesse plantado algo antes...");
+            ChronoLock("L1", 47f, 12f, new Vector2(26f, 7.7f), 40, 30, "Uma engrenagem que a chuva do verão desenterrou! Ela vai com você para qualquer dia.");
+            Sign(45f, 12f, "Um portão com fechadura de relógio. Falta uma engrenagem...\nE no verão a fechadura enferruja. Talvez seja preciso trazer a peça do futuro para o passado.");
             Exit(52f, 13.2f);
             Save(scene, "Level01");
         }
@@ -219,7 +221,10 @@ namespace ButterflyStep.EditorTools
             Scenery(0f, -10f, -3f, 12f, 34f, 44f);
             Sign(-3f, 0f, "Na primavera, a correnteza do degelo arrasta coisas rio abaixo...");
             Sign(37.5f, 0f, "Um portão trancado guarda o fragmento do relógio.");
-            Exit(44f, 1.2f);
+            Ground(41.6f, 0f, 4.4f, 5f);
+            FutureSeedVine("L2", new Vector2(36.5f, 0.7f), 50, 41.25f, 0f, 20, 40, 5.6f, "Sementes de trepadeira trazidas pelo inverno! Elas vão com você para qualquer dia.", "Terra fofa ao pé do barranco. Uma trepadeira só pega se plantada no outono, até o Dia 11.");
+            Sign(38.2f, 0f, "Depois do portão, a saída fica no alto do barranco.\nUma trepadeira plantada no começo do outono estaria alta na primavera.");
+            Exit(44f, 6.2f);
             Save(scene, "Level02");
         }
 
@@ -244,9 +249,9 @@ namespace ButterflyStep.EditorTools
             Wall(20f, 2.5f, 4f, 32f, "Muralha");
             Ground(0f, 0f, 2f, 2.3f);
             Ground(2f, 0f, 2f, 4.6f);
-            Ground(4f, 0f, 12f, 5.2f, false);
+            Ground(4f, 0f, 7f, 5.2f, false);
+            Ground(11f, 0f, 5f, 5.2f);
             Ground(4f, 5.2f, 1.4f, 1.8f);
-            Ground(12f, 5.2f, 4f, 1.8f);
 
             const string cracked = "L3_PedrinhaQuebrada";
 
@@ -282,20 +287,26 @@ namespace ButterflyStep.EditorTools
             With(lakeT.AddState("Lago quase seco", TemporalCondition.Flag(cracked, 60)), baixo);
 
             var dam = TemporalRect("Represa", 11f, 5.2f, 1f, 2.6f, RockColor, 1, true);
-            var pedrinha = Shape("Pedrinha", dam.transform, new Vector2(12.25f, 7.25f), new Vector2(0.5f, 0.5f), circleSprite, InteractColor, 5);
-            var fissura = Part(dam.transform, "Fissura", 11.4f, 5.6f, 0.2f, 2.2f, new Color(0.2f, 0.2f, 0.25f), 3, false, squareSprite);
-            var gotas = Holder(dam.transform, "Gotas Congeladas", new Vector2(12.2f, 7.4f));
-            Shape("Gelo", gotas.transform, new Vector2(12.2f, 7.3f), new Vector2(0.4f, 0.6f), triangleSprite, IceColor, 4);
+            var pedrinha = Shape("Pedrinha", dam.transform, new Vector2(12.25f, 5.45f), new Vector2(0.5f, 0.5f), circleSprite, InteractColor, 5);
+            var fissura = Crack(dam.transform, 11.5f, 5.35f, 7.6f);
+            var gotas = Holder(dam.transform, "Gotas Congeladas", new Vector2(11.5f, 7.8f));
+            float[] ix = { 11.12f, 11.38f, 11.62f, 11.86f };
+            float[] ih = { 0.3f, 0.5f, 0.22f, 0.38f };
+            for (int i = 0; i < ix.Length; i++)
+            {
+                var icicle = Shape("Pingente", gotas.transform, new Vector2(ix[i], 7.8f - ih[i] * 0.5f), new Vector2(0.14f, ih[i]), triangleSprite, new Color(0.85f, 0.95f, 1f, 0.95f), 4);
+                icicle.transform.rotation = Quaternion.Euler(0f, 0f, 180f);
+            }
             var fio = Holder(dam.transform, "FioDagua", new Vector2(14f, 4f));
-            WaterMesh(fio.transform, "Filete", 12f, 7.08f, 4f, 0.08f, 1.5f, 6, RiverTop, RiverBottom);
-            Waterfall(fio.transform, "Queda", 16f, 0f, 0.12f, 7.05f);
+            WaterMesh(fio.transform, "Filete", 12f, 5.28f, 4f, 0.08f, 1.5f, 6, RiverTop, RiverBottom);
+            Waterfall(fio.transform, "Queda", 16f, 0f, 0.12f, 5.25f);
             var riacho = Holder(dam.transform, "Riacho", new Vector2(14f, 4f));
-            WaterMesh(riacho.transform, "Topo", 12f, 7.22f, 4f, 0.22f, 2.5f, 6, RiverTop, RiverBottom);
-            Waterfall(riacho.transform, "Queda", 16f, 0f, 0.4f, 7.2f);
+            WaterMesh(riacho.transform, "Topo", 12f, 5.42f, 4f, 0.22f, 2.5f, 6, RiverTop, RiverBottom);
+            Waterfall(riacho.transform, "Queda", 16f, 0f, 0.4f, 5.4f);
             WaterMesh(riacho.transform, "Leito", 16.4f, 0.22f, 3.6f, 0.22f, 2.5f, 6, RiverTop, RiverBottom);
             var cachoeira = Holder(dam.transform, "Cachoeira", new Vector2(14f, 4f));
-            WaterMesh(cachoeira.transform, "Topo", 12f, 7.3f, 4f, 0.3f, 4f, 6, RiverTop, RiverBottom);
-            Waterfall(cachoeira.transform, "Queda", 16f, 0f, 1.1f, 7.3f);
+            WaterMesh(cachoeira.transform, "Topo", 11f, 5.5f, 5f, 0.3f, 4f, 6, RiverTop, RiverBottom);
+            Waterfall(cachoeira.transform, "Queda", 16f, 0f, 1.1f, 5.5f);
             WaterMesh(cachoeira.transform, "Leito", 17.1f, 0.35f, 2.9f, 0.35f, 4f, 6, RiverTop, RiverBottom);
 
             With(dam.AddState("Represa intacta"), pedrinha);
@@ -304,9 +315,8 @@ namespace ButterflyStep.EditorTools
             Consequence(With(dam.AddState("O degelo formou um riacho", TemporalCondition.Flag(cracked, 30), TemporalCondition.NotIn(Season.Inverno)), fissura, riacho));
             Consequence(With(Hidden(dam.AddState("Represa rompida: cachoeira", TemporalCondition.Flag(cracked, 60))), cachoeira));
 
-            Interact(dam.transform, new Vector2(12.2f, 7.6f), 1.2f, cracked, "Quebrar a pedrinha", "Uma pedrinha se soltou da represa. Quase nada mudou... por enquanto.");
+            Interact(dam.transform, new Vector2(12.2f, 5.8f), 1.2f, cracked, "Quebrar a pedrinha", "Uma pedrinha se soltou da represa. Quase nada mudou... por enquanto.");
 
-            Enemy(thornPrefab, "Espinheiro do Penhasco", 14.8f, 7f, 0f, 0f);
             Enemy(slimePrefab, "Lodo", 27.5f, 0f, 2.5f, 2.5f);
             Enemy(thornPrefab, "Espinheiro do Penhasco Alto", 41.3f, 12f, 0f, 0f);
             Ground(34f, -5f, 11f, 12f);
@@ -383,17 +393,20 @@ namespace ButterflyStep.EditorTools
             Sign(-9f, 0f, "As criaturas também atravessam o tempo.\nJovens: rápidas. Velhas: lentas e pesadas. Um dia, morrem.");
             Sign(-1f, 0f, "Este andaime é novo no verão.\nMadeira não dura para sempre.");
             Sign(10f, 0f, "O vale é vigiado. Em qual dia ele é mais seguro?\nE qual dia você PRECISA ver?");
-            Sign(22.5f, 0f, "O fragmento do relógio brilha lá embaixo, sob a ponte...");
+            Sign(22.5f, 0f, "O fragmento do relógio brilha lá embaixo, sob a ponte...\nSó o peso de uma cronofera velha a derruba. Se ela morrer jovem, volte a um dia antes.");
             Scenery(0f, -11f, -4f, 10.5f, 21.5f);
             Scenery(-7f, 24.8f);
             Wall(27f, -3.6f, 0.8f, 3.2f, "Batente do Portão");
-            Enemy(slimePrefab, "Lodo do Fosso", 30f, -7f, 1.2f, 1.2f);
+            Enemy(slimePrefab, "Lodo do Fosso", 25.6f, -7f, 0.8f, 0.8f);
             Gate("Portão do Fosso", 27f, -7f, 0.8f, 3.4f, "L4_PortaoAberto", true);
             KeyLock(new Vector2(26.2f, -6.2f), "L4_PortaoAberto", "chave", "Chave do ninho", "Trancado. E no inverno o gelo prende a fechadura.", TemporalCondition.NotIn(Season.Inverno));
             Pickup("chave", "Chave do ninho", new Vector2(20.5f, 0.7f), "Uma chave brilhando no ninho abandonado! Ela vai com você para qualquer dia.", TemporalCondition.Since(60));
             Sign(16.5f, 0f, "O ninho da cronofera. Enquanto ela viver, ninguém chega perto.");
             Sign(25f, -7f, "Um portão com fechadura. No inverno, o gelo não deixa a chave girar.");
-            Exit(30.8f, -5.8f);
+            Ground(30.2f, -7f, 1.8f, 3.6f);
+            FutureSeedVine("L4", new Vector2(24.2f, -5.2f), 60, 29.6f, -7f, 20, 20, 3.9f, "Sementes de trepadeira que o inverno deixou no fosso! Elas vão com você para qualquer dia.", "Terra fofa. Uma trepadeira só pega se plantada no Dia 1, no começo do verão.");
+            Sign(28.6f, -7f, "O fragmento está no alto do degrau de pedra.\nUma trepadeira plantada no Dia 1 cresce até o fim do verão.");
+            Exit(31.1f, -2.2f);
             Save(scene, "Level04");
         }
 
@@ -521,9 +534,18 @@ namespace ButterflyStep.EditorTools
             var treeT = TemporalHolder("Árvore da beira", new Vector2(25f, 0f));
             var terra = Part(treeT.transform, "TerraFertil", 24.3f, 0f, 1.4f, 0.15f, new Color(0.3f, 0.2f, 0.12f), 3, false, squareSprite);
             var semente = Holder(treeT.transform, "Semente", new Vector2(25f, 0.1f));
-            Shape("Monte", semente.transform, new Vector2(25f, 0.1f), new Vector2(0.8f, 0.35f), circleSprite, new Color(0.35f, 0.25f, 0.15f), 3);
-            Part(semente.transform, "Broto", 24.95f, 0.1f, 0.1f, 0.35f, new Color(0.45f, 0.8f, 0.35f), 4, false, squareSprite);
-            var mudaSeca = Part(treeT.transform, "MudaSeca", 24.9f, 0f, 0.2f, 0.9f, new Color(0.55f, 0.45f, 0.25f), 4, false, squareSprite);
+            GameObject mudaSeca;
+            if (tiles != null)
+            {
+                Decor(semente.transform, tiles.sprout, new Vector2(25f, 0.1f), 0.9f, 4);
+                mudaSeca = Holder(treeT.transform, "MudaSeca", new Vector2(25f, 0f));
+                Decor(mudaSeca.transform, tiles.sprout, new Vector2(25f, 0.1f), 1.2f, 4, new Color(0.6f, 0.45f, 0.25f));
+            }
+            else
+            {
+                Part(semente.transform, "Broto", 24.95f, 0.1f, 0.1f, 0.35f, new Color(0.45f, 0.8f, 0.35f), 4, false, squareSprite);
+                mudaSeca = Part(treeT.transform, "MudaSeca", 24.9f, 0f, 0.2f, 0.9f, new Color(0.55f, 0.45f, 0.25f), 4, false, squareSprite);
+            }
             GameObject Leaning(string name, Color leaves)
             {
                 var h = Holder(treeT.transform, name, new Vector2(25f, 0f));
@@ -538,9 +560,28 @@ namespace ButterflyStep.EditorTools
             }
             var inclinada = Leaning("ArvoreInclinada", new Color(0.3f, 0.7f, 0.35f));
             var caida = Holder(treeT.transform, "TroncoPonte", new Vector2(32f, 0f));
-            Part(caida.transform, "Toco", 24.6f, 0f, 0.8f, 0.6f, WoodColor, 4, false);
-            Rect("Tronco (ponte)", caida.transform, 25.4f, -0.45f, 14f, 0.5f, ConsequenceColor, 4, true);
-            Shape("Copa caída", caida.transform, new Vector2(39.8f, 0.4f), new Vector2(3f, 1.6f), circleSprite, new Color(0.3f, 0.6f, 0.3f), 3);
+            if (tiles != null && tiles.stump != null)
+            {
+                Rect("Toco", caida.transform, 24.55f, 0f, 0.9f, 0.7f, new Color(1f, 0.92f, 0.85f), 4, false, tiles.stump);
+                Rect("Tronco (ponte)", caida.transform, 25.4f, -0.45f, 14f, 0.5f, Color.clear, 4, true, squareSprite);
+                float thick = 0.75f;
+                float s = thick / tiles.stump.bounds.size.x;
+                var log = Go("Tronco Deitado", caida.transform, new Vector2(25.1f, -0.3f));
+                var logSr = AddSprite(log, tiles.stump, new Color(1f, 0.92f, 0.85f), 4);
+                logSr.drawMode = SpriteDrawMode.Tiled;
+                logSr.size = new Vector2(tiles.stump.bounds.size.x, 14.4f / s);
+                log.transform.localScale = new Vector3(s, s, 1f);
+                log.transform.rotation = Quaternion.Euler(0f, 0f, -90f);
+                var crown = SeasonalTree(caida.transform, new Vector2(39.3f, 0.2f), 1, 0.85f, 3);
+                float half = tiles.pineMid.bounds.size.x * 0.85f * 0.5f;
+                crown.transform.position = new Vector3(39.3f, half - 0.3f, 0f);
+                crown.transform.rotation = Quaternion.Euler(0f, 0f, -90f);
+            }
+            else
+            {
+                Part(caida.transform, "Toco", 24.6f, 0f, 0.8f, 0.6f, WoodColor, 4, false);
+                Rect("Tronco (ponte)", caida.transform, 25.4f, -0.45f, 14f, 0.5f, ConsequenceColor, 4, true);
+            }
 
             With(treeT.AddState("Terra fértil"), terra);
             With(treeT.AddState("Semente plantada", TemporalCondition.Flag(seed)), semente);
@@ -550,10 +591,12 @@ namespace ButterflyStep.EditorTools
             Interact(treeT.transform, new Vector2(25f, 0.7f), 1.3f, seed, "Plantar semente", "Você plantou uma semente à beira do abismo.");
 
             Enemy(slimePrefab, "Lodo", 17f, 0f, 3f, 3f);
-            Enemy(mothPrefab, "Lagarta da Beira", 21f, 0f, 1.5f, 1.5f, "L5_Lagarta1_Morta");
+            Enemy(mothPrefab, "Lagarta da Beira", 19.5f, 0f, 1.2f, 1.2f, "L5_Lagarta1_Morta");
+            ChronoLock("L5", 22.5f, 0f, new Vector2(9.5f, 0.7f), 50, 30, "Uma engrenagem apareceu onde a nascente secou! Ela vai com você para qualquer dia.");
+            Sign(15.5f, 0f, "O portão do relógio fecha o caminho até o abismo.\nA engrenagem só aparece no futuro, mas a fechadura enferruja no dia 31.");
             Enemy(mothPrefab, "Lagarta do Outro Lado", 40.5f, 0f, 1.5f, 1.5f, "L5_Lagarta2_Morta");
             Ground(47f, -5f, 8f, 12f);
-            Enemy(thornPrefab, "Espinheiro do Casulo", 49.2f, 7f, 0f, 0f);
+            Enemy(waspPrefab, "Vespa do Tempo", 50.5f, 7f, 2f, 2f);
             Pickup("pinha", "Pinha", new Vector2(33f, 0.9f), "Uma pinha caiu do tronco! Ela vai com você para qualquer dia.", TemporalCondition.Flag(treeFallen));
             PlantedPine("Pinheiro da Outra Margem", 43.8f, 0f, "L5_PinhaPlantada", 20, "pinha", "Pinha", "Plantar a pinha", "Terra fértil. No verão ela seca: só a primavera faz uma pinha brotar.",
                 new[] { new Vector3(42f, 2.6f, 3f), new Vector3(43.5f, 5f, 3f), new Vector3(44.8f, 7.3f, 3f) },

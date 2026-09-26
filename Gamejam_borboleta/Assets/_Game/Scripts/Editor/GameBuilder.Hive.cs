@@ -4,6 +4,34 @@ namespace ButterflyStep.EditorTools
 {
     public static partial class GameBuilder
     {
+        private static void PowerChestAt(Transform parent, Vector2 position)
+        {
+            var chestGo = Go("Baú do Tempo", parent, position);
+            var closed = Go("Fechado", chestGo.transform, position);
+            Decor(closed.transform, tiles.hiveChestClosed, position, 1.4f, 3);
+            if (tiles.hiveGem != null)
+            {
+                var gem = Go("Gema Azul", closed.transform, position + new Vector2(0f, 1.25f));
+                var gemSr = AddSprite(gem, tiles.hiveGem, Color.white, 4);
+                gemSr.sharedMaterial = unlitSprite;
+                gem.AddComponent<PulseGlow>();
+            }
+            var open = Go("Aberto", chestGo.transform, position);
+            Decor(open.transform, tiles.hiveChestOpen, position, 1.4f, 3);
+            open.SetActive(false);
+            var chest = chestGo.AddComponent<PowerChest>();
+            Set(chest, "closedVisual", closed);
+            Set(chest, "openVisual", open);
+            var interact = Interact(chestGo.transform, position + new Vector2(0f, 0.6f), 1.2f, "L5_BauDoTempo", "Abrir o baú do tempo", "O baú guardava um eco do relógio de Eco.");
+            UnityEditor.Events.UnityEventTools.AddPersistentListener(GetOnInteract(interact), chest.Unlock);
+        }
+
+        private static UnityEngine.Events.UnityEvent GetOnInteract(Interactable interact)
+        {
+            var field = typeof(Interactable).GetField("onInteract", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
+            return (UnityEngine.Events.UnityEvent)field.GetValue(interact);
+        }
+
         private static void HiveArena(GameObject hiveWall)
         {
             if (tiles == null || tiles.hiveCombDark == null) return;
@@ -59,14 +87,7 @@ namespace ButterflyStep.EditorTools
             }
 
             Decor(hive, tiles.hiveDipper, new Vector2(56.4f, 7f), 1f, 3);
-            Decor(hive, tiles.hiveChestOpen, new Vector2(77.3f, 7f), 1.2f, 3);
-            if (tiles.hiveGem != null)
-            {
-                var gem = Go("Gema Azul", hive, new Vector2(77.3f, 7.95f));
-                var gemSr = AddSprite(gem, tiles.hiveGem, Color.white, 4);
-                gemSr.sharedMaterial = unlitSprite;
-                gem.AddComponent<PulseGlow>();
-            }
+            PowerChestAt(hive, new Vector2(77.3f, 7f));
 
             if (tiles.mine != null)
             {

@@ -53,15 +53,36 @@ namespace ButterflyStep.EditorTools
             skySprite = null;
             if (!HasArt) return;
 
-            string c = $"{LegacyRoot}/Character";
-            var jumpAll = SliceSheet($"{c}/Jump-All/Jump-All-Sheet.png", 64, 64, 0, 32);
-            playerArt = new ArtSet()
-                .Add("Idle", SliceSheet($"{c}/Idle/Idle-Sheet.png", 64, 80, 0, 32), 6f)
-                .Add("Run", SliceSheet($"{c}/Run/Run-Sheet.png", 80, 80, 0, 32), 12f)
-                .Add("Jump", Range(jumpAll, 2, 3), 10f, false)
-                .Add("Fall", Range(jumpAll, 7, 4), 8f, false)
-                .Add("Attack", SliceSheet($"{c}/Attack-01/Attack-01-Sheet.png", 96, 80, 0, 32), 20f, false)
-                .Add("Dead", SliceSheet($"{c}/Dead/Dead-Sheet.png", 64, 64, 0, 32), 10f, false);
+            string hooded = $"{ArtRoot}/Penzilla/HoodedProtagonist.png";
+            if (File.Exists(hooded))
+            {
+                const float ppu = 15f;
+                var rows = SliceRows(hooded, 32, 32, ppu);
+                var jump = rows[5];
+                playerArt = new ArtSet()
+                    .Add("Idle", rows[0], 3f)
+                    .Add("Blink", rows[1], 6f, false)
+                    .Add("Walk", rows[2], 8f)
+                    .Add("Run", rows[3], 14f)
+                    .Add("Duck", rows[4], 12f, false)
+                    .Add("Jump", Range(jump, 1, 3), 10f, false)
+                    .Add("Fall", Range(jump, 4, 4), 8f, false)
+                    .Add("Vanish", rows[6], 12f, false)
+                    .Add("Dead", rows[7], 10f, false)
+                    .Add("Attack", rows[8], 24f, false);
+            }
+            else
+            {
+                string c = $"{LegacyRoot}/Character";
+                var jumpAll = SliceSheet($"{c}/Jump-All/Jump-All-Sheet.png", 64, 64, 0, 32);
+                playerArt = new ArtSet()
+                    .Add("Idle", SliceSheet($"{c}/Idle/Idle-Sheet.png", 64, 80, 0, 32), 6f)
+                    .Add("Run", SliceSheet($"{c}/Run/Run-Sheet.png", 80, 80, 0, 32), 12f)
+                    .Add("Jump", Range(jumpAll, 2, 3), 10f, false)
+                    .Add("Fall", Range(jumpAll, 7, 4), 8f, false)
+                    .Add("Attack", SliceSheet($"{c}/Attack-01/Attack-01-Sheet.png", 96, 80, 0, 32), 20f, false)
+                    .Add("Dead", SliceSheet($"{c}/Dead/Dead-Sheet.png", 64, 64, 0, 32), 10f, false);
+            }
 
             string m = $"{LegacyRoot}/Mob";
             boarArt = new ArtSet { facesLeft = true }

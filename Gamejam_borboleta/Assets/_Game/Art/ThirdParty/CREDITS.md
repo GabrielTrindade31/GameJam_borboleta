@@ -3,6 +3,7 @@
 | Pasta | Pacote | Autor | Link | Licença |
 |---|---|---|---|---|
 | `LegacyFantasy/` | Legacy Fantasy – High Forest 2.3 (herói, javali, caracol, abelha, céu, florestas, tiles) | Anokolisa | https://anokolisa.itch.io/sidescroller-pixelart-sprites-asset-pack-forest-16x16 | Grátis, uso pessoal e comercial permitido pelo autor. Não revender/redistribuir os arquivos. |
+| `Penzilla/` | Hooded Protagonist Animated Character (Eco) | Penzilla Design | https://penzilla.itch.io/hooded-protagonist | Penzilla Standard License: uso pessoal e comercial em **um projeto**, crédito obrigatório "Graphics created by Penzilla Design", **proibido redistribuir os arquivos**; se o jogo for publicado, enviar o link para PenzillaDesign@gmail.com. Sprite usado sem modificações (só escala). |
 | `CraftpixSlime/` | Free Slime Mobs Pixel Art (Slime1) | Craftpix (Free Game Assets) | https://free-game-assets.itch.io/free-slime-mobs-pixel-art-top-down-sprite-pack | Craftpix Free License: uso comercial ok, crédito opcional, **proibido redistribuir os arquivos brutos**. https://craftpix.net/file-licenses/ |
 | `CraftpixPlant/` | Free Pixel Predator Plant Mob Sprites (Plant2) | Craftpix (Free Game Assets) | https://free-game-assets.itch.io/free-predator-plant-mobs-pixel-art-pack | Craftpix Free License (idem acima). |
 

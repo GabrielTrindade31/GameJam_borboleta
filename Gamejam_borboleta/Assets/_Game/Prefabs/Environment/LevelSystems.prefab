@@ -527,6 +527,7 @@ MonoBehaviour:
     timeSwirl: {fileID: 21300000, guid: 3a0588604b76df544b5d3c78ba0ba8cc, type: 3}
   spriteMaterial: {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   sortingOrder: 45
+  labelFont: {fileID: 12800000, guid: de60a504ace64ab4993a9b96b9e6aefb, type: 3}
 --- !u!114 &5982130404315950542
 MonoBehaviour:
   m_ObjectHideFlags: 0

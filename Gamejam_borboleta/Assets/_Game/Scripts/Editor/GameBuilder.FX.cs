@@ -16,6 +16,7 @@ namespace ButterflyStep.EditorTools
         private static Material unlitSprite;
         private static Material litSprite;
         private static Material waterMaterial;
+        private static Material waterfallMaterial;
         private static Sprite glowSprite;
         private static Sprite snowFill, snowCap, iceTile, snowFlake;
 
@@ -79,6 +80,18 @@ namespace ButterflyStep.EditorTools
             {
                 waterMaterial.mainTexture = squareSprite.texture;
                 EditorUtility.SetDirty(waterMaterial);
+            }
+            string fallPath = $"{Root}/Materials/WaterfallFlow.mat";
+            waterfallMaterial = AssetDatabase.LoadAssetAtPath<Material>(fallPath);
+            if (waterfallMaterial == null && litSprite != null)
+            {
+                waterfallMaterial = new Material(litSprite) { name = "WaterfallFlow" };
+                AssetDatabase.CreateAsset(waterfallMaterial, fallPath);
+            }
+            if (waterfallMaterial != null && tiles != null && tiles.waterfall != null)
+            {
+                waterfallMaterial.mainTexture = tiles.waterfall.texture;
+                EditorUtility.SetDirty(waterfallMaterial);
             }
             sporeFrames = SliceGrid($"{FxRoot}/Spore.png", 100, 100, 64f);
             timeWaveFrames = SliceGrid($"{FxRoot}/TimeWave.png", 100, 100, 64f);
@@ -295,14 +308,20 @@ namespace ButterflyStep.EditorTools
 
         private static GameObject Waterfall(Transform parent, string name, float xMin, float yBottom, float w, float h)
         {
-            var go = Rect(name, parent, xMin, yBottom, w, h, tiles != null && tiles.waterfall != null ? new Color(1f, 1f, 1f, 0.95f) : WaterColor, 5, false, tiles != null && tiles.waterfall != null ? tiles.waterfall : squareSprite);
+            GameObject go;
+            if (tiles != null && tiles.waterfall != null && waterfallMaterial != null)
+            {
+                go = Go(name, parent, new Vector2(xMin + w * 0.5f, yBottom + h));
+                go.AddComponent<MeshFilter>();
+                var mr = go.AddComponent<MeshRenderer>();
+                mr.sharedMaterial = waterfallMaterial;
+                mr.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
+                mr.receiveShadows = false;
+                go.AddComponent<FlowingWater>().Setup(tiles.waterfall, w, h, 4.5f, 5);
+            }
+            else go = Rect(name, parent, xMin, yBottom, w, h, WaterColor, 5, false, squareSprite);
             var fall = Go("Fios", go.transform, new Vector2(xMin + w * 0.5f, yBottom + h));
             fall.AddComponent<WaterFall>().Setup(w, h, squareSprite, 6);
-            float edge = Mathf.Min(0.14f, w * 0.25f);
-            Part(go.transform, "Sombra", xMin, yBottom, edge, h, new Color(0.08f, 0.25f, 0.5f, 0.55f), 6, false, squareSprite);
-            Part(go.transform, "Brilho", xMin + w - edge, yBottom, edge, h, new Color(1f, 1f, 1f, 0.35f), 6, false, squareSprite);
-            var lip = Shape("Borda", go.transform, new Vector2(xMin + w * 0.45f, yBottom + h - 0.05f), new Vector2(w + 0.35f, 0.3f), circleSprite, new Color(0.55f, 0.82f, 1f, 0.95f), 6);
-            lip.GetComponent<SpriteRenderer>().sharedMaterial = unlitSprite;
             if (glowSprite != null)
             {
                 var mist = Shape("Névoa", go.transform, new Vector2(xMin + w * 0.5f, yBottom + 0.25f), new Vector2(w + 1.6f, 0.9f), glowSprite, new Color(1f, 1f, 1f, 0.55f), 7);

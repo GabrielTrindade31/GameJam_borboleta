@@ -235,6 +235,7 @@ namespace ButterflyStep
             if (instant || !stageChanged) return;
             var fx = FeedbackFX.Instance;
             if (fx != null) fx.Evolve(transform.position + Vector3.up * stage.size * 0.5f, StageColor, stage.size);
+            if (fx != null && NearPlayer()) fx.FloatingLabel(Center + Vector3.up * (stage.size * 0.6f + 0.3f), $"{displayName}: {stage.name}", new Color(1f, 0.6f, 0.5f));
             ShowStageMessage();
         }
 

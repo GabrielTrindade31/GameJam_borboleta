@@ -65,7 +65,7 @@ namespace ButterflyStep.EditorTools
             public Sprite[] yellowPines;
             public Sprite hollowLog, hollowStump;
             public Sprite leafGreen, leafGreen2, leafDry, vineStem;
-            public Sprite hiveComb, hiveCombDark, hiveChestOpen, hiveGem, hiveArch, hiveWindow, hiveDipper, honeyDrip;
+            public Sprite hiveComb, hiveCombDark, hiveChestOpen, hiveChestClosed, hiveGem, hiveArch, hiveWindow, hiveDipper, honeyDrip;
         }
 
         private static TileSet tiles;
@@ -170,12 +170,13 @@ namespace ButterflyStep.EditorTools
 
             var hv = Cut($"{a}/Hive.png", 32,
                 new Piece("hiveComb", 0, 64, 48, 32), new Piece("hiveCombDark", 48, 64, 48, 32),
-                new Piece("hiveChestOpen", 85, 42, 22, 21, true, 0f), new Piece("hiveGem", 97, 98, 13, 13, true),
+                new Piece("hiveChestClosed", 85, 42, 22, 21, true, 0f), new Piece("hiveChestOpen", 85, 9, 22, 22, true, 0f), new Piece("hiveGem", 97, 98, 13, 13, true),
                 new Piece("hiveArch", 64, 160, 48, 64, false, 0f), new Piece("hiveWindow", 0, 208, 48, 48),
                 new Piece("hiveDipper", 112, 120, 16, 50, true, 0f), new Piece("honeyDrip", 112, 0, 16, 46, true, 1f));
             tiles.hiveComb = Get(hv, "hiveComb");
             tiles.hiveCombDark = Get(hv, "hiveCombDark");
             tiles.hiveChestOpen = Get(hv, "hiveChestOpen");
+            tiles.hiveChestClosed = Get(hv, "hiveChestClosed");
             tiles.hiveGem = Get(hv, "hiveGem");
             tiles.hiveArch = Get(hv, "hiveArch");
             tiles.hiveWindow = Get(hv, "hiveWindow");

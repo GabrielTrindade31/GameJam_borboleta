@@ -64,8 +64,8 @@ namespace ButterflyStep.EditorTools
             Offspring(slimePrefab, "Filhote de Lodo (nasce no dia 31)", 39.5f, 0f, 1.5f, 1.5f, 30, "L6_MaeLodo");
             Offspring(slimePrefab, "Filhote de Lodo (nasce no dia 61)", 41.5f, 0f, 1.5f, 1.5f, 60, "L6_MaeLodo");
             Ground(47.5f, 0f, 6.5f, 5f);
-            ClimbVine("Trepadeira do Paredão", 47.1f, 0f, 5.6f);
-            Sign(45.6f, 0f, "A saída fica no alto do paredão.\nNa primavera e no verão uma trepadeira cobre a rocha: segure W para subir.");
+            FutureSeedVine("L6", new Vector2(-5.5f, 0.7f), 60, 47.1f, 0f, 30, 30, 5.6f, "Sementes de trepadeira caídas no fim do ano! Elas vão com você para qualquer dia.", "Terra fofa ao pé do paredão. Uma trepadeira só pega se plantada na primavera (Dia 1).");
+            Sign(45.6f, 0f, "A saída fica no alto do paredão. Nenhuma trepadeira cresce aqui...\nPlante uma na primavera e ela estará alta no verão (segure W para subir).");
             Sign(35f, 0f, "Uma mãe lodo vive neste corredor. Seus filhotes nascem nos dias 31 e 61...\nse ela ainda estiver viva quando chegar a hora.");
 
             Sign(-9f, 0f, "Esta fase começa no INVERNO. Você pode voltar no tempo (Q) até a primavera.\nSegure SHIFT + Q para ESPIAR outro dia sem sair do lugar.");
@@ -144,8 +144,10 @@ namespace ButterflyStep.EditorTools
             Kill(50f, -9f, 7.5f);
             SeasonWind("Vento de Outono", 47.8f, 0f, 11.2f, 7f, new Vector2(12f, 0f), Season.Outono, new Color(1f, 0.75f, 0.45f));
 
-            SeasonalHazard("Deslizamento de pedras", 3f, 0f, 9f, 3f, Season.Outono, tiles != null ? tiles.rockSmall : null, Color.white, 0.5f);
-            SnowDrift("Nevasca", 32f, 0f, 5f, 5f, false);
+            ChronoLock("L8", 13.5f, 0f, new Vector2(-6f, 0.7f), 90, 60, "Uma engrenagem que o gelo do inverno trouxe à tona! Ela vai com você para qualquer dia.");
+            Sign(-3.5f, 0f, "Um portão do relógio logo no começo. A engrenagem só surge no inverno...\nmas a fechadura enferruja no outono (Dia 61). Traga a peça do futuro.");
+            RockSlide(3f, 12f, 0f, Season.Outono);
+            SnowDrift("Nevasca", 32f, 0f, 5f, 5f);
             SeasonalHazard("Espinhos floridos", 42f, 0f, 8f, 1.6f, Season.Verao, tiles != null ? tiles.bush : null, new Color(0.9f, 0.55f, 0.85f), 0.3f);
 
             Enemy(slimePrefab, "Mãe Lodo", 29f, 0f, 2f, 2f, "L8_MaeLodo");
@@ -155,9 +157,9 @@ namespace ButterflyStep.EditorTools
             Sign(45.4f, 0f, "Um abismo largo demais para um pulo comum.\nNo outono, o vento da encosta sopra forte para a direita...");
             Enemy(chronoferaPrefab, "Cronofera da Encosta", 35.5f, 0f, 1.5f, 1.5f);
 
-            Sign(-9f, 0f, "Outono: pedras rolam da encosta. Em outra estação elas estariam quietas...");
+            Sign(-9f, 0f, "Outono: pedras despencam da encosta. Em outra estação ela estaria quieta...\nC (pausa do tempo) congela as pedras no ar.");
             Sign(14f, 0f, "Um rio. Só dá para atravessar congelado.");
-            Sign(30f, 0f, "No inverno, uma nevasca fecha a passagem.");
+            Sign(30f, 0f, "No inverno, a neve se acumula num monte alto. Dá para subir por ele.");
             Sign(40f, 0f, "No verão, estes arbustos soltam espinhos venenosos.");
             Scenery(0f, -11f, 1f, 28f, 38f, 44.5f);
             Exit(59.4f, 1.2f);
@@ -215,14 +217,18 @@ namespace ButterflyStep.EditorTools
             Rule("L9_PortaDoRelogio", "Caixa na placa no Dia 1 (primavera) → a porta do relógio fica aberta para sempre", TemporalCondition.FlagAt(plate, 0));
 
             Enemy(chronoferaPrefab, "Cronofera do Corredor", 38f, 0f, 5f, 5f);
-            Set(Enemy(chronoferaPrefab, "Cronofera que nasce no verão", 47f, 0f, 4f, 4f), "birthDay", 30);
+            Set(Enemy(chronoferaPrefab, "Cronofera que nasce no verão", 44.5f, 0f, 3f, 3f), "birthDay", 30);
             Enemy(thornPrefab, "Espinheiro do Corredor", 43f, 0f, 0f, 0f);
 
             Sign(-9f, 0f, "No inverno a trepadeira está seca. Na primavera, ela fecha a passagem.");
             Sign(19.5f, 0f, "A porta do relógio só abre se esta placa estiver pressionada no DIA 1.\nEmpurrar a caixa agora (no inverno) não conta...");
             Sign(31f, 0f, "Cronoferas jovens são rápidas. Velhas, lentas. No fim do ano, já não existem.");
-            Scenery(0f, -11f, -4f, 5f, 34f, 52f);
-            Exit(53.5f, 1.2f);
+            Ground(50f, 0f, 7f, 5f);
+            FutureSeedVine("L9", new Vector2(-6f, 0.7f), 60, 49.3f, 0f, 30, 30, 5.6f, "Sementes de uma trepadeira que só existe no fim do ano! Elas vão com você para qualquer dia.", "Terra fofa. Uma trepadeira cresceria aqui... mas só se plantada na primavera (Dia 1).");
+            Sign(47.2f, 0f, "A saída fica no alto do paredão. Terra fofa ao pé dele:\numa trepadeira plantada no Dia 1 estaria crescida no verão.");
+            Scenery(0f, -11f, -4f, 5f, 34f);
+            Scenery(5f, 55.5f);
+            Exit(53.5f, 6.2f);
             Save(scene, "Level09");
         }
 

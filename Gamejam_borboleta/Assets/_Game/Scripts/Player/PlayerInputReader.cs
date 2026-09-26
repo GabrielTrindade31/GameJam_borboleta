@@ -18,6 +18,7 @@ namespace ButterflyStep
         private InputAction restart;
         private InputAction peek;
         private InputAction stasis;
+        private InputAction shoot;
         private InputActionMap map;
 
         public float MoveX => move != null ? move.ReadValue<Vector2>().x : 0f;
@@ -31,6 +32,7 @@ namespace ButterflyStep
         public bool RestartPressed => Pressed(restart);
         public bool PeekHeld => peek != null && peek.IsPressed();
         public bool StasisPressed => Pressed(stasis);
+        public bool ShootPressed => Pressed(shoot);
 
         public string BindingName(string action)
         {
@@ -53,6 +55,7 @@ namespace ButterflyStep
             restart = map.FindAction("Restart");
             peek = map.FindAction("Peek");
             stasis = map.FindAction("Stasis");
+            shoot = map.FindAction("Shoot");
         }
 
         private void OnEnable()

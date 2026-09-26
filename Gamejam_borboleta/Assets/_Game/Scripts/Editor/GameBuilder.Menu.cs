@@ -28,6 +28,7 @@ namespace ButterflyStep.EditorTools
 
         private const string CreditsText =
             "BUTTERFLY STEP — protótipo de Game Jam (tema: Efeito Borboleta)\n\n" +
+            "Personagem Eco: Graphics created by Penzilla Design (Hooded Protagonist, sem modificações)\n" +
             "Arte: Legacy Fantasy – High Forest (Anokolisa) · Free Slime Mobs e Free Predator Plant (Craftpix)\n" +
             "Pássaros: Bird asset (OpenGameArt, CC0) · Fonte: Pixelify Sans (OFL)\n" +
             "Música e efeitos: gerados por código\n\n" +

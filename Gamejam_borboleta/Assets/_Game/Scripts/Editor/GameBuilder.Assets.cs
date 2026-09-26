@@ -31,6 +31,7 @@ namespace ButterflyStep.EditorTools
         private static GameObject slimePrefab;
         private static GameObject chronoferaPrefab;
         private static GameObject mothPrefab;
+        private static GameObject waspPrefab;
         private static GameObject thornPrefab;
         private static EnemyProjectile projectilePrefab;
         private static EnemyProjectile shockwavePrefab;
@@ -195,6 +196,7 @@ namespace ButterflyStep.EditorTools
                 AddButton(map, "Restart", "<Keyboard>/r", "<Gamepad>/select");
                 AddButton(map, "Peek", "<Keyboard>/leftShift", "<Keyboard>/rightShift", "<Gamepad>/leftTrigger");
                 AddButton(map, "Stasis", "<Keyboard>/c", "<Gamepad>/rightTrigger");
+                AddButton(map, "Shoot", "<Keyboard>/k", "<Mouse>/rightButton", "<Gamepad>/buttonEast");
                 AddButton(map, "Pause", "<Keyboard>/escape", "<Gamepad>/start");
                 AddButton(map, "Submit", "<Keyboard>/enter", "<Keyboard>/space", "<Gamepad>/start", "<Gamepad>/buttonSouth");
                 File.WriteAllText(path, asset.ToJson());
@@ -232,6 +234,7 @@ namespace ButterflyStep.EditorTools
             chronoferaPrefab = SavePrefab(BuildChronofera(), "Enemies");
             mothPrefab = SavePrefab(BuildMoth(), "Enemies");
             projectilePrefab = BuildProjectile();
+            waspPrefab = SavePrefab(BuildWasp(projectilePrefab), "Enemies");
             shockwavePrefab = BuildShockwave();
             thornPrefab = SavePrefab(BuildThornPlant(projectilePrefab), "Enemies");
         }
@@ -314,6 +317,8 @@ namespace ButterflyStep.EditorTools
             Set(combat, "slashVisual", slashSr);
             Set(combat, "hitMask", Mask(0, enemyLayer));
 
+            var shooter = root.AddComponent<PlayerShooter>();
+            Set(shooter, "boltPrefab", BuildBolt());
             var timeControl = root.AddComponent<PlayerTimeControl>();
             Set(timeControl, "timeParticles", timeFx);
 
@@ -410,6 +415,7 @@ namespace ButterflyStep.EditorTools
             var burst = MakeParticles("FeedbackParticles", go.transform, Color.white, 0, 5f, 0.8f, 0.3f, true, 0.4f);
             Set(fx, "burstParticles", burst);
             ConfigureFeedback(fx);
+            fx.SetFont(UIFont);
 
             var lightGo = new GameObject("GlobalLight2D");
             lightGo.transform.SetParent(go.transform, false);
@@ -789,6 +795,22 @@ namespace ButterflyStep.EditorTools
             return root;
         }
 
+        private static GameObject BuildWasp(EnemyProjectile projectile)
+        {
+            var root = BuildEnemyBase("Enemy_VespaDoTempo", new Color(1f, 0.75f, 0.3f), circleSprite, new Vector2(0.9f, 0.6f), r =>
+            {
+                RemainsPart(r, new Vector2(0f, 0.06f), new Vector2(0.6f, 0.14f), circleSprite, new Color(0.8f, 0.6f, 0.3f, 0.8f));
+            }, mothArt, "Walk", projectile);
+            bool art = mothArt != null;
+            var enemy = root.GetComponent<TemporalEnemy>();
+            enemy.AddStage(new EnemyStage { name = "Larva (morde de perto)", size = 0.9f, speed = 3.4f, health = 2, color = art ? new Color(1f, 0.85f, 0.55f) : new Color(1f, 0.75f, 0.3f), movement = EnemyMovement.Persegue, animation = "Walk", stompable = true });
+            enemy.AddStage(new EnemyStage { name = "Vespa adulta (ataca de longe)", conditions = { TemporalCondition.Since(20) }, size = 1.1f, speed = 2.4f, health = 3, color = art ? new Color(1f, 0.9f, 0.6f) : new Color(1f, 0.6f, 0.2f), movement = EnemyMovement.Voa, animation = "Fly", attackAnimation = "FlyAttack", stompable = true, shootInterval = 1.9f, projectileSpeed = 7f, message = "A larva virou vespa: agora ela ataca de longe!" });
+            enemy.AddStage(new EnemyStage { name = "Vespa velha", conditions = { TemporalCondition.Since(50) }, size = 1.1f, speed = 1.2f, health = 2, color = art ? new Color(0.75f, 0.7f, 0.7f) : Color.gray, movement = EnemyMovement.Voa, animation = "Fly", attackAnimation = "FlyAttack", stompable = true, shootInterval = 3.5f, projectileSpeed = 5f, message = "A vespa envelheceu: lenta e cansada." });
+            enemy.AddStage(new EnemyStage { name = "Fim do ciclo", conditions = { TemporalCondition.Since(70) }, size = 1f, present = false, showRemains = true, color = Color.gray, message = "A vespa viveu seu ciclo." });
+            EditorUtility.SetDirty(enemy);
+            return root;
+        }
+
         private static GameObject BuildThornPlant(EnemyProjectile projectile)
         {
             var root = BuildEnemyBase("Enemy_Espinheiro", new Color(0.35f, 0.65f, 0.3f), triangleSprite, new Vector2(0.8f, 1.1f), r =>
@@ -879,7 +901,20 @@ namespace ButterflyStep.EditorTools
             Set(hud, "stasisFill", stasisFill);
             Set(hud, "stasisGroup", stasisGroup);
 
-            var pollenRt = UIRect("Pollen", root, new Vector2(0f, 1f), new Vector2(0f, 1f), new Vector2(0f, 1f), new Vector2(30f, -150f), new Vector2(260f, 32f));
+            var bolt = UIRect("Bolt", root, new Vector2(0f, 1f), new Vector2(0f, 1f), new Vector2(0f, 1f), new Vector2(30f, -148f), new Vector2(220f, 26f));
+            var boltGroup = Group(bolt, 0f);
+            UIImage(bolt, new Color(0f, 0f, 0f, 0.5f), tiles != null ? tiles.uiWood : null);
+            var boltFillRt = Stretch("Fill", bolt);
+            boltFillRt.offsetMin = new Vector2(5f, 5f);
+            boltFillRt.offsetMax = new Vector2(-5f, -5f);
+            var boltFill = UIImage(boltFillRt, new Color(0.75f, 0.6f, 1f), squareSprite);
+            boltFill.type = Image.Type.Filled;
+            boltFill.fillMethod = Image.FillMethod.Horizontal;
+            UIText(Stretch("Label", bolt), "K  DISPARO DO TEMPO", 16, TextAnchor.MiddleCenter, Color.white, FontStyle.Bold);
+            Set(hud, "boltFill", boltFill);
+            Set(hud, "boltGroup", boltGroup);
+
+            var pollenRt = UIRect("Pollen", root, new Vector2(0f, 1f), new Vector2(0f, 1f), new Vector2(0f, 1f), new Vector2(30f, -182f), new Vector2(260f, 32f));
             var pollenText = UIText(pollenRt, "BORBOLETAS  0/5", 22, TextAnchor.MiddleLeft, new Color(0.6f, 0.85f, 1f), FontStyle.Bold);
             Set(hud, "pollenText", pollenText);
 

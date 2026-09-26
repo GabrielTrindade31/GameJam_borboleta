@@ -7,6 +7,15 @@ namespace ButterflyStep
         public const int PollenPerLevel = 5;
         private const string UnlockedKey = "bs_unlocked";
         private const string LastKey = "bs_last";
+        private const string BoltKey = "bs_power_bolt";
+
+        public static bool HasBolt => PlayerPrefs.GetInt(BoltKey, 0) == 1;
+
+        public static void UnlockBolt()
+        {
+            PlayerPrefs.SetInt(BoltKey, 1);
+            PlayerPrefs.Save();
+        }
 
         public static int UnlockedLevel => Mathf.Max(1, PlayerPrefs.GetInt(UnlockedKey, 1));
         public static int LastLevel => Mathf.Clamp(PlayerPrefs.GetInt(LastKey, 1), 1, UnlockedLevel);
@@ -48,6 +57,7 @@ namespace ButterflyStep
         public static void ResetAll()
         {
             PlayerPrefs.DeleteKey(UnlockedKey);
+            PlayerPrefs.DeleteKey(BoltKey);
             PlayerPrefs.DeleteKey(LastKey);
             for (int i = 1; i <= 10; i++) PlayerPrefs.DeleteKey(PollenKey($"Level{i:00}"));
             PlayerPrefs.Save();

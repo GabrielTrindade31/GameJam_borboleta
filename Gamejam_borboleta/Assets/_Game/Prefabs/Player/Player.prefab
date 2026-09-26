@@ -9803,6 +9803,7 @@ GameObject:
   - component: {fileID: 341312709699047094}
   - component: {fileID: 8778823934969187211}
   - component: {fileID: 3307138000500190921}
+  - component: {fileID: 4282550051369809258}
   - component: {fileID: 1415503088062850083}
   - component: {fileID: 5225081459376121513}
   - component: {fileID: 1231092556389804261}
@@ -9986,6 +9987,20 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 129
   slashVisual: {fileID: 5776755739346406382}
+--- !u!114 &4282550051369809258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7219640340954440138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b63e36fe9694f464eadada52606184ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButterflyStep.PlayerShooter
+  cooldown: 2.5
+  boltPrefab: {fileID: 7997665126622077565, guid: a2420746e2796b145a456fd4d9ac6c55, type: 3}
 --- !u!114 &1415503088062850083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10047,6 +10062,10 @@ MonoBehaviour:
   fall: Fall
   attack: Attack
   dead: Dead
+  walk: Walk
+  blink: Blink
+  vanish: Vanish
+  walkThreshold: 3.5
   runThreshold: 0.6
 --- !u!1 &7654353362761823840
 GameObject:
@@ -15115,12 +15134,12 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 20
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 1042315318, guid: f5d8c9bd921241c41b8b4acae7cc2c57, type: 3}
+  m_Sprite: {fileID: 951477565, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2, y: 2.5}
+  m_Size: {x: 2.1333334, y: 2.1333334}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -15141,64 +15160,92 @@ MonoBehaviour:
   clips:
   - name: Idle
     frames:
-    - {fileID: 1042315318, guid: f5d8c9bd921241c41b8b4acae7cc2c57, type: 3}
-    - {fileID: -1312939268, guid: f5d8c9bd921241c41b8b4acae7cc2c57, type: 3}
-    - {fileID: -1866750438, guid: f5d8c9bd921241c41b8b4acae7cc2c57, type: 3}
-    - {fileID: -511536502, guid: f5d8c9bd921241c41b8b4acae7cc2c57, type: 3}
+    - {fileID: 951477565, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    - {fileID: -1740441744, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    fps: 3
+    loop: 1
+  - name: Blink
+    frames:
+    - {fileID: -2055463108, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    - {fileID: -729222153, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
     fps: 6
+    loop: 0
+  - name: Walk
+    frames:
+    - {fileID: 894964902, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    - {fileID: -606649247, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    - {fileID: -846246282, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    - {fileID: 899393035, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    fps: 8
     loop: 1
   - name: Run
     frames:
-    - {fileID: 1918214762, guid: d47c819ab649c634d9d13273c3c0248a, type: 3}
-    - {fileID: 1040008066, guid: d47c819ab649c634d9d13273c3c0248a, type: 3}
-    - {fileID: 1919916588, guid: d47c819ab649c634d9d13273c3c0248a, type: 3}
-    - {fileID: 1456089348, guid: d47c819ab649c634d9d13273c3c0248a, type: 3}
-    - {fileID: 1818109749, guid: d47c819ab649c634d9d13273c3c0248a, type: 3}
-    - {fileID: -967890271, guid: d47c819ab649c634d9d13273c3c0248a, type: 3}
-    - {fileID: 20082353, guid: d47c819ab649c634d9d13273c3c0248a, type: 3}
-    - {fileID: -22656414, guid: d47c819ab649c634d9d13273c3c0248a, type: 3}
-    fps: 12
+    - {fileID: 693393791, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    - {fileID: -1753335406, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    - {fileID: 870150370, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    - {fileID: -1508567358, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    - {fileID: -2053330655, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    - {fileID: 412944577, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    - {fileID: -2079752984, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    - {fileID: -1865870154, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    fps: 14
     loop: 1
+  - name: Duck
+    frames:
+    - {fileID: 1625364955, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    - {fileID: -908136267, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    - {fileID: 223270935, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    - {fileID: -1903063328, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    - {fileID: 471739819, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    - {fileID: -353845782, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    fps: 12
+    loop: 0
   - name: Jump
     frames:
-    - {fileID: 695011548, guid: 7b3983264a35f134e8222ea8b952bc3f, type: 3}
-    - {fileID: 561718671, guid: 7b3983264a35f134e8222ea8b952bc3f, type: 3}
-    - {fileID: 1471555269, guid: 7b3983264a35f134e8222ea8b952bc3f, type: 3}
+    - {fileID: -1795389646, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    - {fileID: 798347401, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    - {fileID: -1149896348, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
     fps: 10
     loop: 0
   - name: Fall
     frames:
-    - {fileID: 1194715969, guid: 7b3983264a35f134e8222ea8b952bc3f, type: 3}
-    - {fileID: 263615979, guid: 7b3983264a35f134e8222ea8b952bc3f, type: 3}
-    - {fileID: -42304118, guid: 7b3983264a35f134e8222ea8b952bc3f, type: 3}
-    - {fileID: -1736590554, guid: 7b3983264a35f134e8222ea8b952bc3f, type: 3}
+    - {fileID: 1489936979, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    - {fileID: -366749015, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    - {fileID: 882587525, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    - {fileID: -1442390396, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
     fps: 8
     loop: 0
-  - name: Attack
+  - name: Vanish
     frames:
-    - {fileID: -1855345070, guid: fd5115efb5fb63f478433fb315763ca6, type: 3}
-    - {fileID: -983825409, guid: fd5115efb5fb63f478433fb315763ca6, type: 3}
-    - {fileID: 1127212731, guid: fd5115efb5fb63f478433fb315763ca6, type: 3}
-    - {fileID: -1368165038, guid: fd5115efb5fb63f478433fb315763ca6, type: 3}
-    - {fileID: 1046109009, guid: fd5115efb5fb63f478433fb315763ca6, type: 3}
-    - {fileID: 1073601335, guid: fd5115efb5fb63f478433fb315763ca6, type: 3}
-    - {fileID: -1985130364, guid: fd5115efb5fb63f478433fb315763ca6, type: 3}
-    - {fileID: -399208792, guid: fd5115efb5fb63f478433fb315763ca6, type: 3}
-    fps: 20
+    - {fileID: 196299371, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    - {fileID: -1711105779, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    - {fileID: 682712285, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    - {fileID: -1618323177, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    fps: 12
     loop: 0
   - name: Dead
     frames:
-    - {fileID: -1893319700, guid: 46fb3ceb1eab85e4b961d3873098ba5e, type: 3}
-    - {fileID: 229211079, guid: 46fb3ceb1eab85e4b961d3873098ba5e, type: 3}
-    - {fileID: 1304894127, guid: 46fb3ceb1eab85e4b961d3873098ba5e, type: 3}
-    - {fileID: 1000848975, guid: 46fb3ceb1eab85e4b961d3873098ba5e, type: 3}
-    - {fileID: 1490593088, guid: 46fb3ceb1eab85e4b961d3873098ba5e, type: 3}
-    - {fileID: -1776164714, guid: 46fb3ceb1eab85e4b961d3873098ba5e, type: 3}
-    - {fileID: -731134292, guid: 46fb3ceb1eab85e4b961d3873098ba5e, type: 3}
-    - {fileID: -1657579957, guid: 46fb3ceb1eab85e4b961d3873098ba5e, type: 3}
-    - {fileID: 203187399, guid: 46fb3ceb1eab85e4b961d3873098ba5e, type: 3}
-    - {fileID: -551828730, guid: 46fb3ceb1eab85e4b961d3873098ba5e, type: 3}
+    - {fileID: -1375725399, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    - {fileID: -1059478884, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    - {fileID: 1327249958, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    - {fileID: 1997827823, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    - {fileID: 2012520766, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    - {fileID: -502813699, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    - {fileID: -1807505310, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    - {fileID: -585481879, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
     fps: 10
+    loop: 0
+  - name: Attack
+    frames:
+    - {fileID: 801714317, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    - {fileID: -2003351171, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    - {fileID: 192294690, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    - {fileID: 1305392355, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    - {fileID: -785832075, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    - {fileID: -1126146901, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    - {fileID: 1995323170, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    - {fileID: 355752744, guid: d14aa98f8a77a5a4d906e1c5f11dc1ed, type: 3}
+    fps: 24
     loop: 0
   defaultClip: Idle
   affectedByStasis: 0

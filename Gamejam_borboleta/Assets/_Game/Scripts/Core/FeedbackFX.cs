@@ -25,6 +25,7 @@ namespace ButterflyStep
         [SerializeField] private FxLibrary library = new FxLibrary();
         [SerializeField] private Material spriteMaterial;
         [SerializeField] private int sortingOrder = 45;
+        [SerializeField] private Font labelFont;
 
         private readonly List<SpriteRenderer> pool = new List<SpriteRenderer>();
 
@@ -32,6 +33,47 @@ namespace ButterflyStep
         public FxLibrary Library => library;
 
         public void SetParticles(ParticleSystem particles) => burstParticles = particles;
+        public void SetFont(Font font) => labelFont = font;
+
+        public void FloatingLabel(Vector3 position, string text, Color color)
+        {
+            if (labelFont == null || string.IsNullOrEmpty(text)) return;
+            var go = new GameObject("Rótulo");
+            go.transform.position = position;
+            var tm = go.AddComponent<TextMesh>();
+            tm.font = labelFont;
+            tm.text = text;
+            tm.fontSize = 48;
+            tm.characterSize = 0.06f;
+            tm.anchor = TextAnchor.LowerCenter;
+            tm.alignment = TextAlignment.Center;
+            tm.color = color;
+            var mr = go.GetComponent<MeshRenderer>();
+            mr.sharedMaterial = labelFont.material;
+            mr.sortingOrder = 60;
+            var shadow = Instantiate(go, go.transform);
+            shadow.transform.localPosition = new Vector3(0.05f, -0.05f, 0f);
+            var stm = shadow.GetComponent<TextMesh>();
+            stm.color = new Color(0f, 0f, 0f, 0.7f);
+            shadow.GetComponent<MeshRenderer>().sortingOrder = 59;
+            StartCoroutine(FloatLabel(go.transform, tm, stm, color));
+        }
+
+        private IEnumerator FloatLabel(Transform t, TextMesh tm, TextMesh shadow, Color color)
+        {
+            Vector3 start = t.position;
+            const float duration = 2.6f;
+            for (float time = 0f; time < duration && t != null; time += UnityEngine.Time.unscaledDeltaTime)
+            {
+                float k = time / duration;
+                t.position = start + Vector3.up * k * 0.8f;
+                float a = k < 0.75f ? 1f : 1f - (k - 0.75f) / 0.25f;
+                tm.color = new Color(color.r, color.g, color.b, a);
+                shadow.color = new Color(0f, 0f, 0f, 0.7f * a);
+                yield return null;
+            }
+            if (t != null) Destroy(t.gameObject);
+        }
         public void SetLibrary(FxLibrary lib, Material material)
         {
             library = lib;

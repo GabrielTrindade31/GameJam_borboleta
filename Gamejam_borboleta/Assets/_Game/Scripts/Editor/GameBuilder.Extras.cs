@@ -29,14 +29,14 @@ namespace ButterflyStep.EditorTools
                     Pollen(1, 25f, 0.6f, Winter);
                     Pollen(2, 1f, 3.3f, Spring);
                     Pollen(3, 34f, 0.9f, Spring);
-                    Pollen(4, 44.5f, 0.9f);
+                    Pollen(4, 44.5f, 5.9f);
                     break;
                 case 3:
                     CheckpointAt(4.6f, 7f);
                     CheckpointAt(25.5f, 0f);
                     Pollen(0, -5.5f, 2.4f);
                     Pollen(1, 3f, 6.4f);
-                    Pollen(2, 14.5f, 7.8f, Spring);
+                    Pollen(2, 14.5f, 6.3f, Spring);
                     Pollen(3, 22f, 0.9f);
                     Pollen(4, 38.6f, 10.8f, Autumn);
                     break;
@@ -47,7 +47,7 @@ namespace ButterflyStep.EditorTools
                     Pollen(1, 15f, 3.3f);
                     Pollen(2, 20.5f, 3.3f, Winter);
                     Pollen(3, 24.6f, -6.2f);
-                    Pollen(4, 31.6f, -6.2f, Summer);
+                    Pollen(4, 28.4f, -4.2f, Summer);
                     break;
                 case 5:
                     CheckpointAt(21f, 0f);
@@ -92,7 +92,7 @@ namespace ButterflyStep.EditorTools
                     Pollen(1, 18.5f, 0.9f, Spring);
                     Pollen(2, 25.5f, 0.9f);
                     Pollen(3, 40f, 3.3f);
-                    Pollen(4, 55f, 0.9f, Summer);
+                    Pollen(4, 55f, 5.9f, Summer);
                     break;
                 case 10:
                     CheckpointAt(-5f, 0f);

@@ -156,7 +156,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89de78f716626644e8444c198f5c27b7
+      spriteID: d8eff73f17e902542a14dcbb5ef360b3
       internalID: 727754783
       vertices: []
       indices: 
@@ -178,14 +178,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0eb71ae92efe2ab439fcbbf336b50ec3
+      spriteID: 9ca343d74af06e34db164bc1eb9bfbf7
       internalID: 828866444
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hiveChestOpen
+      name: hiveChestClosed
       rect:
         serializedVersion: 2
         x: 85
@@ -200,7 +200,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa67475448d26a14ebe68ccb81f0477a
+      spriteID: 9e920f9a8f4d1984d9eba5c13f32e3ac
+      internalID: -54525387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hiveChestOpen
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 369
+        width: 22
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3108db318fca154c8c56e2fc917810e
       internalID: 387369178
       vertices: []
       indices: 
@@ -222,7 +244,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ab0541c9227a0e44953f182d4322cbc
+      spriteID: a667f104f70c00e4588c913e33d33d00
       internalID: -2121573281
       vertices: []
       indices: 
@@ -244,7 +266,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e474c045498e7545a549df0c881dd2e
+      spriteID: a8aeb2548cd0fe34fb0945868ed45810
       internalID: -1653298364
       vertices: []
       indices: 
@@ -266,7 +288,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fda3577fdb2f0fc41a28fbb3c2b06da2
+      spriteID: 25aa7a998b3cdb64ba96d7627dfb02f6
       internalID: 1835270072
       vertices: []
       indices: 
@@ -288,7 +310,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a24e4b86b52e0649b5a996d92c07de5
+      spriteID: d6eaaf11fbac2e4438ace02f9269cccd
       internalID: -735180599
       vertices: []
       indices: 
@@ -310,7 +332,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 131bc6cc6eee3e34787c85b8d2480a29
+      spriteID: 59e3b6bf92509f74e9ac126220da9c19
       internalID: 128441416
       vertices: []
       indices: 
@@ -331,6 +353,7 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       hiveArch: -1653298364
+      hiveChestClosed: -54525387
       hiveChestOpen: 387369178
       hiveComb: 727754783
       hiveCombDark: 828866444

@@ -42,6 +42,7 @@ namespace ButterflyStep
             var ctx = LevelContext.Current;
             if (ctx.Player != null) respawnPoint = ctx.Player.transform.position;
             GameProgress.SetLast(levelNumber);
+            if (levelNumber > 5 && !GameProgress.HasBolt) GameProgress.UnlockBolt();
             var hud = ctx.Hud;
             if (hud != null) hud.ShowIntro(levelTitle, introText);
         }
@@ -57,6 +58,10 @@ namespace ButterflyStep
             var hud = LevelContext.Current.Hud;
             if (hud != null) hud.ShowMessage("Flor do Tempo desperta: se cair, você volta aqui — o mundo e o dia continuam como estão.", 2.8f);
         }
+
+        private int pollenThisRun;
+
+        public void NotePollen() => pollenThisRun++;
 
         public void CompleteLevel()
         {
@@ -92,7 +97,9 @@ namespace ButterflyStep
             var ctx = LevelContext.Current;
             if (ctx.Player != null) ctx.Player.SetControlEnabled(false);
             int pollen = GameProgress.PollenCount(SceneManager.GetActiveScene().name);
-            if (ctx.Hud != null) ctx.Hud.ShowLevelComplete($"{completeText}\n\nFragmento do relógio recuperado: {Mathf.Clamp(levelNumber, 1, 10)}/10\nBorboletas do tempo: {pollen}/{GameProgress.PollenPerLevel}");
+            int fragments = Mathf.Clamp(Mathf.Max(GameProgress.UnlockedLevel - 1, levelNumber), 1, 10);
+            string attempt = pollenThisRun > 0 ? $"  (+{pollenThisRun} nesta tentativa)" : "";
+            if (ctx.Hud != null) ctx.Hud.ShowLevelComplete($"{completeText}\n\nCapítulo {levelNumber} concluído\nFragmentos do relógio: {fragments}/10\nBorboletas deste capítulo: {pollen}/{GameProgress.PollenPerLevel}{attempt}");
             GameAudio.Play(Sfx.Complete);
             yield return new WaitForSeconds(completeDelay);
             if (ctx.Hud != null) yield return ctx.Hud.FadeOut(0.6f);

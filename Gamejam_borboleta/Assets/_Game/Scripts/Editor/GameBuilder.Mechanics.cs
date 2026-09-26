@@ -12,6 +12,7 @@ namespace ButterflyStep.EditorTools
                 case "chave": return tiles.key;
                 case "pinha": return tiles.pineSmall;
                 case "semente": return tiles.sprout;
+                case "engrenagem": return tiles.gear != null ? tiles.gear : diamondSprite;
                 default: return diamondSprite;
             }
         }

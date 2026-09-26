@@ -65,6 +65,7 @@ namespace ButterflyStep
             if (other.GetComponentInParent<PlayerController>() == null) return;
             collected = true;
             GameProgress.CollectPollen(SceneName, pollenId);
+            if (Context != null && Context.Flow != null) Context.Flow.NotePollen();
             GameAudio.Play(Sfx.Pollen, 0f);
             var fx = FeedbackFX.Instance;
             if (fx != null) fx.PollenCollect(transform.position);
