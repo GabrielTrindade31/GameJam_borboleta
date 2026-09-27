@@ -43,8 +43,9 @@ namespace ButterflyStep
             var tm = go.AddComponent<TextMesh>();
             tm.font = labelFont;
             tm.text = text;
-            tm.fontSize = 48;
-            tm.characterSize = 0.06f;
+            tm.fontSize = 64;
+            tm.characterSize = 0.075f;
+            tm.fontStyle = FontStyle.Bold;
             tm.anchor = TextAnchor.LowerCenter;
             tm.alignment = TextAlignment.Center;
             tm.color = color;
@@ -52,7 +53,7 @@ namespace ButterflyStep
             mr.sharedMaterial = labelFont.material;
             mr.sortingOrder = 60;
             var shadow = Instantiate(go, go.transform);
-            shadow.transform.localPosition = new Vector3(0.05f, -0.05f, 0f);
+            shadow.transform.localPosition = new Vector3(0.06f, -0.06f, 0f);
             var stm = shadow.GetComponent<TextMesh>();
             stm.color = new Color(0f, 0f, 0f, 0.7f);
             shadow.GetComponent<MeshRenderer>().sortingOrder = 59;
@@ -62,7 +63,7 @@ namespace ButterflyStep
         private IEnumerator FloatLabel(Transform t, TextMesh tm, TextMesh shadow, Color color)
         {
             Vector3 start = t.position;
-            const float duration = 2.6f;
+            const float duration = 3.4f;
             for (float time = 0f; time < duration && t != null; time += UnityEngine.Time.unscaledDeltaTime)
             {
                 float k = time / duration;

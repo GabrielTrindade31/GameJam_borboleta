@@ -33,9 +33,15 @@ namespace ButterflyStep
 
             var ctx = LevelContext.Current;
             var hud = ctx != null ? ctx.Hud : null;
-            if (hud != null) hud.SetPrompt(focused != null ? $"[{input.BindingName("Interact")}] {focused.CurrentPrompt}" : null);
+            var sign = focused == null ? StorySign.Nearby : null;
+            string key = input.BindingName("Interact");
+            string prompt = focused != null ? $"[{key}] {focused.CurrentPrompt}" : sign != null ? (sign.IsReading ? $"[{key}] Fechar placa" : $"[{key}] Ler placa") : null;
+            if (hud != null) hud.SetPrompt(prompt);
 
-            if (focused != null && !PauseMenu.IsPaused && input.InteractPressed && (controller == null || controller.ControlEnabled)) focused.Interact();
+            bool canAct = !PauseMenu.IsPaused && input.InteractPressed && (controller == null || controller.ControlEnabled);
+            if (!canAct) return;
+            if (focused != null) focused.Interact();
+            else if (sign != null) sign.Toggle();
         }
 
         private Interactable FindBest()

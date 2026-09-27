@@ -14,18 +14,6 @@ namespace ButterflyStep.EditorTools
             "Mas cuidado: aqui, cada pequeno gesto ecoa no futuro.\n" +
             "Uma borboleta que bate as asas hoje pode fechar ou abrir o caminho de volta.";
 
-        private const string ControlsText =
-            "A / D  ou  ← →          andar\n" +
-            "ESPAÇO                  pular\n" +
-            "J  ou  clique           atacar  (pule em cima de inimigos pequenos)\n" +
-            "F                       interagir\n" +
-            "Q / E                   voltar / avançar no tempo\n" +
-            "SHIFT + Q / E           espiar outro dia sem viajar\n" +
-            "C                       pausar o tempo\n" +
-            "ESC                     pausa\n" +
-            "R                       reiniciar a fase\n\n" +
-            "Controle: analógico, A pular, X atacar, Y interagir, LB/RB tempo, LT espiar, RT pausar o tempo, START pausa";
-
         private const string CreditsText =
             "BUTTERFLY STEP — protótipo de Game Jam (tema: Efeito Borboleta)\n\n" +
             "Personagem Eco: Graphics created by Penzilla Design (Hooded Protagonist, sem modificações)\n" +
@@ -167,10 +155,9 @@ namespace ButterflyStep.EditorTools
             var reset = MenuButton(chaptersBox, "Apagar", "Apagar progresso", new Vector2(0.5f, 0f), new Vector2(-220f, 70f), new Vector2(360f, 64f), 24);
             var backChapters = MenuButton(chaptersBox, "Voltar", "Voltar", new Vector2(0.5f, 0f), new Vector2(220f, 70f), new Vector2(300f, 64f), 26);
 
-            var controlsBox = Panel("PainelControles", new Vector2(1300f, 760f), out var controlsGroup);
-            UIText(UIRect("Titulo", controlsBox, new Vector2(0.5f, 1f), new Vector2(0.5f, 1f), new Vector2(0.5f, 1f), new Vector2(0f, -30f), new Vector2(1000f, 70f)), "CONTROLES", 54, TextAnchor.MiddleCenter, dark, FontStyle.Bold, false);
-            UIText(UIRect("Texto", controlsBox, new Vector2(0.5f, 0.5f), new Vector2(0.5f, 0.5f), new Vector2(0.5f, 0.5f), new Vector2(0f, 10f), new Vector2(1100f, 520f)), ControlsText, 26, TextAnchor.MiddleLeft, dark, FontStyle.Normal, false);
-            var backControls = MenuButton(controlsBox, "Voltar", "Voltar", new Vector2(0.5f, 0f), new Vector2(0f, 70f), new Vector2(300f, 64f), 26);
+            var controlsBox = Panel("PainelControles", new Vector2(1560f, 1040f), out var controlsGroup);
+            BuildControlsPanel(controlsBox);
+            var backControls = MenuButton(controlsBox, "Voltar", "Voltar", new Vector2(0.5f, 0f), new Vector2(0f, 52f), new Vector2(340f, 66f), 30);
 
             var creditsBox = Panel("PainelCreditos", new Vector2(1300f, 620f), out var creditsGroup);
             UIText(UIRect("Titulo", creditsBox, new Vector2(0.5f, 1f), new Vector2(0.5f, 1f), new Vector2(0.5f, 1f), new Vector2(0f, -30f), new Vector2(1000f, 70f)), "CRÉDITOS", 54, TextAnchor.MiddleCenter, dark, FontStyle.Bold, false);
