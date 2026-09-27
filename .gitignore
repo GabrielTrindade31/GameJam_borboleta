@@ -105,5 +105,3 @@ InitTestScene*.unity*
 # Auto-generated cache in Assets folder
 /Gamejam_borboleta/[Aa]ssets/[Ss]ceneDependencyCache*
 
-# Arte de terceiros: licenças não permitem redistribuir os arquivos (ver Assets/_Game/Art/ThirdParty/CREDITS.md)
-/Gamejam_borboleta/Assets/_Game/Art/ThirdParty/**/*.png

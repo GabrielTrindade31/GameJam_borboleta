@@ -13,6 +13,20 @@ namespace ButterflyStep
 
         private void Awake() => renderers = GetComponentsInChildren<SpriteRenderer>(true);
 
+        protected override void Start()
+        {
+            if (LevelContext.Current == null)
+            {
+                foreach (var r in renderers)
+                {
+                    if (r != null) r.enabled = false;
+                }
+                enabled = false;
+                return;
+            }
+            base.Start();
+        }
+
         protected override void Refresh(bool instant)
         {
             bool show = Now.Season == season;

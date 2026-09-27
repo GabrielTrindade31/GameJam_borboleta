@@ -7,20 +7,10 @@
 | `CraftpixSlime/` | Free Slime Mobs Pixel Art (Slime1) | Craftpix (Free Game Assets) | https://free-game-assets.itch.io/free-slime-mobs-pixel-art-top-down-sprite-pack | Craftpix Free License: uso comercial ok, crédito opcional, **proibido redistribuir os arquivos brutos**. https://craftpix.net/file-licenses/ |
 | `CraftpixPlant/` | Free Pixel Predator Plant Mob Sprites (Plant2) | Craftpix (Free Game Assets) | https://free-game-assets.itch.io/free-predator-plant-mobs-pixel-art-pack | Craftpix Free License (idem acima). |
 
-## Por que os PNGs não vão para o GitHub
+## Distribuição dos arquivos
 
-O repositório é público e as licenças não permitem redistribuir os arquivos brutos.
-O `.gitignore` ignora os `.png` desta pasta, mas mantém os `.meta` — assim as referências dos prefabs e cenas continuam válidas.
-
-**Opção recomendada:** deixar o repositório privado e remover a linha
-`/Gamejam_borboleta/Assets/_Game/Art/ThirdParty/**/*.png` do `.gitignore`.
-
-**Se o repositório continuar público:** cada integrante baixa os 3 pacotes pelos links acima e copia os PNGs
-para os mesmos caminhos desta pasta (mesmos nomes de arquivo). Os `.meta` versionados cuidam do resto.
-
-Mapeamento dos arquivos Craftpix: `PNG/Slime1/<Ação>/Slime1_<Ação>_body.png` → `CraftpixSlime/Slime_<Ação>.png`
-e `PNG/Plant2/<Ação>/Plant2_<Ação>_body.png` → `CraftpixPlant/Plant_<Ação>.png`.
-No Legacy Fantasy, espaços viraram `_` e a pasta `Jumlp-All` virou `Jump-All`.
+Os PNGs desta pasta são versionados para a equipe. Como as licenças não permitem redistribuir os arquivos,
+o repositório deve ficar **privado**, acessível só aos membros do projeto.
 
 ## Arte livre (pode ir para o GitHub)
 
