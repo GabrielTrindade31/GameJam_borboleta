@@ -138,14 +138,14 @@ namespace ButterflyStep.EditorTools
 
             Enemy(mothPrefab, "Lagarta", 1.5f, 0f, 1.5f, 1.5f, "L1_LagartaMorta");
 
-            Sign(-9f, 0f, "Você é Eco, um ser nascido da linha do tempo.\nA/D para andar, ESPAÇO para pular.");
-            Sign(3.5f, 0f, "Uma lagarta... em alguns dias ela vai mudar.\nPule em cima dela para afastá-la — para sempre.");
-            Sign(6.5f, 0f, "Uma muda frágil. Sozinha, ela nunca vai crescer...\nChegue perto e aperte F para regar.");
-            Sign(14f, 0f, "E avança 10 dias. Q volta 10 dias.\nVeja no topo o dia e a estação. Nunca dá para voltar antes do Dia 1.");
-            Sign(21.5f, 7f, "No verão, o pinheiro adulto dá pinhas lá no alto.\nPinhas só brotam se forem plantadas na primavera...");
-            Sign(30f, 7f, "O penhasco é alto demais. Uma árvore aqui ajudaria.\nSe ao menos alguém tivesse plantado algo antes...");
+            Hint(-9f, 0f, "A/D andam, ESPAÇO pula. Q e E voltam e avançam os dias.");
+            Hint(-3.5f, 0f, "Ataque (J ou clique): um monstro derrotado deixa de existir nos dias seguintes.");
+            Hint(9.5f, 0f, "Aperte F para regar a muda. O que você faz hoje muda o futuro.");
+            Hint(16f, 0f, "Cada Q/E pula 10 dias. Não dá para voltar antes do Dia 1.");
+            Hint(21.5f, 7f, "No verão o pinheiro dá pinhas; elas só brotam se plantadas na primavera.");
+            Hint(30f, 7f, "Alto demais. Uma árvore plantada no passado ajudaria.");
             ChronoLock("L1", 47f, 12f, new Vector2(26f, 7.7f), 40, 30, "Uma engrenagem que a chuva do verão desenterrou! Ela vai com você para qualquer dia.");
-            Sign(45f, 12f, "Um portão com fechadura de relógio. Falta uma engrenagem...\nE no verão a fechadura enferruja. Talvez seja preciso trazer a peça do futuro para o passado.");
+            Hint(45f, 12f, "A engrenagem só aparece no futuro e a fechadura enferruja no verão.");
             Exit(52f, 13.2f);
             Save(scene, "Level01");
         }
@@ -212,18 +212,19 @@ namespace ButterflyStep.EditorTools
             KeyLock(new Vector2(39.2f, 1f), "L2_PortaoAberto", "chave", "Chave enferrujada", "Portão trancado. Onde estará a chave?");
             Pickup("chave", "Chave enferrujada", new Vector2(15.5f, 0.7f), "A correnteza da primavera trouxe uma chave até a margem! Ela vai com você para qualquer dia.", TemporalCondition.Since(60));
 
-            Sign(-9f, 0f, "O que você move no passado continua movido no futuro.\nEmpurre caixas andando contra elas.");
+            Hint(-9f, 0f, "Empurre a caixa: o que você move hoje continua movido no futuro.");
+            Hint(1.5f, 0f, "Algumas ações não têm volta. Se algo der errado, aperte R para reiniciar a fase.");
             Ground(-13f, 0f, 3f, 4.5f);
             ClimbVine("Trepadeira do Barranco", -9.7f, 0f, 4.8f, TemporalCondition.In(Season.Primavera));
-            Sign(-7.2f, 0f, "Uma muda de trepadeira. Na primavera ela cobre o barranco:\nsegure W para escalar.");
-            Sign(5f, 0f, "Depois da porta corre um rio forte demais para atravessar.\nMas o inverno começa no Dia 31...");
-            Sign(14f, 0f, "Esta porta enferruja e se fecha para sempre no Dia 21.\nSe algo travar o trilho antes disso...");
+            Hint(-7.2f, 0f, "Na primavera a trepadeira cobre o barranco. Segure W para subir.");
+            Hint(5f, 0f, "O rio só dá para atravessar congelado. O inverno começa no Dia 31.");
+            Hint(14f, 0f, "A porta emperra para sempre no Dia 21, a menos que algo trave o trilho.");
             Scenery(0f, -10f, -3f, 12f, 34f, 44f);
-            Sign(-3f, 0f, "Na primavera, a correnteza do degelo arrasta coisas rio abaixo...");
-            Sign(37.5f, 0f, "Um portão trancado guarda o fragmento do relógio.");
+            Hint(-3f, 0f, "No Dia 61, a correnteza traz algo importante até a margem.");
+            Hint(37.5f, 0f, "Portão trancado. Onde estará a chave?");
             Ground(41.6f, 0f, 4.4f, 5f);
             FutureSeedVine("L2", new Vector2(36.5f, 0.7f), 50, 41.25f, 0f, 20, 40, 5.6f, "Sementes de trepadeira trazidas pelo inverno! Elas vão com você para qualquer dia.", "Terra fofa ao pé do barranco. Uma trepadeira só pega se plantada no outono, até o Dia 11.");
-            Sign(38.2f, 0f, "Depois do portão, a saída fica no alto do barranco.\nUma trepadeira plantada no começo do outono estaria alta na primavera.");
+            Hint(38.2f, 0f, "Trepadeira plantada até o Dia 11 cresce até a primavera.");
             Exit(44f, 6.2f);
             Save(scene, "Level02");
         }
@@ -322,18 +323,18 @@ namespace ButterflyStep.EditorTools
             Ground(34f, -5f, 11f, 12f);
             Ground(40f, 7f, 5f, 5f);
             BounceMushroom("Cogumelo do Penhasco", 37.4f, 7f, 19f, TemporalCondition.In(Season.Outono));
-            Sign(35.3f, 7f, "A saída fica lá no alto, alta demais para um pulo.\nNo outono, um cogumelo gigante brota nesta terra úmida.");
+            Hint(35.3f, 7f, "No outono, um cogumelo gigante brota aqui e lança você para o alto.");
             Pickup("semente", "Semente de pinheiro", new Vector2(7.9f, 7.5f), "Uma semente presa no gelo do lago! Ela vai com você para qualquer dia.", TemporalCondition.In(Season.Inverno));
             PlantedPine("Pinheiro do Vale", 30.5f, 0f, "L3_SementePlantada", 45, "semente", "Semente de pinheiro", "Plantar a semente", "Terra fértil. Uma semente levaria 45 dias para virar árvore aqui.",
                 new[] { new Vector3(28.6f, 2.6f, 3f), new Vector3(30f, 5f, 3f), new Vector3(31.4f, 7.3f, 3.2f) });
 
-            Sign(-9f, 0f, "Inverno, Dia 1. Aqui cada salto no tempo dura 15 dias.");
-            Sign(-3.5f, 0f, "O degelo leva tempo: quanto antes a água começar, mais longe ela chega.");
-            Sign(1f, 2.3f, "Lá em cima, uma represa de pedra e gelo segura um lago.\nUma pequena pedra parece solta...");
-            Sign(18.6f, 0f, "A muralha parece indestrutível... por enquanto.");
+            Hint(-9f, 0f, "Aqui cada salto no tempo dura 15 dias.");
+            Hint(-3.5f, 0f, "Quanto antes a água começar a correr, mais longe ela chega.");
+            Hint(1f, 2.3f, "Solte a pedrinha da represa (F) e veja o que 60 dias fazem.");
+            Hint(18.6f, 0f, "A água leva tempo, mas atravessa até pedra.");
             Scenery(0f, -11f, -4f, 25.5f);
             Scenery(12f, 43.8f);
-            Sign(26f, 0f, "Uma árvore levaria 45 dias para crescer aqui...\nE o túnel só existe no verão. Talvez voltar alguns dias ajude.");
+            Hint(26f, 0f, "Uma árvore leva 45 dias para crescer aqui.");
             Exit(43f, 13.2f);
             Save(scene, "Level03");
         }
@@ -368,7 +369,7 @@ namespace ButterflyStep.EditorTools
             With(Hidden(scaffold.AddState("Andaime apodrecido", TemporalCondition.Since(20))), destrocos);
             Kill(2f, -9f, 7f);
 
-            var valley = Enemy(chronoferaPrefab, "Cronofera do Vale", 18.5f, 0f, 5f, 4.5f);
+            var valley = Enemy(chronoferaPrefab, "Cronofera do Vale", 18.5f, 0f, 5f, 2.2f);
             Tameable(valley, "L4_ComedouroCheio", 20, false);
             var trough = Interact(groupInteract, new Vector2(10.3f, 0.6f), 1.1f, "L4_ComedouroCheio", "Encher o comedouro", "Você encheu o comedouro. Uma cronofera bem alimentada quando jovem cresce mansa.", TemporalCondition.NotIn(Season.Inverno));
             trough.SetBlockedPrompt("No inverno não há frutos para o comedouro.");
@@ -390,10 +391,10 @@ namespace ButterflyStep.EditorTools
 
             Enemy(chronoferaPrefab, "Cronofera da Ponte", 30.2f, 0f, 0.8f, 0.6f);
 
-            Sign(-9f, 0f, "As criaturas também atravessam o tempo.\nJovens: rápidas. Velhas: lentas e pesadas. Um dia, morrem.");
-            Sign(-1f, 0f, "Este andaime é novo no verão.\nMadeira não dura para sempre.");
-            Sign(10f, 0f, "O vale é vigiado. Em qual dia ele é mais seguro?\nE qual dia você PRECISA ver?");
-            Sign(22.5f, 0f, "O fragmento do relógio brilha lá embaixo, sob a ponte...\nSó o peso de uma cronofera velha a derruba. Se ela morrer jovem, volte a um dia antes.");
+            Hint(-9f, 0f, "Criaturas envelhecem: jovens são rápidas, velhas são lentas e pesadas.");
+            Hint(-1f, 0f, "Madeira apodrece: este andaime não dura para sempre.");
+            Hint(10f, 0f, "Encha o comedouro (F) enquanto ela é jovem: adulta, ela fica mansa.");
+            Hint(22.5f, 0f, "Só o peso de uma cronofera velha derruba a ponte. Se ela morrer jovem, a ponte fica.");
             Scenery(0f, -11f, -4f, 10.5f, 21.5f);
             Scenery(-7f, 24.8f);
             Wall(27f, -3.6f, 0.8f, 3.2f, "Batente do Portão");
@@ -401,11 +402,11 @@ namespace ButterflyStep.EditorTools
             Gate("Portão do Fosso", 27f, -7f, 0.8f, 3.4f, "L4_PortaoAberto", true);
             KeyLock(new Vector2(26.2f, -6.2f), "L4_PortaoAberto", "chave", "Chave do ninho", "Trancado. E no inverno o gelo prende a fechadura.", TemporalCondition.NotIn(Season.Inverno));
             Pickup("chave", "Chave do ninho", new Vector2(20.5f, 0.7f), "Uma chave brilhando no ninho abandonado! Ela vai com você para qualquer dia.", TemporalCondition.Since(60));
-            Sign(16.5f, 0f, "O ninho da cronofera. Enquanto ela viver, ninguém chega perto.");
-            Sign(25f, -7f, "Um portão com fechadura. No inverno, o gelo não deixa a chave girar.");
+            Hint(16.5f, 0f, "Enquanto a cronofera viver, ninguém chega perto do ninho.");
+            Hint(25f, -7f, "No inverno, o gelo prende a fechadura.");
             Ground(30.2f, -7f, 1.8f, 3.6f);
             FutureSeedVine("L4", new Vector2(24.2f, -5.2f), 60, 29.6f, -7f, 20, 20, 3.9f, "Sementes de trepadeira que o inverno deixou no fosso! Elas vão com você para qualquer dia.", "Terra fofa. Uma trepadeira só pega se plantada no Dia 1, no começo do verão.");
-            Sign(28.6f, -7f, "O fragmento está no alto do degrau de pedra.\nUma trepadeira plantada no Dia 1 cresce até o fim do verão.");
+            Hint(28.6f, -7f, "Trepadeira plantada no Dia 1 alcança o degrau no verão.");
             Exit(31.1f, -2.2f);
             Save(scene, "Level04");
         }
@@ -593,7 +594,7 @@ namespace ButterflyStep.EditorTools
             Enemy(slimePrefab, "Lodo", 17f, 0f, 3f, 3f);
             Enemy(mothPrefab, "Lagarta da Beira", 19.5f, 0f, 1.2f, 1.2f, "L5_Lagarta1_Morta");
             ChronoLock("L5", 22.5f, 0f, new Vector2(9.5f, 0.7f), 50, 30, "Uma engrenagem apareceu onde a nascente secou! Ela vai com você para qualquer dia.");
-            Sign(15.5f, 0f, "O portão do relógio fecha o caminho até o abismo.\nA engrenagem só aparece no futuro, mas a fechadura enferruja no dia 31.");
+            Hint(15.5f, 0f, "A engrenagem só aparece no futuro; a fechadura enferruja no Dia 31.");
             Enemy(mothPrefab, "Lagarta do Outro Lado", 40.5f, 0f, 1.5f, 1.5f, "L5_Lagarta2_Morta");
             Ground(47f, -5f, 8f, 12f);
             Enemy(waspPrefab, "Vespa do Tempo", 50.5f, 7f, 2f, 2f);
@@ -604,17 +605,17 @@ namespace ButterflyStep.EditorTools
 
             if (tiles == null) Shape("Casulo", groupEnv, new Vector2(53.5f, 8.6f), new Vector2(1.6f, 2.6f), circleSprite, new Color(1f, 0.8f, 0.35f, 0.6f), 5);
 
-            Sign(-10f, 0f, "Tudo está conectado.\nUma escolha pode atravessar semanas... e estações.");
-            Sign(-5.5f, 0f, "Uma caixa velha. Pode ajudar a alcançar lugares altos.");
-            Sign(0f, 0f, "Um pássaro preso lá no alto.\nSem ajuda, a espécie vai desaparecer deste vale.");
-            Sign(10f, 0f, "A trepadeira invasora sufoca a nascente.");
-            Sign(19f, 0f, "Lagartas na primavera viram mariposas famintas no verão.\nNo outono, o ciclo delas termina.");
-            Sign(23f, 0f, "Terra fértil à beira do abismo. Uma árvore precisa de água para crescer.");
+            Hint(-10f, 0f, "Tudo está conectado: uma escolha atravessa semanas e estações.");
+            Hint(-5.5f, 0f, "A caixa ajuda a alcançar lugares altos.");
+            Hint(0f, 0f, "Liberte o pássaro (F): em alguns dias o bando cresce.");
+            Hint(10f, 0f, "A trepadeira invasora sufoca a nascente.");
+            Hint(19f, 0f, "Lagartas viram mariposas no verão. No outono, o ciclo termina.");
+            Hint(23f, 0f, "Uma árvore aqui precisa de água para crescer.");
             Scenery(0f, -11f, -1.5f, 9f, 16f);
             Scenery(0f, 39.2f);
             Scenery(7f, 49.5f);
-            Sign(40.5f, 0f, "A pinha precisa ser plantada na primavera...\nmas na primavera ainda não existe ponte. Ou existe outro jeito?");
-            Sign(57f, 7f, "C congela o tempo por alguns segundos: inimigos e ferrões param.\nO dano que você causa num dia continua valendo nos dias seguintes.");
+            Hint(40.5f, 0f, "A pinha precisa ser plantada na primavera.");
+            Hint(57f, 7f, "C congela o tempo. O dano dado num dia continua nos dias seguintes.");
             HiveArena(hiveWall);
             Exit(78.5f, 8.2f);
             Save(scene, "Level05");

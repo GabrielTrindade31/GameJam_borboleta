@@ -65,12 +65,12 @@ namespace ButterflyStep.EditorTools
             Offspring(slimePrefab, "Filhote de Lodo (nasce no dia 61)", 41.5f, 0f, 1.5f, 1.5f, 60, "L6_MaeLodo");
             Ground(47.5f, 0f, 6.5f, 5f);
             FutureSeedVine("L6", new Vector2(-5.5f, 0.7f), 60, 47.1f, 0f, 30, 30, 5.6f, "Sementes de trepadeira caídas no fim do ano! Elas vão com você para qualquer dia.", "Terra fofa ao pé do paredão. Uma trepadeira só pega se plantada na primavera (Dia 1).");
-            Sign(45.6f, 0f, "A saída fica no alto do paredão. Nenhuma trepadeira cresce aqui...\nPlante uma na primavera e ela estará alta no verão (segure W para subir).");
-            Sign(35f, 0f, "Uma mãe lodo vive neste corredor. Seus filhotes nascem nos dias 31 e 61...\nse ela ainda estiver viva quando chegar a hora.");
+            Hint(45.6f, 0f, "Trepadeira plantada no Dia 1 alcança o topo no verão.");
+            Hint(35f, 0f, "Mate a mãe lodo antes dos dias 31 e 61 e os filhotes nunca nascem.");
 
-            Sign(-9f, 0f, "Esta fase começa no INVERNO. Você pode voltar no tempo (Q) até a primavera.\nSegure SHIFT + Q para ESPIAR outro dia sem sair do lugar.");
-            Sign(-3f, 0f, "Uma árvore caída bloqueia a trilha. Quem será que a derrubou?\nDica: sua posição continua a mesma quando o tempo muda.");
-            Sign(26f, 0f, "No inverno a nevasca sopra contra você e a neve cobre o corredor: suba pelos degraus.\nNas outras estações os espinheiros atiram. C PAUSA O TEMPO.");
+            Hint(-9f, 0f, "Esta fase começa no fim do ano. Q volta no tempo; SHIFT+Q espia sem viajar.");
+            Hint(-3f, 0f, "Quem derrubou esta árvore? Sua posição se mantém quando o tempo muda.");
+            Hint(26f, 0f, "No inverno, suba o monte de neve. Nas outras estações, C congela os espinhos.");
             Scenery(0f, -11f, -6f, 25f);
             Scenery(5f, 50.4f);
             Exit(52f, 6.2f);
@@ -113,8 +113,8 @@ namespace ButterflyStep.EditorTools
             Enemy(mothPrefab, "Lagarta da Margem", 32f, 0f, 1.5f, 1.5f, "L7_LagartaMorta");
             Enemy(thornPrefab, "Espinheiro do Penhasco", 40f, 8f, 0f, 0f);
 
-            Sign(-9f, 0f, "O lago é fundo demais para nadar. Mas no inverno ele congela...\nE no verão as vitórias-régias florescem.");
-            Sign(26f, 0f, "Terra fértil. Uma semente aqui viraria uma árvore alta em 60 dias.\nMas só brota se plantada na primavera.");
+            Hint(-9f, 0f, "O lago congela no inverno; no verão, vitórias-régias florescem.");
+            Hint(26f, 0f, "Semente plantada na primavera vira árvore em 60 dias.");
             Scenery(0f, -11f, -4f, 6f);
             Scenery(8f, 44f);
             Exit(42.5f, 9.2f);
@@ -145,7 +145,7 @@ namespace ButterflyStep.EditorTools
             SeasonWind("Vento de Outono", 47.8f, 0f, 11.2f, 7f, new Vector2(12f, 0f), Season.Outono, new Color(1f, 0.75f, 0.45f));
 
             ChronoLock("L8", 13.5f, 0f, new Vector2(-6f, 0.7f), 90, 60, "Uma engrenagem que o gelo do inverno trouxe à tona! Ela vai com você para qualquer dia.");
-            Sign(-3.5f, 0f, "Um portão do relógio logo no começo. A engrenagem só surge no inverno...\nmas a fechadura enferruja no outono (Dia 61). Traga a peça do futuro.");
+            Hint(-3.5f, 0f, "A engrenagem só surge no inverno; a fechadura enferruja no outono.");
             RockSlide(3f, 12f, 0f, Season.Outono);
             SnowDrift("Nevasca", 32f, 0f, 5f, 5f);
             SeasonalHazard("Espinhos floridos", 42f, 0f, 8f, 1.6f, Season.Verao, tiles != null ? tiles.bush : null, new Color(0.9f, 0.55f, 0.85f), 0.3f);
@@ -153,14 +153,14 @@ namespace ButterflyStep.EditorTools
             Enemy(slimePrefab, "Mãe Lodo", 29f, 0f, 2f, 2f, "L8_MaeLodo");
             Offspring(slimePrefab, "Filhote de Lodo (nasce no dia 31)", 39f, 0f, 1.5f, 1.5f, 30, "L8_MaeLodo");
             Offspring(slimePrefab, "Filhote de Lodo (nasce no dia 61)", 47f, 0f, 1.5f, 1.5f, 60, "L8_MaeLodo");
-            Sign(27.5f, 0f, "Derrote a mãe lodo cedo e os filhotes dela nunca vão nascer.\nDerrote tarde, e eles já estarão esperando mais adiante.");
-            Sign(45.4f, 0f, "Um abismo largo demais para um pulo comum.\nNo outono, o vento da encosta sopra forte para a direita...");
+            Hint(27.5f, 0f, "Mate a mãe lodo cedo e os filhotes nunca vão nascer.");
+            Hint(45.4f, 0f, "No outono, o vento da encosta sopra forte para a direita.");
             Enemy(chronoferaPrefab, "Cronofera da Encosta", 35.5f, 0f, 1.5f, 1.5f);
 
-            Sign(-9f, 0f, "Outono: pedras despencam da encosta. Em outra estação ela estaria quieta...\nC (pausa do tempo) congela as pedras no ar.");
-            Sign(14f, 0f, "Um rio. Só dá para atravessar congelado.");
-            Sign(30f, 0f, "No inverno, a neve se acumula num monte alto. Dá para subir por ele.");
-            Sign(40f, 0f, "No verão, estes arbustos soltam espinhos venenosos.");
+            Hint(-9f, 0f, "Outono: pedras despencam da encosta. C congela as pedras no ar.");
+            Hint(14f, 0f, "O rio só dá para atravessar congelado.");
+            Hint(30f, 0f, "No inverno, a neve forma um monte que dá para subir.");
+            Hint(40f, 0f, "No verão, estes arbustos soltam espinhos.");
             Scenery(0f, -11f, 1f, 28f, 38f, 44.5f);
             Exit(59.4f, 1.2f);
             Save(scene, "Level08");
@@ -220,12 +220,12 @@ namespace ButterflyStep.EditorTools
             Set(Enemy(chronoferaPrefab, "Cronofera que nasce no verão", 44.5f, 0f, 3f, 3f), "birthDay", 30);
             Enemy(thornPrefab, "Espinheiro do Corredor", 43f, 0f, 0f, 0f);
 
-            Sign(-9f, 0f, "No inverno a trepadeira está seca. Na primavera, ela fecha a passagem.");
-            Sign(19.5f, 0f, "A porta do relógio só abre se esta placa estiver pressionada no DIA 1.\nEmpurrar a caixa agora (no inverno) não conta...");
-            Sign(31f, 0f, "Cronoferas jovens são rápidas. Velhas, lentas. No fim do ano, já não existem.");
+            Hint(-9f, 0f, "Na primavera, espinhos fecham a passagem. No inverno, eles secam.");
+            Hint(19.5f, 0f, "A porta do relógio abre se a caixa estiver na placa no Dia 1.");
+            Hint(31f, 0f, "Cronoferas: jovens são rápidas, velhas são lentas; no fim do ano já não existem.");
             Ground(50f, 0f, 7f, 5f);
             FutureSeedVine("L9", new Vector2(-6f, 0.7f), 60, 49.3f, 0f, 30, 30, 5.6f, "Sementes de uma trepadeira que só existe no fim do ano! Elas vão com você para qualquer dia.", "Terra fofa. Uma trepadeira cresceria aqui... mas só se plantada na primavera (Dia 1).");
-            Sign(47.2f, 0f, "A saída fica no alto do paredão. Terra fofa ao pé dele:\numa trepadeira plantada no Dia 1 estaria crescida no verão.");
+            Hint(47.2f, 0f, "Trepadeira plantada no Dia 1 alcança o topo no verão.");
             Scenery(0f, -11f, -4f, 5f, 34f);
             Scenery(5f, 55.5f);
             Exit(53.5f, 6.2f);
@@ -261,8 +261,8 @@ namespace ButterflyStep.EditorTools
             boss.AddPhase(new BossPhase { name = "Titã do outono", conditions = { TemporalCondition.In(Season.Outono) }, attacks = { BossAttack.Pancada, BossAttack.Pancada, BossAttack.Rajada }, attackInterval = 2.2f, moveSpeed = 2f, projectileCount = 4, projectileSpeed = 6f, spread = 45f, vulnerable = false, vulnerableWhenStunned = true, stunTime = 2.4f, size = 4.4f, animation = "Walk", color = new Color(0.85f, 0.62f, 0.52f), message = "Outono: blindado — mas cada pancada o deixa atordoado." });
             boss.AddPhase(new BossPhase { name = "Colosso de gelo (inverno)", conditions = { TemporalCondition.In(Season.Inverno) }, attacks = { BossAttack.Invocar, BossAttack.Rajada, BossAttack.Pancada }, attackInterval = 2f, moveSpeed = 1.6f, projectileCount = 6, projectileSpeed = 6f, spread = 80f, vulnerable = false, vulnerableWhenStunned = false, stunTime = 1.5f, size = 4.8f, animation = "Walk", color = new Color(0.62f, 0.82f, 1f), message = "Inverno: armadura de gelo. Nada o fere agora..." });
 
-            Sign(-9f, 0f, "Os ataques do Cronófago pertencem ao dia em que foram lançados:\nmude de dia (Q/E) e eles desaparecem.");
-            Sign(-3.5f, 0f, "O dano que você causa num dia continua nos dias seguintes.\nFerir o jovem Cronófago enfraquece o colosso do inverno.");
+            Hint(-9f, 0f, "Os ataques do Cronófago somem quando você muda de dia (Q/E).");
+            Hint(-3.5f, 0f, "Ferir o Cronófago jovem enfraquece o colosso do inverno.");
             Scenery(0f, -11f, -6f);
             Exit(39f, 1.2f);
             Save(scene, "Level10");

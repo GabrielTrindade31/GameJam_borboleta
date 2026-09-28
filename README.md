@@ -117,7 +117,8 @@ Clique na janela Game: fora de foco o Unity pausa o Play Mode.
   - Fase 2: sementes no inverno (dia 51), plantar até o dia 11, cresce em 40 dias: a trepadeira sobe o barranco da saída na primavera (dia 61). Chegue ao pé do barranco depois de abrir o portão e volte ao outono parado ali.
   - Fase 4: sementes no fosso no inverno (dia 61), plantar só no Dia 1, cresce em 20 dias: sobe ao degrau do fragmento no dia 21. Entre no fosso, passe o portão e volte ao Dia 1 parado ao pé do degrau.
 - **Deslizamento de pedras** (fase 8): no outono, pedras de verdade despencam de uma encosta rochosa e rolam pelo chão; cada uma tira 1 de vida (não mata na hora). A pausa do tempo (C) congela as pedras no ar.
-- **Placas**: o texto só aparece quando você aperta F perto da placa ("Ler placa"); F de novo fecha, e ele some ao se afastar. A placa fica mais clara quando o Eco está perto.
+- **Avisos em vez de placas**: não há mais placas. Ao passar por certas áreas, um aviso curto aparece logo abaixo do dia (ex.: "No Dia 61, a correnteza traz algo importante até a margem") e some ao sair da área.
+- **Cenário**: pedras, cogumelos, troncos e árvores decorativas só são colocados onde há chão firme embaixo (não flutuam mais sobre buracos ou andaimes que apodrecem); o cluster de cogumelos foi removido.
 - **Disparo do Tempo** (novo poder): o baú da colmeia na fase 5 libera um raio que fere à distância (K, botão direito do mouse ou B no controle), com recarga de 2,5 s e barra no HUD. Fica salvo; quem começar pela fase 6 ou depois já o tem.
 - **Vespa do Tempo** (novo inimigo, fase 5): larva que persegue e morde de perto; a partir do dia 21 vira vespa que voa e atira de longe; no dia 51 fica lenta; no dia 71 morre.
 - **Consequências visíveis**: ao trocar de dia, cada objeto ou criatura perto de Eco que mudou mostra um rótulo flutuante com o novo estado (ex.: "Árvore adulta", "Lodo: Filhote").

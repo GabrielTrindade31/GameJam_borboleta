@@ -862,12 +862,12 @@ namespace ButterflyStep.EditorTools
             UIText(UIRect("Help", root, new Vector2(1f, 1f), new Vector2(1f, 1f), new Vector2(1f, 1f), new Vector2(-26f, -20f), new Vector2(640f, 190f)),
                 "A/D  andar     ESPAÇO  pular\nF  interagir     J  atacar\nQ / E  voltar / avançar no tempo\nSHIFT + Q/E  espiar     C  pausar o tempo\nR  reiniciar     F1  debug", 24, TextAnchor.UpperRight, new Color(1f, 1f, 1f, 0.75f));
 
-            var prompt = UIRect("Prompt", root, new Vector2(0.5f, 0f), new Vector2(0.5f, 0f), new Vector2(0.5f, 0f), new Vector2(0f, 250f), new Vector2(760f, 76f));
+            var prompt = UIRect("Prompt", root, new Vector2(0.5f, 0f), new Vector2(0.5f, 0f), new Vector2(0.5f, 0f), new Vector2(0f, 40f), new Vector2(760f, 76f));
             if (tiles != null) UIImage(prompt, Color.white, tiles.uiButton); else UIImage(prompt, new Color(0f, 0f, 0f, 0.6f));
             var promptGroup = Group(prompt, 0f);
             var promptText = UIText(Stretch("Text", prompt), "[F] Interagir", 36, TextAnchor.MiddleCenter, InteractColor, FontStyle.Bold);
 
-            var message = UIRect("Message", root, new Vector2(0.5f, 1f), new Vector2(0.5f, 1f), new Vector2(0.5f, 1f), new Vector2(0f, -268f), new Vector2(1700f, 110f));
+            var message = UIRect("Message", root, new Vector2(0.5f, 1f), new Vector2(0.5f, 1f), new Vector2(0.5f, 1f), new Vector2(0f, -290f), new Vector2(1700f, 110f));
             if (tiles != null) UIImage(message, new Color(1f, 1f, 1f, 0.92f), tiles.uiWood); else UIImage(message, new Color(0f, 0f, 0f, 0.45f));
             var messageGroup = Group(message, 0f);
             var messageTextRt = Stretch("Text", message);
@@ -878,6 +878,20 @@ namespace ButterflyStep.EditorTools
             messageText.resizeTextMinSize = 26;
             messageText.resizeTextMaxSize = 38;
             messageText.verticalOverflow = VerticalWrapMode.Truncate;
+
+            var hint = UIRect("Hint", root, new Vector2(0.5f, 1f), new Vector2(0.5f, 1f), new Vector2(0.5f, 1f), new Vector2(0f, -186f), new Vector2(1400f, 84f));
+            if (tiles != null) UIImage(hint, Color.white, tiles.uiParchment); else UIImage(hint, new Color(0f, 0f, 0f, 0.55f));
+            var hintGroup = Group(hint, 0f);
+            var hintTextRt = Stretch("Text", hint);
+            hintTextRt.offsetMin = new Vector2(30f, 8f);
+            hintTextRt.offsetMax = new Vector2(-30f, -8f);
+            var hintText = UIText(hintTextRt, "", 34, TextAnchor.MiddleCenter, tiles != null ? new Color(0.24f, 0.14f, 0.06f) : Color.white, FontStyle.Bold, tiles == null);
+            hintText.resizeTextForBestFit = true;
+            hintText.resizeTextMinSize = 24;
+            hintText.resizeTextMaxSize = 34;
+            hintText.verticalOverflow = VerticalWrapMode.Truncate;
+            Set(hud, "hintText", hintText);
+            Set(hud, "hintGroup", hintGroup);
 
             var sign = UIRect("Sign", root, new Vector2(0.5f, 0f), new Vector2(0.5f, 0f), new Vector2(0.5f, 0f), new Vector2(0f, 30f), new Vector2(1600f, 200f));
             if (tiles != null) UIImage(sign, Color.white, tiles.uiParchment); else UIImage(sign, new Color(0.12f, 0.09f, 0.06f, 0.8f));

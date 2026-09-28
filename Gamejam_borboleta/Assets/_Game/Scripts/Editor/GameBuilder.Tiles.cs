@@ -184,8 +184,8 @@ namespace ButterflyStep.EditorTools
             tiles.honeyDrip = Get(hv, "honeyDrip");
 
             var bd = Cut($"{a}/Buildings.png", 32, new Piece("gate", 340, 116, 44, 66, true),
-                new Piece("logs", 14, 158, 52, 20, true, 0f), new Piece("fence", 160, 174, 48, 36, true, 0f),
-                new Piece("boulders", 30, 205, 84, 37, true, 0f), new Piece("mine", 272, 209, 128, 160, true, 0f));
+                new Piece("logs", 16, 160, 46, 16, true, 0f), new Piece("fence", 161, 176, 44, 32, true, 0f),
+                new Piece("boulders", 32, 208, 80, 32, true, 0f), new Piece("mine", 272, 209, 128, 160, true, 0f));
             tiles.gate = Get(bd, "gate");
             tiles.logs = Get(bd, "logs");
             tiles.fence = Get(bd, "fence");
@@ -215,7 +215,7 @@ namespace ButterflyStep.EditorTools
 
             var r = Cut($"{a}/Props-Rocks.png", 32,
                 new Piece("rockBig", 0, 0, 64, 78, true, 0f),
-                new Piece("rockSmall", 132, 33, 45, 47, true, 0f),
+                new Piece("rockSmall", 132, 34, 44, 46, true, 0f),
                 new Piece("mossTall", 0, 80, 64, 80, true, 0f), new Piece("mossWide", 64, 112, 64, 48, true, 0f),
                 new Piece("mossRound", 128, 112, 48, 48, true, 0f), new Piece("mossLong", 208, 128, 66, 34, true, 0f),
                 new Piece("stoneTall", 0, 164, 64, 94, true, 0f), new Piece("stoneMid", 66, 176, 44, 82, true, 0f), new Piece("stoneShort", 116, 192, 40, 64, true, 0f),
@@ -394,39 +394,63 @@ namespace ButterflyStep.EditorTools
 
         private static int sceneryProps;
 
+        private static bool HasGround(float x, float groundY, float halfWidth)
+        {
+            Physics2D.SyncTransforms();
+            foreach (float dx in new[] { -halfWidth, 0f, halfWidth })
+            {
+                var hits = Physics2D.RaycastAll(new Vector2(x + dx, groundY + 0.25f), Vector2.down, 0.6f);
+                bool found = false;
+                foreach (var h in hits)
+                {
+                    if (h.collider.isTrigger || h.collider.GetComponentInParent<TemporalObject>() != null) continue;
+                    found = true;
+                    break;
+                }
+                if (!found) return false;
+            }
+            return true;
+        }
+
+        private static bool GroundDecor(Transform parent, Sprite sprite, Vector2 bottom, float scale, int order, Color? tint = null)
+        {
+            if (sprite == null) return false;
+            float half = sprite.bounds.size.x * scale * 0.4f;
+            if (!HasGround(bottom.x, bottom.y, half)) return false;
+            Decor(parent, sprite, bottom, scale, order, tint);
+            return true;
+        }
+
         private static void SceneryProp(Transform parent, int i, float x, float groundY)
         {
             i = sceneryProps++;
             switch (i % 6)
             {
                 case 0:
-                    if (tiles.mossRocks != null) Decor(parent, tiles.mossRocks[(i / 5) % tiles.mossRocks.Length], new Vector2(x + 1.9f, groundY), 0.8f, -12);
+                    if (tiles.mossRocks != null) GroundDecor(parent, tiles.mossRocks[(i / 5) % tiles.mossRocks.Length], new Vector2(x + 1.9f, groundY), 0.8f, -12);
                     break;
                 case 1:
                     if (tiles.standingStones == null) break;
                     var stone = tiles.standingStones[(i / 5) % tiles.standingStones.Length];
-                    if (stone == null) break;
-                    Decor(parent, stone, new Vector2(x - 1.8f, groundY), 0.75f, -12);
+                    if (!GroundDecor(parent, stone, new Vector2(x - 1.8f, groundY), 0.75f, -12)) break;
                     var rune = tiles.runes != null ? tiles.runes[i % tiles.runes.Length] : null;
                     if (rune == null) break;
                     var glyph = Go("Runa do Tempo", parent, new Vector2(x - 1.8f, groundY + stone.bounds.size.y * 0.75f * 0.55f));
                     var sr = AddSprite(glyph, rune, new Color(0.75f, 0.97f, 1f), -11);
                     sr.sharedMaterial = unlitSprite;
-                    glyph.transform.localScale = new Vector3(1f, 1f, 1f);
                     glyph.AddComponent<PulseGlow>();
                     break;
                 case 2:
-                    Decor(parent, tiles.logs, new Vector2(x + 1.7f, groundY), 0.9f, -12);
+                    GroundDecor(parent, tiles.logs, new Vector2(x + 1.7f, groundY), 0.9f, -12);
                     break;
                 case 3:
-                    Decor(parent, tiles.fence, new Vector2(x - 2.1f, groundY), 0.9f, -12);
+                    GroundDecor(parent, tiles.fence, new Vector2(x - 2.1f, groundY), 0.9f, -12);
                     break;
                 case 5:
-                    Decor(parent, tiles.hollowLog, new Vector2(x + 2f, groundY), 0.75f, -12);
+                    GroundDecor(parent, tiles.hollowLog, new Vector2(x + 2f, groundY), 0.75f, -12);
                     break;
                 default:
-                    Decor(parent, tiles.boulders, new Vector2(x + 2.2f, groundY), 0.8f, -13);
-                    Decor(parent, tiles.mushroomCluster, new Vector2(x + 1.2f, groundY), 0.8f, -11);
+                    GroundDecor(parent, tiles.boulders, new Vector2(x + 2.2f, groundY), 0.8f, -13);
                     break;
             }
         }
@@ -437,10 +461,11 @@ namespace ButterflyStep.EditorTools
             var parent = new GameObject("--- Scenery").transform;
             for (int i = 0; i < treeXs.Length; i++)
             {
+                if (!HasGround(treeXs[i], groundY, 0.3f)) continue;
                 int size = i % 3 == 0 ? 1 : i % 3 == 1 ? 0 : 1;
                 SeasonalTree(parent, new Vector2(treeXs[i], groundY), size, i % 2 == 0 ? 1f : 0.8f, -26 - i % 2, (i + Mathf.RoundToInt(treeXs[i])) % 2 == 0);
-                if (i % 2 == 0) Decor(parent, tiles.mushroomSmall, new Vector2(treeXs[i] + 1.1f, groundY), 1f, -10);
-                else Decor(parent, tiles.blueFlower, new Vector2(treeXs[i] - 1.2f, groundY), 0.8f, -10);
+                if (i % 2 == 0) GroundDecor(parent, tiles.mushroomSmall, new Vector2(treeXs[i] + 1.1f, groundY), 1f, -10);
+                else GroundDecor(parent, tiles.blueFlower, new Vector2(treeXs[i] - 1.2f, groundY), 0.8f, -10);
                 SceneryProp(parent, i, treeXs[i], groundY);
             }
         }

@@ -31,6 +31,11 @@ namespace ButterflyStep
         [SerializeField] private CanvasGroup messageGroup;
         [SerializeField] private Text signText;
         [SerializeField] private CanvasGroup signGroup;
+        [SerializeField] private Text hintText;
+        [SerializeField] private CanvasGroup hintGroup;
+        private string currentHint;
+        private readonly System.Collections.Generic.List<string> activeHints = new System.Collections.Generic.List<string>();
+        private float hintTarget;
 
         [Header("Vida")]
         [SerializeField] private RectTransform heartsContainer;
@@ -118,6 +123,7 @@ namespace ButterflyStep
             SetGroup(promptGroup, 0f);
             SetGroup(messageGroup, 0f);
             SetGroup(signGroup, 0f);
+            SetGroup(hintGroup, 0f);
             SetGroup(completeGroup, 0f);
             if (flashOverlay != null) flashOverlay.color = Color.clear;
             if (fadeGroup != null) StartCoroutine(Fade(fadeGroup, 1f, 0f, 0.5f));
@@ -388,6 +394,7 @@ namespace ButterflyStep
 
         private void Update()
         {
+            if (hintGroup != null) hintGroup.alpha = Mathf.MoveTowards(hintGroup.alpha, hintTarget, UnityEngine.Time.unscaledDeltaTime * 5f);
             var ctx = LevelContext.Current;
             if (ctx == null) return;
             if (boltFill != null && ctx.Player != null)
@@ -434,6 +441,30 @@ namespace ButterflyStep
             yield return Fade(messageGroup, messageGroup.alpha, 1f, 0.15f);
             yield return new WaitForSeconds(duration);
             yield return Fade(messageGroup, 1f, 0f, 0.4f);
+        }
+
+        public void ShowHint(string text)
+        {
+            if (hintText == null) return;
+            activeHints.Remove(text);
+            activeHints.Add(text);
+            currentHint = text;
+            hintText.text = text;
+            hintTarget = 1f;
+        }
+
+        public void HideHint(string text)
+        {
+            activeHints.Remove(text);
+            if (currentHint != text) return;
+            if (activeHints.Count > 0)
+            {
+                currentHint = activeHints[activeHints.Count - 1];
+                hintText.text = currentHint;
+                return;
+            }
+            currentHint = null;
+            hintTarget = 0f;
         }
 
         public void ShowSign(string text)

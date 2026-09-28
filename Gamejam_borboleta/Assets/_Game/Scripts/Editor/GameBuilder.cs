@@ -281,10 +281,13 @@ namespace ButterflyStep.EditorTools
             return go;
         }
 
-        private static void Sign(float x, float y, string text)
+        private static void Hint(float x, float y, string text)
         {
-            var sign = Spawn<StorySign>(signPrefab, new Vector3(x, y, 0f), groupTriggers);
-            Set(sign, "text", text);
+            var go = Go("Aviso", groupTriggers, new Vector2(x, y + 2.5f));
+            var col = go.AddComponent<BoxCollider2D>();
+            col.isTrigger = true;
+            col.size = new Vector2(8f, 6f);
+            go.AddComponent<HintZone>().Setup(text);
         }
 
         private static void Exit(float x, float y) => SpawnGo(exitPrefab, new Vector3(x, y, 0f), groupTriggers);
@@ -356,7 +359,7 @@ namespace ButterflyStep.EditorTools
             col.isTrigger = true;
             col.radius = radius;
             var highlight = tiles != null && tiles.uiArrowDown != null
-                ? Shape("Indicador", go.transform, position + Vector2.up * (radius + 0.5f), new Vector2(1.6f, 1.6f), tiles.uiArrowDown, InteractColor, 30)
+                ? Shape("Indicador", go.transform, position + Vector2.up * 0.9f, new Vector2(1.6f, 1.6f), tiles.uiArrowDown, InteractColor, 30)
                 : Shape("Highlight", go.transform, position, new Vector2(radius * 1.6f, radius * 1.6f), circleSprite, new Color(InteractColor.r, InteractColor.g, InteractColor.b, 0.3f), 4);
             highlight.layer = interactableLayer;
             var sr = highlight.GetComponent<SpriteRenderer>();
