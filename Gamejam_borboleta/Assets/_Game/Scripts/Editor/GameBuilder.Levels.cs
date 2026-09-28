@@ -221,7 +221,7 @@ namespace ButterflyStep.EditorTools
             Hint(14f, 0f, "A porta emperra para sempre no Dia 21, a menos que algo trave o trilho.");
             Scenery(0f, -10f, -3f, 12f, 34f, 44f);
             Hint(-3f, 0f, "No Dia 61, a correnteza traz algo importante até a margem.");
-            Hint(37.5f, 0f, "Portão trancado. Onde estará a chave?");
+            Hint(39.5f, 0f, "Portão trancado: a chave chega à margem do rio com a correnteza do Dia 61.");
             Ground(41.6f, 0f, 4.4f, 5f);
             FutureSeedVine("L2", new Vector2(36.5f, 0.7f), 50, 41.25f, 0f, 20, 40, 5.6f, "Sementes de trepadeira trazidas pelo inverno! Elas vão com você para qualquer dia.", "Terra fofa ao pé do barranco. Uma trepadeira só pega se plantada no outono, até o Dia 11.");
             Hint(38.2f, 0f, "Trepadeira plantada até o Dia 11 cresce até a primavera.");
