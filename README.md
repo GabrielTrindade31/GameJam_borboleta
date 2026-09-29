@@ -311,7 +311,7 @@ herói do **Legacy Fantasy** (Eco), javali = **Cronofera**, caracol → casco �
 - **Licença:** os PNGs de terceiros não vão para o GitHub público (ver CREDITS.md).
 - **Cenário:** chão, paredes, tábuas, galhos, água, porta, caixa, gaiola, placas e decoração usam os tiles do Legacy Fantasy. O construtor troca automaticamente as cores placeholder (chão, rocha, madeira, água, porta) pelos tiles.
 - **Pinheiros das estações:** componente **Seasonal Sprite** — um sprite por estação (verde, dourado, vermelho, tronco pelado no inverno). Serve para qualquer objeto: é só arrastar 4 sprites.
-- **UI:** fonte Pixelify Sans, painel de madeira no relógio, pergaminho nas placas, corações do HUD.
+- **UI:** fonte VT323, painel de madeira no relógio, pergaminho nas placas, corações do HUD.
 
 Para trocar por outra arte:
 - **Player/Inimigos**: troque o sprite do filho `Visual`. Para animar, adicione um `Animator` nele (Player usa `Speed`, `VelocityY`, `Grounded`, `Jump`, `Hurt`, `Attack`). Cada estágio de inimigo também aceita um *Sprite* próprio (lagarta/casulo/mariposa).

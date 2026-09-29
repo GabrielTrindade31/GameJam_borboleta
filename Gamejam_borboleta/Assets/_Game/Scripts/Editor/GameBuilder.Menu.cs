@@ -15,12 +15,19 @@ namespace ButterflyStep.EditorTools
             "Uma borboleta que bate as asas hoje pode fechar ou abrir o caminho de volta.";
 
         private const string CreditsText =
-            "BUTTERFLY STEP — protótipo de Game Jam (tema: Efeito Borboleta)\n\n" +
-            "Personagem Eco: Graphics created by Penzilla Design (Hooded Protagonist, sem modificações)\n" +
-            "Arte: Legacy Fantasy – High Forest (Anokolisa) · Free Slime Mobs e Free Predator Plant (Craftpix)\n" +
-            "Pássaros: Bird asset (OpenGameArt, CC0) · Fonte: Pixelify Sans (OFL)\n" +
-            "Música e efeitos: gerados por código\n\n" +
-            "“Toda escolha deixa uma marca no futuro.”";
+            "<size=58><color=#5a2f0c>BUTTERFLY STEP</color></size>\n" +
+            "Game Jam SENAI CIMATEC · tema: Efeito Borboleta\n\n" +
+            "<size=44><color=#5a2f0c>DESENVOLVEDORES</color></size>\n" +
+            "Gabriel Trindade Santana\n" +
+            "Nathan Marques Credidio Costa\n" +
+            "Jefferson Moisés dos Santos Souza\n\n" +
+            "<size=44><color=#5a2f0c>ARTE E ÁUDIO</color></size>\n" +
+            "Personagem Eco: Graphics created by Penzilla Design\n" +
+            "Cenários: Legacy Fantasy – High Forest (Anokolisa)\n" +
+            "Inimigos: Craftpix · Pássaros e efeitos: OpenGameArt (CC0)\n" +
+            "Fonte: VT323 (OFL) · Música e sons gerados por código\n\n" +
+            "<color=#2e6a1e>Agradecemos ao SENAI CIMATEC pela Game Jam!</color>\n" +
+            "<i>“Toda escolha deixa uma marca no futuro.”</i>";
 
         private static void BuildMenuScene()
         {
@@ -159,9 +166,9 @@ namespace ButterflyStep.EditorTools
             BuildControlsPanel(controlsBox);
             var backControls = MenuButton(controlsBox, "Voltar", "Voltar", new Vector2(0.5f, 0f), new Vector2(0f, 52f), new Vector2(340f, 66f), 30);
 
-            var creditsBox = Panel("PainelCreditos", new Vector2(1300f, 620f), out var creditsGroup);
+            var creditsBox = Panel("PainelCreditos", new Vector2(1400f, 960f), out var creditsGroup);
             UIText(UIRect("Titulo", creditsBox, new Vector2(0.5f, 1f), new Vector2(0.5f, 1f), new Vector2(0.5f, 1f), new Vector2(0f, -30f), new Vector2(1000f, 70f)), "CRÉDITOS", 54, TextAnchor.MiddleCenter, dark, FontStyle.Bold, false);
-            UIText(UIRect("Texto", creditsBox, new Vector2(0.5f, 0.5f), new Vector2(0.5f, 0.5f), new Vector2(0.5f, 0.5f), new Vector2(0f, 10f), new Vector2(1150f, 380f)), CreditsText, 26, TextAnchor.MiddleCenter, dark, FontStyle.Normal, false);
+            UIText(UIRect("Texto", creditsBox, new Vector2(0.5f, 0.5f), new Vector2(0.5f, 0.5f), new Vector2(0.5f, 0.5f), new Vector2(0f, 15f), new Vector2(1250f, 760f)), CreditsText, 29, TextAnchor.MiddleCenter, dark, FontStyle.Normal, false);
             var backCredits = MenuButton(creditsBox, "Voltar", "Voltar", new Vector2(0.5f, 0f), new Vector2(0f, 70f), new Vector2(300f, 64f), 26);
 
             var storyBox = Panel("PainelHistoria", new Vector2(1400f, 700f), out var storyGroup);

@@ -132,10 +132,10 @@ namespace ButterflyStep.EditorTools
             var t = rt.gameObject.AddComponent<Text>();
             t.font = UIFont;
             t.text = text;
-            t.fontSize = size;
+            t.fontSize = Mathf.RoundToInt(size * 1.25f);
             t.alignment = align;
             t.color = color;
-            t.fontStyle = style;
+            t.fontStyle = style == FontStyle.Bold ? FontStyle.Normal : style;
             t.raycastTarget = false;
             t.supportRichText = true;
             t.horizontalOverflow = HorizontalWrapMode.Wrap;

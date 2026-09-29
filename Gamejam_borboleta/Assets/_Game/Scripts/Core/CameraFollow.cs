@@ -36,6 +36,7 @@ namespace ButterflyStep
 
         public void Shake(float duration, float strength)
         {
+            if (!GameSettings.ScreenShake) return;
             shakeTime = Mathf.Max(shakeTime, duration);
             shakeStrength = Mathf.Max(shakeStrength, strength);
         }

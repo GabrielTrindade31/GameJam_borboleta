@@ -240,8 +240,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bf2df6941d105c4ba82813d4f7af1ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButterflyStep.Cutscene
-  ending: 1
-  nextScene: MainMenu
+  ending: 0
+  nextScene: Level01
   art:
     font: {fileID: 12800000, guid: 479e6b736b074aa4db92be7a201b622d, type: 3}
     ecoIdle:

@@ -34,7 +34,8 @@ namespace ButterflyStep
         [SerializeField] private Text hintText;
         [SerializeField] private CanvasGroup hintGroup;
         private string currentHint;
-        private readonly System.Collections.Generic.List<string> activeHints = new System.Collections.Generic.List<string>();
+        private const float HintDuration = 2f;
+        private float hintHideAt;
         private float hintTarget;
 
         [Header("Vida")]
@@ -394,6 +395,7 @@ namespace ButterflyStep
 
         private void Update()
         {
+            if (currentHint != null && UnityEngine.Time.unscaledTime > hintHideAt) hintTarget = 0f;
             if (hintGroup != null) hintGroup.alpha = Mathf.MoveTowards(hintGroup.alpha, hintTarget, UnityEngine.Time.unscaledDeltaTime * 5f);
             var ctx = LevelContext.Current;
             if (ctx == null) return;
@@ -445,24 +447,17 @@ namespace ButterflyStep
 
         public void ShowHint(string text)
         {
+            if (!GameSettings.Hints) return;
             if (hintText == null) return;
-            activeHints.Remove(text);
-            activeHints.Add(text);
             currentHint = text;
             hintText.text = text;
             hintTarget = 1f;
+            hintHideAt = UnityEngine.Time.unscaledTime + HintDuration;
         }
 
         public void HideHint(string text)
         {
-            activeHints.Remove(text);
             if (currentHint != text) return;
-            if (activeHints.Count > 0)
-            {
-                currentHint = activeHints[activeHints.Count - 1];
-                hintText.text = currentHint;
-                return;
-            }
             currentHint = null;
             hintTarget = 0f;
         }

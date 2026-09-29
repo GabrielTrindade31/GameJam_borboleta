@@ -34,7 +34,28 @@ namespace ButterflyStep
             if (resumeButton != null) resumeButton.onClick.AddListener(Resume);
             if (restartButton != null) restartButton.onClick.AddListener(RestartLevel);
             if (menuButton != null) menuButton.onClick.AddListener(GoToMenu);
+            CreateOptionsButton();
             Show(false);
+        }
+
+        private void CreateOptionsButton()
+        {
+            if (restartButton == null || resumeButton == null || menuButton == null) return;
+            var box = restartButton.transform.parent as RectTransform;
+            if (box != null) box.sizeDelta += new Vector2(0f, 80f);
+            var options = Instantiate(restartButton, restartButton.transform.parent);
+            options.name = "Opcoes";
+            options.onClick = new Button.ButtonClickedEvent();
+            var label = options.GetComponentInChildren<Text>();
+            if (label != null) label.text = "Opções";
+            ((RectTransform)resumeButton.transform).anchoredPosition = new Vector2(0f, 70f);
+            ((RectTransform)restartButton.transform).anchoredPosition = new Vector2(0f, -8f);
+            ((RectTransform)options.transform).anchoredPosition = new Vector2(0f, -86f);
+            ((RectTransform)menuButton.transform).anchoredPosition = new Vector2(0f, -164f);
+            options.onClick.AddListener(() => OptionsPanel.Open(panel.GetComponentInParent<Canvas>().rootCanvas.transform, options, panel, () =>
+            {
+                if (EventSystem.current != null) EventSystem.current.SetSelectedGameObject(options.gameObject);
+            }));
         }
 
         private void OnDestroy()
@@ -47,7 +68,7 @@ namespace ButterflyStep
         {
             if (pause != null && !pause.enabled) pause.Enable();
             bool pressed = pause != null ? pause.WasPressedThisFrame() : Keyboard.current != null && Keyboard.current.escapeKey.wasPressedThisFrame;
-            if (!pressed) return;
+            if (!pressed || OptionsPanel.IsOpen || OptionsPanel.ClosedFrame == Time.frameCount) return;
             var ctx = LevelContext.Current;
             if (!IsPaused && ctx != null && ctx.Flow.IsFinishing) return;
             if (IsPaused) Resume();

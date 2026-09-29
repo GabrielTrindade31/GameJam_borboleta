@@ -304,7 +304,7 @@ namespace ButterflyStep.EditorTools
             var b2 = Cut($"{birdPath}/Bird_2.png", 200, new Piece("bird1", 0, 0, 256, 256, true, 0.5f));
             tiles.bird = new[] { Get(b1, "bird0"), Get(b2, "bird1") };
 
-            tiles.font = AssetDatabase.LoadAssetAtPath<Font>($"{Root}/Art/Fonts/PixelifySans.ttf");
+            tiles.font = AssetDatabase.LoadAssetAtPath<Font>($"{Root}/Art/Fonts/VT323-Regular.ttf");
         }
 
         private static bool Skin(ref Sprite sprite, ref Color color)

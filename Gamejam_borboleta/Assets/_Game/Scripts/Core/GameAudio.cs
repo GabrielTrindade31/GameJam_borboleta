@@ -124,7 +124,7 @@ namespace ButterflyStep
             }
             if (free == null) free = voices[Random.Range(0, voices.Count)];
             free.pitch = 1f + Random.Range(-pitchVariation, pitchVariation);
-            free.PlayOneShot(clip, SfxVolume);
+            free.PlayOneShot(clip, SfxVolume * GameSettings.Sfx);
         }
 
         private void SetSeason(Season season)
@@ -150,13 +150,23 @@ namespace ButterflyStep
             for (float t = 0f; t < 1.2f; t += Time.unscaledDeltaTime)
             {
                 float k = t / 1.2f;
-                to.volume = MusicVolume * k;
-                from.volume = Mathf.Min(from.volume, MusicVolume * (1f - k));
+                to.volume = MusicLevel * k;
+                from.volume = Mathf.Min(from.volume, MusicLevel * (1f - k));
                 yield return null;
             }
-            to.volume = MusicVolume;
+            to.volume = MusicLevel;
             from.volume = 0f;
             from.Stop();
+            fade = null;
+        }
+
+        private static float MusicLevel => MusicVolume * GameSettings.Music;
+
+        private void Update()
+        {
+            if (fade != null) return;
+            if (musicA != null && musicA.isPlaying) musicA.volume = MusicLevel;
+            if (musicB != null && musicB.isPlaying) musicB.volume = MusicLevel;
         }
 
         private void BuildSfx()

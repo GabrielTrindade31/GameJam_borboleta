@@ -9,7 +9,7 @@ namespace ButterflyStep.EditorTools
 {
     public static partial class GameBuilder
     {
-        private static readonly string[] SceneOrder = { "MainMenu", "Level01", "Level02", "Level03", "Level04", "Level05", "Level06", "Level07", "Level08", "Level09", "Level10", "Ending" };
+        private static readonly string[] SceneOrder = { "MainMenu", "Intro", "Level01", "Level02", "Level03", "Level04", "Level05", "Level06", "Level07", "Level08", "Level09", "Level10", "Ending" };
 
         private static Transform groupEnv;
         private static Transform groupBackground;
@@ -52,7 +52,9 @@ namespace ButterflyStep.EditorTools
             BuildLevel08();
             BuildLevel09();
             BuildLevel10();
-            BuildEndingScene();
+            var cutsceneArt = LoadCutsceneArt();
+            BuildCutsceneScene("Intro", false, "Level01", cutsceneArt);
+            BuildCutsceneScene("Ending", true, "MainMenu", cutsceneArt);
             SetupBuildSettings();
             AssetDatabase.SaveAssets();
             EditorSceneManager.OpenScene(ScenePath("Level01"));
@@ -368,50 +370,6 @@ namespace ButterflyStep.EditorTools
             interactable.Setup(flag, prompt, message, conditions);
             interactable.SetHighlight(sr);
             return interactable;
-        }
-
-        private static void BuildEndingScene()
-        {
-            var scene = NewScene();
-            BuildStoryScene("Ending", "MainMenu", new Color(0.08f, 0.06f, 0.14f),
-                "FIM DO PROTÓTIPO",
-                "“Toda escolha deixa uma marca no futuro.”",
-                "Com os dez fragmentos no lugar, o Relógio de Eco volta a bater.\n" +
-                "O caminho de casa se abre... mas o vale que Eco deixa para trás não é o mesmo que encontrou.\n\n" +
-                "A muda regada virou floresta. O pássaro libertado virou um bando.\n" +
-                "A caixa esquecida ainda segura a porta. A pedra solta no inverno abriu um rio.\n" +
-                "Cada pequeno passo mudou o futuro: esse é o efeito borboleta.\n\n" +
-                "Obrigado por jogar!",
-                "Pressione ENTER para voltar ao menu");
-            Save(scene, "Ending");
-        }
-
-        private static void BuildStoryScene(string name, string next, Color background, string title, string subtitle, string body, string hint)
-        {
-            var camGo = new GameObject("Camera") { tag = "MainCamera" };
-            var cam = camGo.AddComponent<Camera>();
-            cam.orthographic = true;
-            cam.clearFlags = CameraClearFlags.SolidColor;
-            cam.backgroundColor = background;
-            camGo.transform.position = new Vector3(0f, 0f, -10f);
-            camGo.AddComponent<AudioListener>();
-
-            var canvas = MakeCanvas("StoryCanvas", 0);
-            var root = Stretch("Content", canvas.transform);
-            var group = Group(root, 0f);
-
-            var butterfly = UIRect("Butterfly", root, new Vector2(0.5f, 1f), new Vector2(0.5f, 1f), new Vector2(0.5f, 0.5f), new Vector2(0f, -120f), new Vector2(160f, 100f));
-            UIImage(UIRect("WingL", butterfly, new Vector2(0.5f, 0.5f), new Vector2(0.5f, 0.5f), new Vector2(1f, 0.5f), new Vector2(-4f, 0f), new Vector2(70f, 90f)), new Color(1f, 0.8f, 0.3f), circleSprite);
-            UIImage(UIRect("WingR", butterfly, new Vector2(0.5f, 0.5f), new Vector2(0.5f, 0.5f), new Vector2(0f, 0.5f), new Vector2(4f, 0f), new Vector2(70f, 90f)), new Color(0.75f, 0.55f, 1f), circleSprite);
-            UIImage(UIRect("Body", butterfly, new Vector2(0.5f, 0.5f), new Vector2(0.5f, 0.5f), new Vector2(0.5f, 0.5f), Vector2.zero, new Vector2(12f, 80f)), new Color(0.2f, 0.15f, 0.3f));
-
-            UIText(UIRect("Title", root, new Vector2(0.5f, 1f), new Vector2(0.5f, 1f), new Vector2(0.5f, 1f), new Vector2(0f, -190f), new Vector2(1600f, 110f)), title, 90, TextAnchor.MiddleCenter, new Color(1f, 0.87f, 0.45f), FontStyle.Bold);
-            UIText(UIRect("Subtitle", root, new Vector2(0.5f, 1f), new Vector2(0.5f, 1f), new Vector2(0.5f, 1f), new Vector2(0f, -300f), new Vector2(1600f, 50f)), subtitle, 32, TextAnchor.MiddleCenter, new Color(0.85f, 0.8f, 1f), FontStyle.Italic);
-            UIText(UIRect("Body", root, new Vector2(0.5f, 0.5f), new Vector2(0.5f, 0.5f), new Vector2(0.5f, 0.5f), new Vector2(0f, -70f), new Vector2(1400f, 420f)), body, 28, TextAnchor.MiddleCenter, Color.white);
-            var hintText = UIText(UIRect("Hint", root, new Vector2(0.5f, 0f), new Vector2(0.5f, 0f), new Vector2(0.5f, 0f), new Vector2(0f, 60f), new Vector2(1000f, 50f)), hint, 30, TextAnchor.MiddleCenter, new Color(1f, 0.9f, 0.5f), FontStyle.Bold);
-
-            var screen = canvas.gameObject.AddComponent<StoryScreen>();
-            screen.Setup(group, hintText, next, controls);
         }
     }
 }

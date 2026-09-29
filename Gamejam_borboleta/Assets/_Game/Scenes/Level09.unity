@@ -30089,7 +30089,7 @@ Transform:
   m_GameObject: {fileID: 1037603202}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 55, y: 5.9, z: 0}
+  m_LocalPosition: {x: 12.8, y: 0.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -30113,7 +30113,7 @@ MonoBehaviour:
   - type: 2
     flag: 
     value: 0
-    season: 1
+    season: 2
   visual: {fileID: 1415536488}
   sprite: {fileID: 687923531}
   ring: {fileID: 2063328217}

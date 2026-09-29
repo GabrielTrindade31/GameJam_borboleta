@@ -75,7 +75,12 @@ namespace ButterflyStep
         private void Awake()
         {
             Time.timeScale = 1f;
-            newGameButton.onClick.AddListener(() => Show(storyPanel));
+            var options = CreateOptionsButton();
+            options.onClick.AddListener(() => OptionsPanel.Open(mainPanel.GetComponentInParent<Canvas>().rootCanvas.transform, options, mainPanel, () =>
+            {
+                if (EventSystem.current != null) EventSystem.current.SetSelectedGameObject(options.gameObject);
+            }));
+            newGameButton.onClick.AddListener(() => LoadScene("Intro"));
             continueButton.onClick.AddListener(() => LoadLevel(GameProgress.LastLevel));
             chaptersButton.onClick.AddListener(() => { RefreshChapters(); Show(chaptersPanel); });
             controlsButton.onClick.AddListener(() => Show(controlsPanel));
@@ -91,6 +96,25 @@ namespace ButterflyStep
             }
         }
 
+        private Button CreateOptionsButton()
+        {
+            var controlsRt = (RectTransform)controlsButton.transform;
+            var creditsRt = (RectTransform)creditsButton.transform;
+            var quitRt = (RectTransform)quitButton.transform;
+            float step = controlsRt.anchoredPosition.y - creditsRt.anchoredPosition.y;
+            var button = Instantiate(controlsButton, controlsButton.transform.parent);
+            button.name = "Opcoes";
+            button.onClick = new Button.ButtonClickedEvent();
+            var rt = (RectTransform)button.transform;
+            rt.anchoredPosition = creditsRt.anchoredPosition;
+            rt.SetSiblingIndex(controlsButton.transform.GetSiblingIndex() + 1);
+            creditsRt.anchoredPosition -= new Vector2(0f, step);
+            quitRt.anchoredPosition -= new Vector2(0f, step);
+            var label = button.GetComponentInChildren<Text>();
+            if (label != null) label.text = "Opções";
+            return button;
+        }
+
         private void Start()
         {
             foreach (var p in new[] { chaptersPanel, controlsPanel, creditsPanel, storyPanel }) SetPanel(p, false);
@@ -101,7 +125,7 @@ namespace ButterflyStep
 
         private void Update()
         {
-            if (current == mainPanel || loading) return;
+            if (current == mainPanel || loading || OptionsPanel.IsOpen) return;
             bool cancel = (Keyboard.current != null && Keyboard.current.escapeKey.wasPressedThisFrame) ||
                           (Gamepad.current != null && Gamepad.current.buttonEast.wasPressedThisFrame);
             if (cancel)
@@ -150,11 +174,13 @@ namespace ButterflyStep
             panel.blocksRaycasts = visible;
         }
 
-        private void LoadLevel(int level)
+        private void LoadLevel(int level) => LoadScene($"Level{level:00}");
+
+        private void LoadScene(string scene)
         {
             if (loading) return;
             loading = true;
-            StartCoroutine(LoadRoutine($"Level{level:00}"));
+            StartCoroutine(LoadRoutine(scene));
         }
 
         private IEnumerator LoadRoutine(string scene)

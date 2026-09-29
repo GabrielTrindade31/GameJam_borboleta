@@ -859,8 +859,9 @@ namespace ButterflyStep.EditorTools
             heartsLayout.childForceExpandWidth = false;
             heartsLayout.childForceExpandHeight = false;
 
-            UIText(UIRect("Help", root, new Vector2(1f, 1f), new Vector2(1f, 1f), new Vector2(1f, 1f), new Vector2(-26f, -20f), new Vector2(640f, 190f)),
+            var help = UIText(UIRect("Help", root, new Vector2(1f, 1f), new Vector2(1f, 1f), new Vector2(1f, 1f), new Vector2(-26f, -20f), new Vector2(640f, 190f)),
                 "A/D  andar     ESPAÇO  pular\nF  interagir     J  atacar\nQ / E  voltar / avançar no tempo\nSHIFT + Q/E  espiar     C  pausar o tempo\nR  reiniciar     F1  debug", 24, TextAnchor.UpperRight, new Color(1f, 1f, 1f, 0.75f));
+            help.gameObject.SetActive(false);
 
             var prompt = UIRect("Prompt", root, new Vector2(0.5f, 0f), new Vector2(0.5f, 0f), new Vector2(0.5f, 0f), new Vector2(0f, 40f), new Vector2(760f, 76f));
             if (tiles != null) UIImage(prompt, Color.white, tiles.uiButton); else UIImage(prompt, new Color(0f, 0f, 0f, 0.6f));
@@ -875,8 +876,8 @@ namespace ButterflyStep.EditorTools
             messageTextRt.offsetMax = new Vector2(-30f, -8f);
             var messageText = UIText(messageTextRt, "", 38, TextAnchor.MiddleCenter, Color.white);
             messageText.resizeTextForBestFit = true;
-            messageText.resizeTextMinSize = 26;
-            messageText.resizeTextMaxSize = 38;
+            messageText.resizeTextMinSize = 33;
+            messageText.resizeTextMaxSize = 48;
             messageText.verticalOverflow = VerticalWrapMode.Truncate;
 
             var hint = UIRect("Hint", root, new Vector2(0.5f, 1f), new Vector2(0.5f, 1f), new Vector2(0.5f, 1f), new Vector2(0f, -186f), new Vector2(1400f, 84f));
@@ -887,8 +888,8 @@ namespace ButterflyStep.EditorTools
             hintTextRt.offsetMax = new Vector2(-30f, -8f);
             var hintText = UIText(hintTextRt, "", 34, TextAnchor.MiddleCenter, tiles != null ? new Color(0.24f, 0.14f, 0.06f) : Color.white, FontStyle.Bold, tiles == null);
             hintText.resizeTextForBestFit = true;
-            hintText.resizeTextMinSize = 24;
-            hintText.resizeTextMaxSize = 34;
+            hintText.resizeTextMinSize = 30;
+            hintText.resizeTextMaxSize = 43;
             hintText.verticalOverflow = VerticalWrapMode.Truncate;
             Set(hud, "hintText", hintText);
             Set(hud, "hintGroup", hintGroup);
@@ -901,8 +902,8 @@ namespace ButterflyStep.EditorTools
             signTextRt.offsetMax = new Vector2(-40f, -18f);
             var signText = UIText(signTextRt, "", 38, TextAnchor.MiddleCenter, tiles != null ? new Color(0.24f, 0.14f, 0.06f) : new Color(1f, 0.95f, 0.82f), FontStyle.Normal, tiles == null);
             signText.resizeTextForBestFit = true;
-            signText.resizeTextMinSize = 26;
-            signText.resizeTextMaxSize = 38;
+            signText.resizeTextMinSize = 33;
+            signText.resizeTextMaxSize = 48;
             signText.verticalOverflow = VerticalWrapMode.Truncate;
 
             var debugPanel = UIRect("DebugPanel", root, new Vector2(1f, 0.5f), new Vector2(1f, 0.5f), new Vector2(1f, 0.5f), new Vector2(-20f, -70f), new Vector2(600f, 720f));
